@@ -1,0 +1,142 @@
+<!doctype html><html lang="it"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#000000"><meta name="color-scheme" content="dark">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Edge Desk">
+<link rel="manifest" href="manifest.json"><link rel="apple-touch-icon" href="icon-180.png">
+<title>Edge Desk</title>
+<style>
+:root{--bg:#000;--pn:#0B0D0C;--ln:#1B211E;--tx:#E9EEEA;--mu:#7B8A82;--gr:#00E676;--rd:#FF4040;--bl:#3B8BFF}
+*{box-sizing:border-box;margin:0}[hidden]{display:none!important}
+body{background:var(--bg);color:var(--tx);font:15px/1.45 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding-bottom:calc(72px + env(safe-area-inset-bottom))}
+.mono,.odd,.big,#up,.tk,h1,.meta{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-variant-numeric:tabular-nums}
+header{position:sticky;top:0;z-index:5;background:var(--bg);padding:calc(8px + env(safe-area-inset-top)) 12px 6px;border-bottom:1px solid var(--ln)}
+.top{display:flex;justify-content:space-between;align-items:center}
+h1{font-size:18px;color:var(--gr)}#up{font-size:11px;color:var(--mu)}
+#up::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--gr);margin-right:6px;animation:pl 1.6s infinite}
+@keyframes pl{50%{opacity:.2}}
+.tk{overflow:hidden;white-space:nowrap;border-top:1px solid var(--ln);border-bottom:1px solid var(--ln);margin:6px -12px;font-size:12px}
+.tk:empty{display:none}.tkin{display:inline-block;padding:5px 0;animation:tk 45s linear infinite}.tkin span{margin:0 18px}
+@keyframes tk{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.tkin,#up::before{animation:none}}
+button{font:inherit;color:inherit;cursor:pointer}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:2px 0 6px;scrollbar-width:none}.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;min-height:40px;padding:0 14px;border-radius:4px;border:1px solid var(--ln);background:none;color:var(--mu)}
+.chip.on{background:var(--bl);border-color:var(--bl);color:#fff;font-weight:600}
+.rf{min-height:40px;padding:0 12px;border-radius:4px;border:1px solid var(--bl);background:none;color:var(--bl)}
+.card{background:var(--pn);border:1px solid var(--ln);border-left:3px solid var(--gr);border-radius:6px;padding:12px;margin:10px 12px}
+.card.neg{border-left-color:var(--rd)}.card.nb{border-left-color:var(--bl)}
+.meta{display:flex;justify-content:space-between;font-size:12px;color:var(--mu)}
+.vs{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:6px;margin:10px 0}
+.vs i{color:var(--mu);font-style:normal;font-size:12px}
+.side{display:flex;flex-direction:column;align-items:center;gap:4px;text-align:center;font-size:13px;font-weight:600}
+.lg{width:40px;height:40px;border-radius:50%;object-fit:contain;padding:3px;background:#111;border:1px solid var(--ln);display:flex;align-items:center;justify-content:center;font:700 13px ui-monospace,Menlo,monospace;color:var(--bl)}
+.bet{display:flex;align-items:center;gap:8px;flex-wrap:wrap;border:1px solid var(--bl);background:rgba(59,139,255,.09);border-radius:4px;padding:8px 10px;margin:8px 0}
+.lbl{font-size:12px;color:var(--mu)}.odd{background:var(--gr);color:#001a0c;border-radius:3px;padding:1px 7px;font-weight:700}
+.row{display:flex;justify-content:space-between;font-size:13px;margin:6px 0 2px}
+.up{color:var(--gr)}.dn{color:var(--rd)}
+.bar{height:6px;border-radius:3px;background:var(--ln);overflow:hidden;margin:4px 0 10px}.bar i{display:block;height:100%}
+.stack{display:flex;gap:2px;height:8px;border-radius:4px;overflow:hidden}.stack i{display:block}
+.leg{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:13px;margin:6px 0 8px}.leg u{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:5px}
+.strat{font-size:14px;margin-bottom:6px}.risk{color:var(--rd)}
+details{border-top:1px solid var(--ln);margin-top:6px}summary{min-height:44px;display:flex;align-items:center;color:var(--mu)}
+details p{margin:6px 0;font-size:14px}details ul{padding-left:18px;font-size:14px}a{color:var(--bl);word-break:break-all}
+.btn{width:100%;min-height:46px;margin-top:8px;border-radius:4px;border:1px solid var(--gr);background:none;color:var(--gr);font-weight:600}
+.sec{margin:14px 12px 0;font-size:13px;color:var(--mu)}.empty{margin:40px 24px;text-align:center;color:var(--mu)}
+h3{font-size:16px;margin-bottom:6px}
+label{display:block;font-size:13px;color:var(--mu);margin-top:12px}
+input,select{width:100%;min-height:46px;margin-top:4px;padding:0 12px;border-radius:4px;border:1px solid var(--ln);background:#000;color:var(--tx);font-size:16px}
+.big{font-size:34px;font-weight:700;color:var(--gr)}.out{margin-top:16px;padding-top:12px;border-top:1px solid var(--ln)}
+nav{position:fixed;bottom:0;left:0;right:0;display:grid;grid-template-columns:repeat(4,1fr);background:var(--pn);border-top:1px solid var(--ln);padding-bottom:env(safe-area-inset-bottom)}
+nav button{min-height:56px;background:none;border:0;color:var(--mu);font-size:13px}nav button.on{color:var(--bl);font-weight:700;box-shadow:inset 0 2px var(--bl)}
+</style></head><body>
+<header><div class="top"><div><h1>Edge Desk</h1><div id="up">Caricamento…</div></div><button class="rf" id="rf">Aggiorna dati</button></div>
+<div class="tk" id="tk"></div><div class="chips" id="sp"></div><div class="chips" id="cf"></div></header>
+<main id="main"></main>
+<nav><button data-v="picks">Giocate</button><button data-v="combo">Combo</button><button data-v="build">Builder</button><button data-v="stake">Stake</button></nav>
+<script>
+const $=s=>document.querySelector(s),esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const SP=["Tutti","Serie A","Champions League","Nations League","NFL","NBA","MLB","UFC"],CF=[[0,"Tutte"],[60,"Conf. 60+"],[70,"Conf. 70+"]],COL=["#00E676","#3B8BFF","#FF4040","#7B8A82","#E9EEEA"];
+const DEMO={picks:[
+{id:1,league:"Serie A",time:"Sab 20:45",match:"Inter – Torino",pick:"1 Inter",odds:1.75,book:"Bet365",p:62,conf:71,probs:[["Inter",62],["Pareggio",22],["Torino",16]],strategy:"Singola, stake Kelly ¼. Buona gamba di combo con NBA.",insight:"xG medio Inter 2.1 contro 0.9 subito in casa; Torino con 3 trasferte senza clean sheet.",risk:"Possibile turnover dopo impegno europeo; verifica formazioni 60 minuti prima.",sources:[["FBref Serie A","https://fbref.com/en/comps/11/"],["Understat","https://understat.com/league/Serie_A"]]},
+{id:2,league:"Champions League",time:"Mer 21:00",match:"Real Madrid – Arsenal",pick:"Under 2.5",odds:1.95,book:"Unibet",p:55,conf:64,probs:[["Under 2.5",55],["Over 2.5",45]],strategy:"Singola a stake ridotto o gamba di combo.",insight:"Media di 2.1 gol totali nelle ultime 6 gare delle due squadre; ritmo basso a centrocampo.",risk:"Una rete precoce cambia il piano gara.",sources:[["UEFA","https://www.uefa.com/uefachampionsleague/"]]},
+{id:3,league:"NFL",time:"Dom 19:00",match:"Chiefs – Bills",pick:"Bills +2.5",odds:1.91,book:"Betfair",p:57,conf:62,probs:[["Bills coprono",57],["Chiefs coprono",43]],strategy:"Singola a stake ridotto.",insight:"EPA/play offensivo Bills nelle top 3; difesa Chiefs in calo contro il gioco di corsa.",risk:"Meteo e injury report del sabato ancora aperti.",sources:[["Pro Football Reference","https://www.pro-football-reference.com/"],["ESPN injuries","https://www.espn.com/nfl/injuries"]]},
+{id:4,league:"NBA",time:"Lun 01:30",match:"Celtics – Knicks",pick:"Over 224.5",odds:1.9,book:"Bet365",p:56,conf:60,probs:[["Over 224.5",56],["Under 224.5",44]],strategy:"Solo come gamba di combo.",insight:"Pace combinato sopra la media lega; entrambe con Offensive Rating oltre 117 nelle ultime 8.",risk:"Back-to-back Knicks: possibile riposo di un titolare.",sources:[["NBA Stats","https://www.nba.com/stats"],["ESPN injuries","https://www.espn.com/nba/injuries"]]},
+{id:5,league:"NBA",time:"Lun 04:00",match:"Nuggets – Lakers",pick:"Nuggets vincono",odds:1.7,book:"Unibet",p:63,conf:68,probs:[["Nuggets",63],["Lakers",37]],strategy:"Singola, stake Kelly ¼. Candidata a super quota.",insight:"Net rating casalingo +8.4 contro Lakers a 3 trasferte in 5 notti.",risk:"Minuti dei titolari se il punteggio si chiude presto.",sources:[["NBA Stats","https://www.nba.com/stats"]]},
+{id:6,league:"UFC",time:"Sab 04:00",match:"Fighter A – Fighter B",pick:"Fighter A vince",odds:1.8,book:"Betfair",p:60,conf:63,probs:[["A per KO/TKO",34],["A ai punti",26],["B",40]],strategy:"Singola a stake ridotto: alta varianza.",insight:"Differenza di reach e striking accuracy; B subisce molti takedown.",risk:"Un solo colpo può chiudere il match.",sources:[["UFCStats","http://ufcstats.com/"]]}],
+partite:[{id:1,league:"Serie A",match:"Inter – Torino",lh:1.9,la:.7},{id:2,league:"Champions League",match:"Real Madrid – Arsenal",lh:1.5,la:1.2}],
+combos:[{t:"Doppia a basso rischio",legs:[1,5],odds:2.98,note:"Le due giocate con confidenza più alta, eventi indipendenti."}],
+boosts:[{t:"Super quota: Nuggets vincono",from:1.7,to:2,note:"Se il book la offre, ricalcola lo stake. Per una combo sulla stessa partita usa il Builder."}]};
+let D=DEMO,sp="Tutti",mc=0,view="picks",st={b:1000,o:1.75,p:62,f:.25},bs={m:0,r:"any",t:"any",b:"any",pp:"",q:""};
+const ev=k=>k.p/100*k.odds-1,fmt=t=>isNaN(Date.parse(t))?t:new Date(t).toLocaleString("it-IT",{weekday:"short",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"});
+const nm=k=>[k.home||k.match.split(" – ")[0],k.away||k.match.split(" – ")[1]||""],ini=n=>(n.match(/[A-Za-z]+/g)||["?"]).slice(0,2).map(w=>w[0]).join("").toUpperCase();
+const logo=(u,n)=>u?`<img class="lg" src="${esc(u)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<span class=&quot;lg&quot;>${ini(n)}</span>'">`:`<span class="lg">${ini(n)}</span>`;
+const card=k=>{const[a,b]=nm(k),e=ev(k),L=k.logos||[];return `<article class="card ${e>0?"":"neg"}"><div class="meta"><span>${esc(k.league)}</span><span>${esc(fmt(k.time))}</span></div>
+<div class="vs"><div class="side">${logo(L[0],a)}${esc(a)}</div><i>vs</i><div class="side">${logo(L[1],b)}${esc(b)}</div></div>
+<div class="bet"><span class="lbl">Gioca</span><b>${esc(k.pick)}</b><span class="odd">${(+k.odds).toFixed(2)}</span>${k.book?`<span class="lbl">su ${esc(k.book)}</span>`:""}</div>
+<div class="row mono"><span class="${e>0?"up":"dn"}">EV ${e>0?"+":""}${(e*100).toFixed(1)}%</span><span>Confidenza ${k.conf}%</span></div>
+<div class="bar"><i style="width:${k.conf}%;background:${k.conf>=70?"var(--gr)":k.conf>=60?"var(--bl)":"var(--rd)"}"></i></div>
+<div class="stack">${k.probs.map((x,i)=>`<i style="flex:${x[1]};background:${COL[i%5]}"></i>`).join("")}</div>
+<div class="leg">${k.probs.map((x,i)=>`<span><u style="background:${COL[i%5]}"></u>${esc(x[0])} ${x[1]}%</span>`).join("")}</div>
+<p class="strat">${esc(k.strategy)}</p>
+<details><summary>Fonti, analisi e rischi</summary><p>${esc(k.insight)}</p><p class="risk">Rischi: ${esc(k.risk)}</p><ul>${k.sources.map(s=>`<li><a href="${esc(s[1])}" target="_blank" rel="noopener">${esc(s[0])}</a></li>`).join("")}</ul></details>
+<button class="btn" data-id="${esc(k.id)}">Calcola stake</button></article>`};
+const leg=i=>{const k=D.picks.find(x=>String(x.id)==String(i));return k?`<div>${esc(k.match)}: <b>${esc(k.pick)}</b> @${(+k.odds).toFixed(2)}</div>`:""};
+const tk=()=>{const it=D.picks.slice(0,8).map(k=>{const e=ev(k);return `<span>${esc(nm(k)[0])}–${esc(nm(k)[1])} <b>${esc(k.pick)}</b> @${(+k.odds).toFixed(2)} <b class="${e>0?"up":"dn"}">${e>0?"+":""}${(e*100).toFixed(1)}%</b></span>`}).join("");$("#tk").innerHTML=it?`<div class="tkin">${it}${it}</div>`:""};
+const pois=l=>{const p=[Math.exp(-l)];for(let i=1;i<=10;i++)p.push(p[i-1]*l/i);return p};
+const okR=(r,d)=>({any:1,"1":d>0,X:d==0,"2":d<0,h1:d==1,h2:d==2,h3:d>=3,a1:d==-1,a2:d==-2,a3:d<=-3})[r];
+const okT=(t,T)=>t=="any"||(t[0]=="o"?T>+t.slice(1):T<+t.slice(1)),okB=(b,i,j)=>b=="any"||(b=="y"?i>0&&j>0:i==0||j==0);
+const R=[["any","Qualsiasi esito"],["1","1 Casa"],["X","X Pareggio"],["2","2 Trasferta"],["h1","Casa vince di 1"],["h2","Casa vince di 2"],["h3","Casa vince di 3+"],["a1","Trasf. vince di 1"],["a2","Trasf. vince di 2"],["a3","Trasf. vince di 3+"]],
+T=[["any","Qualsiasi totale"],["o1.5","Over 1.5"],["o2.5","Over 2.5"],["o3.5","Over 3.5"],["u1.5","Under 1.5"],["u2.5","Under 2.5"],["u3.5","Under 3.5"]],
+B=[["any","Qualsiasi"],["y","Entrambe segnano"],["n","Almeno una non segna"]],
+opt=(a,v)=>a.map(x=>`<option value="${x[0]}" ${x[0]==v?"selected":""}>${x[1]}</option>`).join("");
+function render(){
+ $("#sp").innerHTML=SP.map(s=>`<button class="chip ${s==sp?"on":""}" data-sp="${s}">${s}</button>`).join("");
+ $("#cf").innerHTML=CF.map(c=>`<button class="chip ${c[0]==mc?"on":""}" data-mc="${c[0]}">${c[1]}</button>`).join("");
+ $("#sp").hidden=$("#cf").hidden=view!="picks";tk();
+ document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("on",b.dataset.v==view));
+ const m=$("#main");
+ if(view=="picks"){const l=D.picks.filter(k=>(sp=="Tutti"||k.league==sp)&&k.conf>=mc);
+  m.innerHTML=l.length?l.map(card).join(""):`<p class="empty">${sp=="MLB"?"MLB inattiva: la stagione è chiusa.":"Nessuna giocata con questi filtri."}</p>`}
+ else if(view=="combo"){m.innerHTML=`<p class="sec">Combo del giorno</p>`+((D.combos||[]).map(c=>`<article class="card nb"><h3>${esc(c.t)}</h3><div class="bet"><span class="odd">${(+c.odds).toFixed(2)}</span></div>${c.legs.map(leg).join("")}<p class="strat">${esc(c.note)}</p></article>`).join("")||`<p class="empty">Nessuna combo con confidenza sufficiente.</p>`)+`<p class="sec">Quote maggiorate</p>`+((D.boosts||[]).map(b=>`<article class="card nb"><h3>${esc(b.t)}</h3><div class="bet"><span class="odd">${(+b.from).toFixed(2)} → ${(+b.to).toFixed(2)}</span></div><p class="strat">${esc(b.note)}</p></article>`).join("")||`<p class="empty">Nessuna maggiorata inserita (boosts.json).</p>`)}
+ else if(view=="build")build();else stake()}
+function build(){const P=D.partite||[];
+ if(!P.length){$("#main").innerHTML=`<p class="empty">Nessuna partita con modello: servono Serie A o Champions League in programma e il token football-data.org.</p>`;return}
+ $("#main").innerHTML=`<section class="card nb"><h3>Combo builder</h3><p class="lbl">Stessa partita: la probabilità è calcolata sui risultati esatti, non moltiplicando le quote.</p>
+<label>Partita<select id="bm">${P.map((g,i)=>`<option value="${i}" ${i==bs.m?"selected":""}>${esc(g.match)}</option>`).join("")}</select></label>
+<label>Esito o margine<select id="br">${opt(R,bs.r)}</select></label>
+<label>Gol totali<select id="bt">${opt(T,bs.t)}</select></label>
+<label>Entrambe segnano<select id="bb">${opt(B,bs.b)}</select></label>
+<label>Gol di un giocatore: probabilità % (facoltativo, ipotizza indipendenza)<input id="bp" type="number" inputmode="decimal" value="${bs.pp}"></label>
+<label>Quota offerta dal bookmaker<input id="bq" type="number" inputmode="decimal" step="0.01" value="${bs.q}"></label>
+<div class="out" id="bo"></div></section>`;
+ const calc=()=>{bs={m:+$("#bm").value,r:$("#br").value,t:$("#bt").value,b:$("#bb").value,pp:$("#bp").value,q:$("#bq").value};
+  const g=P[bs.m],H=pois(g.lh),A=pois(g.la);let p=0;
+  for(let i=0;i<=10;i++)for(let j=0;j<=10;j++)if(okR(bs.r,i-j)&&okT(bs.t,i+j)&&okB(bs.b,i,j))p+=H[i]*A[j];
+  if(+bs.pp>0)p*=bs.pp/100;
+  let h=`<div class="big">${(p*100).toFixed(1)}%</div><div class="lbl">Quota giusta ${p>0?(1/p).toFixed(2):"-"}</div>`;const q=+bs.q;
+  if(q>1){const e=p*q-1,k=e/(q-1),s=Math.min(Math.max(k*st.f,0),.05)*st.b;h+=`<div class="${e>0?"up":"dn"} mono" style="margin-top:8px">EV ${e>0?"+":""}${(e*100).toFixed(1)}%</div>`+(e>0?`<div>Stake consigliato ${s.toFixed(2)} € (bankroll del tab Stake)</div>`:`<div>A questa quota non c'è valore.</div>`)}
+  $("#bo").innerHTML=h};
+ document.querySelectorAll("select,input").forEach(x=>x.oninput=calc);calc()}
+function stake(){
+ $("#main").innerHTML=`<section class="card nb"><h3>Stake Kelly frazionato</h3>
+<label>Bankroll (€)<input id="b" type="number" inputmode="decimal" value="${st.b}"></label>
+<label>Quota decimale<input id="o" type="number" inputmode="decimal" step="0.01" value="${st.o}"></label>
+<label>Probabilità stimata (%)<input id="p" type="number" inputmode="decimal" step="0.1" value="${st.p}"></label>
+<label>Frazione di Kelly<select id="f">${[.1,.25,.5].map(x=>`<option value="${x}" ${x==st.f?"selected":""}>${x*100}%</option>`).join("")}</select></label>
+<div class="out" id="out"></div><p class="lbl" style="margin-top:8px">Tetto di sicurezza: 5% del bankroll.</p></section>`;
+ const calc=()=>{st={b:+$("#b").value,o:+$("#o").value,p:+$("#p").value,f:+$("#f").value};
+  const e=st.p/100*st.o-1,k=st.o>1?e/(st.o-1):0,s=Math.min(Math.max(k*st.f,0),.05)*st.b;
+  $("#out").innerHTML=e>0?`<div class="big">${s.toFixed(2)} €</div><div>${(st.b?s/st.b*100:0).toFixed(2)}% del bankroll</div><div class="lbl">EV ${(e*100).toFixed(1)}% | Kelly pieno ${(k*100).toFixed(1)}%</div>`:`<div class="big dn">0 €</div><div>EV negativo: a questa quota non c'è valore.</div>`};
+ document.querySelectorAll("input,select").forEach(x=>x.oninput=calc);calc()}
+document.addEventListener("click",e=>{const t=e.target.closest("[data-sp],[data-mc],[data-v],[data-id],#rf");if(!t)return;
+ if(t.dataset.sp)sp=t.dataset.sp;else if(t.dataset.mc!==undefined)mc=+t.dataset.mc;else if(t.dataset.v)view=t.dataset.v;
+ else if(t.dataset.id){const k=D.picks.find(x=>String(x.id)==t.dataset.id);st.o=k.odds;st.p=k.p;view="stake"}
+ else{navigator.serviceWorker&&navigator.serviceWorker.getRegistration().then(r=>r&&r.update());load();return}
+ render();scrollTo(0,0)});
+async function load(){try{const r=await fetch("pronostici.json",{cache:"no-store"});if(!r.ok)throw 0;D=await r.json();
+ $("#up").textContent="Aggiornato "+new Date(D.updated).toLocaleString("it-IT",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})}
+ catch(e){D=DEMO;$("#up").textContent="Dati dimostrativi, non reali"}render()}
+if("serviceWorker"in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
+load();
+</script></body></html>
