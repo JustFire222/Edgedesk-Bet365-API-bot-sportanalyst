@@ -1,0 +1,96 @@
+<!doctype html><html lang="it"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0E1420"><meta name="color-scheme" content="dark">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Edge Desk">
+<link rel="manifest" href="manifest.json"><link rel="apple-touch-icon" href="icon-180.png">
+<title>Edge Desk</title>
+<style>
+:root{--bg:#0E1420;--pn:#151D2C;--ln:#243049;--tx:#E6EBF5;--mu:#8C9AB5;--am:#F2B84B;--up:#3DD6B0;--dn:#FF6B6B}
+*{box-sizing:border-box;margin:0}[hidden]{display:none!important}
+body{background:var(--bg);color:var(--tx);font:15px/1.45 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-variant-numeric:tabular-nums;padding-bottom:calc(72px + env(safe-area-inset-bottom))}
+header{position:sticky;top:0;z-index:5;background:var(--bg);padding:calc(10px + env(safe-area-inset-top)) 12px 8px;border-bottom:1px solid var(--ln)}
+.top{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:8px}
+h1{font-size:19px;letter-spacing:.2px}#up{font-size:12px;color:var(--mu)}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:2px 0 6px;scrollbar-width:none}.chips::-webkit-scrollbar{display:none}
+button{font:inherit;color:inherit;cursor:pointer}
+.chip{flex:none;min-height:40px;padding:0 14px;border-radius:20px;border:1px solid var(--ln);background:none;color:var(--mu)}
+.chip.on{background:var(--am);border-color:var(--am);color:#1b1404;font-weight:600}
+.rf{min-height:40px;padding:0 12px;border-radius:8px;border:1px solid var(--ln);background:var(--pn)}
+.card{background:var(--pn);border:1px solid var(--ln);border-radius:12px;padding:14px;margin:12px}
+.meta,.lbl{font-size:12px;color:var(--mu)}h3{font-size:17px;margin:2px 0 8px}
+.pick{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+.odd{background:var(--ln);border-radius:6px;padding:2px 8px;font-weight:600}.up{color:var(--up)}.dn{color:var(--dn)}
+.bar{height:8px;border-radius:4px;background:var(--ln);overflow:hidden;margin:4px 0 12px}.bar i{display:block;height:100%}
+.stack{display:flex;gap:2px;height:10px;border-radius:5px;overflow:hidden}.stack i{display:block}
+.leg{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:13px;margin:6px 0 10px}.leg u{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:5px}
+.strat{font-size:14px;margin-bottom:8px}.risk{color:var(--am)}
+details{border-top:1px solid var(--ln);margin-top:6px}summary{min-height:44px;display:flex;align-items:center;color:var(--mu)}
+details p{margin:6px 0;font-size:14px}details ul{padding-left:18px;font-size:14px}a{color:var(--am);word-break:break-all}
+.btn{width:100%;min-height:46px;margin-top:8px;border-radius:10px;border:1px solid var(--am);background:none;color:var(--am);font-weight:600}
+.sec{margin:14px 12px 0;font-size:13px;color:var(--mu)}.empty{margin:40px 24px;text-align:center;color:var(--mu)}
+label{display:block;font-size:13px;color:var(--mu);margin-top:12px}
+input,select{width:100%;min-height:46px;margin-top:4px;padding:0 12px;border-radius:8px;border:1px solid var(--ln);background:var(--bg);color:var(--tx);font-size:16px}
+.big{font-size:34px;font-weight:700;color:var(--am)}.out{margin-top:16px;padding-top:12px;border-top:1px solid var(--ln)}
+nav{position:fixed;bottom:0;left:0;right:0;display:grid;grid-template-columns:repeat(3,1fr);background:var(--pn);border-top:1px solid var(--ln);padding-bottom:env(safe-area-inset-bottom)}
+nav button{min-height:56px;background:none;border:0;color:var(--mu);font-size:14px}nav button.on{color:var(--am);font-weight:700;box-shadow:inset 0 2px var(--am)}
+</style></head><body>
+<header><div class="top"><div><h1>Edge Desk</h1><div id="up">Caricamento…</div></div><button class="rf" id="rf">Aggiorna dati</button></div>
+<div class="chips" id="sp"></div><div class="chips" id="cf"></div></header>
+<main id="main"></main>
+<nav><button data-v="picks">Giocate</button><button data-v="combo">Combo</button><button data-v="stake">Stake</button></nav>
+<script>
+const $=s=>document.querySelector(s),esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const SP=["Tutti","Serie A","Nations League","NFL","NBA","MLB","UFC"],CF=[[0,"Tutte"],[60,"Conf. 60+"],[70,"Conf. 70+"]],COL=["#3DD6B0","#F2B84B","#6EA8FF","#B58CFF","#FF6B6B"];
+const DEMO={picks:[
+{id:1,league:"Serie A",time:"Sab 20:45",match:"Inter – Torino",pick:"1 Inter",odds:1.75,p:62,conf:71,probs:[["Inter",62],["Pareggio",22],["Torino",16]],strategy:"Singola, stake Kelly ¼. Buona gamba di combo con NBA.",insight:"xG medio Inter 2.1 contro 0.9 subito in casa; Torino con 3 trasferte senza clean sheet.",risk:"Possibile turnover dopo impegno europeo; verifica formazioni 60 minuti prima.",sources:[["FBref Serie A","https://fbref.com/en/comps/11/"],["Understat","https://understat.com/league/Serie_A"]]},
+{id:2,league:"Nations League",time:"Dom 20:45",match:"Spagna – Danimarca",pick:"Under 2.5",odds:1.95,p:55,conf:64,probs:[["Under 2.5",55],["Over 2.5",45]],strategy:"Singola a stake ridotto o gamba di combo.",insight:"Ultime 6 gare delle due squadre con media 2.1 gol totali; ritmo basso a centrocampo.",risk:"Una rete precoce cambia il piano gara.",sources:[["UEFA","https://www.uefa.com/uefanationsleague/"]]},
+{id:3,league:"NFL",time:"Dom 19:00",match:"Chiefs – Bills",pick:"Bills +2.5",odds:1.91,p:57,conf:62,probs:[["Bills coprono",57],["Chiefs coprono",43]],strategy:"Singola a stake ridotto.",insight:"EPA/play offensivo Bills nelle top 3; difesa Chiefs in calo contro il gioco di corsa.",risk:"Meteo e injury report del sabato ancora aperti.",sources:[["Pro Football Reference","https://www.pro-football-reference.com/"],["ESPN injuries","https://www.espn.com/nfl/injuries"]]},
+{id:4,league:"NBA",time:"Lun 01:30",match:"Celtics – Knicks",pick:"Over 224.5",odds:1.9,p:56,conf:60,probs:[["Over 224.5",56],["Under 224.5",44]],strategy:"Solo come gamba di combo.",insight:"Pace combinato sopra la media lega; entrambe con Offensive Rating oltre 117 nelle ultime 8.",risk:"Back-to-back Knicks: possibile riposo di un titolare.",sources:[["NBA Stats","https://www.nba.com/stats"],["ESPN injuries","https://www.espn.com/nba/injuries"]]},
+{id:5,league:"NBA",time:"Lun 04:00",match:"Nuggets – Lakers",pick:"Nuggets vincono",odds:1.7,p:63,conf:68,probs:[["Nuggets",63],["Lakers",37]],strategy:"Singola, stake Kelly ¼. Candidata a super quota.",insight:"Net rating casalingo +8.4 contro Lakers a 3 trasferte in 5 notti.",risk:"Minuti dei titolari se il punteggio si chiude presto.",sources:[["NBA Stats","https://www.nba.com/stats"]]},
+{id:6,league:"UFC",time:"Sab 04:00",match:"Fighter A – Fighter B",pick:"Fighter A vince",odds:1.8,p:60,conf:63,probs:[["A per KO/TKO",34],["A ai punti",26],["B",40]],strategy:"Singola a stake ridotto: alta varianza.",insight:"Differenza di reach e striking accuracy; B subisce molti takedown.",risk:"Un solo colpo può chiudere il match.",sources:[["UFCStats","http://ufcstats.com/"]]}],
+combos:[{t:"Doppia a basso rischio",legs:[1,5],odds:2.98,note:"Le due giocate con confidenza più alta, eventi indipendenti."}],
+boosts:[{t:"Super quota: Nuggets vincono",from:1.7,to:2,note:"Se il book la offre, il valore sale: ricalcola lo stake."}]};
+let D=DEMO,sp="Tutti",mc=0,view="picks",st={b:1000,o:1.75,p:62,f:.25};
+const ev=k=>k.p/100*k.odds-1,fmt=t=>isNaN(Date.parse(t))?t:new Date(t).toLocaleString("it-IT",{weekday:"short",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"});
+const card=k=>`<article class="card"><div class="meta">${esc(k.league)} | ${esc(fmt(k.time))}</div><h3>${esc(k.match)}</h3>
+<div class="pick"><b>${esc(k.pick)}</b><span class="odd">@${(+k.odds).toFixed(2)}</span><span class="${ev(k)>0?"up":"dn"}">EV ${(ev(k)*100).toFixed(1)}%</span></div>
+<div class="lbl">Confidenza ${k.conf}%</div><div class="bar"><i style="width:${k.conf}%;background:${k.conf>=70?"var(--up)":k.conf>=60?"var(--am)":"var(--dn)"}"></i></div>
+<div class="stack">${k.probs.map((x,i)=>`<i style="flex:${x[1]};background:${COL[i%5]}"></i>`).join("")}</div>
+<div class="leg">${k.probs.map((x,i)=>`<span><u style="background:${COL[i%5]}"></u>${esc(x[0])} ${x[1]}%</span>`).join("")}</div>
+<p class="strat">${esc(k.strategy)}</p>
+<details><summary>Fonti, analisi e rischi</summary><p>${esc(k.insight)}</p><p class="risk">Rischi: ${esc(k.risk)}</p><ul>${k.sources.map(s=>`<li><a href="${esc(s[1])}" target="_blank" rel="noopener">${esc(s[0])}</a></li>`).join("")}</ul></details>
+<button class="btn" data-id="${esc(k.id)}">Calcola stake</button></article>`;
+const leg=i=>{const k=D.picks.find(x=>String(x.id)==String(i));return k?`<div>${esc(k.match)}: <b>${esc(k.pick)}</b> @${(+k.odds).toFixed(2)}</div>`:""};
+function render(){
+ $("#sp").innerHTML=SP.map(s=>`<button class="chip ${s==sp?"on":""}" data-sp="${s}">${s}</button>`).join("");
+ $("#cf").innerHTML=CF.map(c=>`<button class="chip ${c[0]==mc?"on":""}" data-mc="${c[0]}">${c[1]}</button>`).join("");
+ $("#sp").hidden=$("#cf").hidden=view!="picks";
+ document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("on",b.dataset.v==view));
+ const m=$("#main");
+ if(view=="picks"){const l=D.picks.filter(k=>(sp=="Tutti"||k.league==sp)&&k.conf>=mc);
+  m.innerHTML=l.length?l.map(card).join(""):`<p class="empty">${sp=="MLB"?"MLB inattiva: la stagione è chiusa.":"Nessuna giocata con questi filtri."}</p>`}
+ else if(view=="combo"){m.innerHTML=`<p class="sec">Combo del giorno</p>`+((D.combos||[]).map(c=>`<article class="card"><h3>${esc(c.t)}</h3><div class="pick"><span class="odd">@${(+c.odds).toFixed(2)}</span></div>${c.legs.map(leg).join("")}<p class="strat">${esc(c.note)}</p></article>`).join("")||`<p class="empty">Nessuna combo con confidenza sufficiente.</p>`)+`<p class="sec">Quote maggiorate</p>`+((D.boosts||[]).map(b=>`<article class="card"><h3>${esc(b.t)}</h3><div class="pick"><span class="odd">${(+b.from).toFixed(2)} → ${(+b.to).toFixed(2)}</span></div><p class="strat">${esc(b.note)}</p></article>`).join("")||`<p class="empty">Nessuna maggiorata inserita (boosts.json).</p>`)}
+ else stake()}
+function stake(){
+ $("#main").innerHTML=`<section class="card"><h3>Stake Kelly frazionato</h3>
+<label>Bankroll (€)<input id="b" type="number" inputmode="decimal" value="${st.b}"></label>
+<label>Quota decimale<input id="o" type="number" inputmode="decimal" step="0.01" value="${st.o}"></label>
+<label>Probabilità stimata (%)<input id="p" type="number" inputmode="decimal" step="0.1" value="${st.p}"></label>
+<label>Frazione di Kelly<select id="f">${[.1,.25,.5].map(x=>`<option value="${x}" ${x==st.f?"selected":""}>${x*100}%</option>`).join("")}</select></label>
+<div class="out" id="out"></div><p class="lbl" style="margin-top:8px">Tetto di sicurezza: 5% del bankroll.</p></section>`;
+ const calc=()=>{st={b:+$("#b").value,o:+$("#o").value,p:+$("#p").value,f:+$("#f").value};
+  const e=st.p/100*st.o-1,k=st.o>1?e/(st.o-1):0,s=Math.min(Math.max(k*st.f,0),.05)*st.b;
+  $("#out").innerHTML=e>0?`<div class="big">${s.toFixed(2)} €</div><div>${(st.b?s/st.b*100:0).toFixed(2)}% del bankroll</div><div class="lbl">EV ${(e*100).toFixed(1)}% | Kelly pieno ${(k*100).toFixed(1)}%</div>`:`<div class="big dn">0 €</div><div>EV negativo: a questa quota non c'è valore.</div>`};
+ document.querySelectorAll("input,select").forEach(x=>x.oninput=calc);calc()}
+document.addEventListener("click",e=>{const t=e.target.closest("[data-sp],[data-mc],[data-v],[data-id],#rf");if(!t)return;
+ if(t.dataset.sp)sp=t.dataset.sp;else if(t.dataset.mc!==undefined)mc=+t.dataset.mc;else if(t.dataset.v)view=t.dataset.v;
+ else if(t.dataset.id){const k=D.picks.find(x=>String(x.id)==t.dataset.id);st.o=k.odds;st.p=k.p;view="stake"}
+ else{navigator.serviceWorker&&navigator.serviceWorker.getRegistration().then(r=>r&&r.update());load();return}
+ render();scrollTo(0,0)});
+async function load(){try{const r=await fetch("pronostici.json",{cache:"no-store"});if(!r.ok)throw 0;D=await r.json();
+ $("#up").textContent="Aggiornato "+new Date(D.updated).toLocaleString("it-IT",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})}
+ catch(e){D=DEMO;$("#up").textContent="Dati dimostrativi, non reali"}render()}
+if("serviceWorker"in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
+load();
+</script></body></html>
