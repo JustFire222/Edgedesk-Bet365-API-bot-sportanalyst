@@ -1,0 +1,213 @@
+{
+ "updated": "2026-11-13T22:05:34.904567+00:00",
+ "picks": [
+  {
+   "id": "5c45e5cb707c61ad4186f2480707cdb9",
+   "league": "UFC",
+   "match": "Stephen Thompson – Charlie Radtke",
+   "time": "2026-11-15T01:45:00Z",
+   "pick": "Charlie Radtke",
+   "odds": 2.3,
+   "p": 45.2,
+   "conf": 44,
+   "probs": [
+    [
+     "Stephen Thompson",
+     55
+    ],
+    [
+     "Charlie Radtke",
+     45
+    ]
+   ],
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 2.30 contro probabilità di mercato de-vig 45.2% (Pinnacle): EV +4.1%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello coincide con il prezzo di mercato: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "UFCStats",
+     "http://ufcstats.com/"
+    ]
+   ]
+  },
+  {
+   "id": "dd9074fe98d83dd01a962ca4abe9b9d6",
+   "league": "UFC",
+   "match": "Donte Johnson – Cesar Almeida",
+   "time": "2026-11-15T00:15:00Z",
+   "pick": "Cesar Almeida",
+   "odds": 2.78,
+   "p": 37.5,
+   "conf": 38,
+   "probs": [
+    [
+     "Donte Johnson",
+     63
+    ],
+    [
+     "Cesar Almeida",
+     37
+    ]
+   ],
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 2.78 contro probabilità di mercato de-vig 37.5% (Pinnacle): EV +4.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello coincide con il prezzo di mercato: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "UFCStats",
+     "http://ufcstats.com/"
+    ]
+   ]
+  },
+  {
+   "id": "3b0d88061cf6613291e6ae4a608c9ca9",
+   "league": "UFC",
+   "match": "Jim Miller – Terrance Mckinney",
+   "time": "2026-11-15T00:45:00Z",
+   "pick": "Jim Miller",
+   "odds": 2.95,
+   "p": 35.3,
+   "conf": 37,
+   "probs": [
+    [
+     "Terrance Mckinney",
+     65
+    ],
+    [
+     "Jim Miller",
+     35
+    ]
+   ],
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 2.95 contro probabilità di mercato de-vig 35.3% (Pinnacle): EV +4.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello coincide con il prezzo di mercato: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "UFCStats",
+     "http://ufcstats.com/"
+    ]
+   ]
+  },
+  {
+   "id": "dca96b5f1b9adde7830680152cd5cbc7",
+   "league": "UFC",
+   "match": "Kayla Harrison – Amanda Nunes",
+   "time": "2026-11-15T03:45:00Z",
+   "pick": "Amanda Nunes",
+   "odds": 2.56,
+   "p": 40.5,
+   "conf": 40,
+   "probs": [
+    [
+     "Kayla Harrison",
+     60
+    ],
+    [
+     "Amanda Nunes",
+     40
+    ]
+   ],
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 2.56 contro probabilità di mercato de-vig 40.5% (Pinnacle): EV +3.7%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello coincide con il prezzo di mercato: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "UFCStats",
+     "http://ufcstats.com/"
+    ]
+   ]
+  },
+  {
+   "id": "b5700b4d938fd94429f60d4622cc9c0a",
+   "league": "NFL",
+   "match": "Indianapolis Colts – Miami Dolphins",
+   "time": "2026-11-15T18:00:00Z",
+   "pick": "Miami Dolphins",
+   "odds": 2.9,
+   "p": 35.5,
+   "conf": 34,
+   "probs": [
+    [
+     "Indianapolis Colts",
+     65
+    ],
+    [
+     "Miami Dolphins",
+     35
+    ]
+   ],
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 2.90 contro probabilità di mercato de-vig 35.5% (Pinnacle): EV +2.8%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello coincide con il prezzo di mercato: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "Pro Football Reference",
+     "https://www.pro-football-reference.com/"
+    ],
+    [
+     "ESPN injuries",
+     "https://www.espn.com/nfl/injuries"
+    ]
+   ]
+  },
+  {
+   "id": "7627192fd89b05120ab6c712aa23fd81",
+   "league": "NFL",
+   "match": "Dallas Cowboys – San Francisco 49ers",
+   "time": "2026-11-15T21:25:00Z",
+   "pick": "Dallas Cowboys",
+   "odds": 2.92,
+   "p": 35.1,
+   "conf": 33,
+   "probs": [
+    [
+     "San Francisco 49ers",
+     65
+    ],
+    [
+     "Dallas Cowboys",
+     35
+    ]
+   ],
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 2.92 contro probabilità di mercato de-vig 35.1% (Pinnacle): EV +2.4%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello coincide con il prezzo di mercato: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "Pro Football Reference",
+     "https://www.pro-football-reference.com/"
+    ],
+    [
+     "ESPN injuries",
+     "https://www.espn.com/nfl/injuries"
+    ]
+   ]
+  }
+ ],
+ "combos": [],
+ "boosts": []
+}
