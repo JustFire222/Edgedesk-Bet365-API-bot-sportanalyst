@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T22:05:34.904567+00:00",
+ "updated": "2026-11-13T22:37:29.396959+00:00",
  "picks": [
   {
    "id": "5c45e5cb707c61ad4186f2480707cdb9",
@@ -8,6 +8,7 @@
    "time": "2026-11-15T01:45:00Z",
    "pick": "Charlie Radtke",
    "odds": 2.3,
+   "book": "Nordicbet",
    "p": 45.2,
    "conf": 44,
    "probs": [
@@ -21,8 +22,8 @@
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 2.30 contro probabilità di mercato de-vig 45.2% (Pinnacle): EV +4.1%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello coincide con il prezzo di mercato: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "insight": "Quota migliore 2.30 contro probabilità stimata 45.2% (Pinnacle): EV +4.1%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
      "The Odds API",
@@ -32,6 +33,12 @@
      "UFCStats",
      "http://ufcstats.com/"
     ]
+   ],
+   "home": "Stephen Thompson",
+   "away": "Charlie Radtke",
+   "logos": [
+    null,
+    null
    ]
   },
   {
@@ -41,6 +48,7 @@
    "time": "2026-11-15T00:15:00Z",
    "pick": "Cesar Almeida",
    "odds": 2.78,
+   "book": "Betfair Ex Eu",
    "p": 37.5,
    "conf": 38,
    "probs": [
@@ -54,8 +62,8 @@
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 2.78 contro probabilità di mercato de-vig 37.5% (Pinnacle): EV +4.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello coincide con il prezzo di mercato: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "insight": "Quota migliore 2.78 contro probabilità stimata 37.5% (Pinnacle): EV +4.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
      "The Odds API",
@@ -65,6 +73,12 @@
      "UFCStats",
      "http://ufcstats.com/"
     ]
+   ],
+   "home": "Donte Johnson",
+   "away": "Cesar Almeida",
+   "logos": [
+    null,
+    null
    ]
   },
   {
@@ -74,6 +88,7 @@
    "time": "2026-11-15T00:45:00Z",
    "pick": "Jim Miller",
    "odds": 2.95,
+   "book": "Betsson",
    "p": 35.3,
    "conf": 37,
    "probs": [
@@ -87,8 +102,8 @@
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 2.95 contro probabilità di mercato de-vig 35.3% (Pinnacle): EV +4.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello coincide con il prezzo di mercato: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "insight": "Quota migliore 2.95 contro probabilità stimata 35.3% (Pinnacle): EV +4.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
      "The Odds API",
@@ -98,6 +113,12 @@
      "UFCStats",
      "http://ufcstats.com/"
     ]
+   ],
+   "home": "Jim Miller",
+   "away": "Terrance Mckinney",
+   "logos": [
+    null,
+    null
    ]
   },
   {
@@ -107,8 +128,9 @@
    "time": "2026-11-15T03:45:00Z",
    "pick": "Amanda Nunes",
    "odds": 2.56,
-   "p": 40.5,
-   "conf": 40,
+   "book": "Betfair Ex Eu",
+   "p": 40.3,
+   "conf": 39,
    "probs": [
     [
      "Kayla Harrison",
@@ -120,8 +142,8 @@
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 2.56 contro probabilità di mercato de-vig 40.5% (Pinnacle): EV +3.7%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello coincide con il prezzo di mercato: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "insight": "Quota migliore 2.56 contro probabilità stimata 40.3% (Pinnacle): EV +3.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
      "The Odds API",
@@ -131,6 +153,12 @@
      "UFCStats",
      "http://ufcstats.com/"
     ]
+   ],
+   "home": "Kayla Harrison",
+   "away": "Amanda Nunes",
+   "logos": [
+    null,
+    null
    ]
   },
   {
@@ -140,6 +168,7 @@
    "time": "2026-11-15T18:00:00Z",
    "pick": "Miami Dolphins",
    "odds": 2.9,
+   "book": "Matchbook",
    "p": 35.5,
    "conf": 34,
    "probs": [
@@ -153,8 +182,8 @@
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 2.90 contro probabilità di mercato de-vig 35.5% (Pinnacle): EV +2.8%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello coincide con il prezzo di mercato: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "insight": "Quota migliore 2.90 contro probabilità stimata 35.5% (Pinnacle): EV +2.8%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
      "The Odds API",
@@ -168,6 +197,12 @@
      "ESPN injuries",
      "https://www.espn.com/nfl/injuries"
     ]
+   ],
+   "home": "Indianapolis Colts",
+   "away": "Miami Dolphins",
+   "logos": [
+    null,
+    null
    ]
   },
   {
@@ -177,6 +212,7 @@
    "time": "2026-11-15T21:25:00Z",
    "pick": "Dallas Cowboys",
    "odds": 2.92,
+   "book": "Matchbook",
    "p": 35.1,
    "conf": 33,
    "probs": [
@@ -190,8 +226,8 @@
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 2.92 contro probabilità di mercato de-vig 35.1% (Pinnacle): EV +2.4%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello coincide con il prezzo di mercato: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "insight": "Quota migliore 2.92 contro probabilità stimata 35.1% (Pinnacle): EV +2.4%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
      "The Odds API",
@@ -205,9 +241,16 @@
      "ESPN injuries",
      "https://www.espn.com/nfl/injuries"
     ]
+   ],
+   "home": "Dallas Cowboys",
+   "away": "San Francisco 49ers",
+   "logos": [
+    null,
+    null
    ]
   }
  ],
  "combos": [],
- "boosts": []
+ "boosts": [],
+ "partite": []
 }
