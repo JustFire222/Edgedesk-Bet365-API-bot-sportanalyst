@@ -1,0 +1,34 @@
+# Salvalo come .github/workflows/clv.yml
+# Serve il secret ODDS_API_KEY (Settings > Secrets and variables > Actions)
+name: clv
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"   # 5 minuti è il minimo; GitHub può ritardare di qualche minuto
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: clv
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Aggiorna quote di chiusura
+        run: python clv_tracker.py update
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+      - name: Salva il log
+        run: |
+          git config user.name "edgedesk-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/clv_log.json || true
+          git diff --cached --quiet || (git commit -m "clv: aggiorna log" && git pull --rebase && git push)
