@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Edge Desk - CLV</title>
+<style>
+:root{--bg:#10151c;--sf:#161d27;--rule:#2a3443;--tx:#dfe6ee;--mu:#8794a6;--up:#4fd1a1;--dn:#f0716b;--am:#e8b44a;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0 auto;max-width:720px;background:var(--bg);color:var(--tx);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;font-variant-numeric:tabular-nums;padding:max(16px,env(safe-area-inset-top)) 16px max(32px,env(safe-area-inset-bottom))}
+a{color:var(--am)}
+header{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:8px 16px;margin-bottom:20px}
+h1{font-size:20px;font-weight:650;margin:0}
+.sub{margin:2px 0 0;color:var(--mu);font-size:13px}
+select{background:var(--sf);color:var(--tx);border:1px solid var(--rule);border-radius:8px;padding:7px 10px;font:inherit;font-size:14px}
+.big{font-size:44px;line-height:1.1;font-weight:700;letter-spacing:-.02em}
+.up{color:var(--up)}.dn{color:var(--dn)}
+.verdict{margin:4px 0 10px}
+.bar{height:4px;background:var(--rule);border-radius:2px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--am)}
+.bar+p{margin:6px 0 0;color:var(--mu);font-size:13px}
+h2{font-size:15px;font-weight:650;margin:28px 0 2px}
+.ro{margin:0 0 6px;min-height:20px;color:var(--mu);font-size:13px}
+.plot{background:var(--sf);border:1px solid var(--rule);border-radius:10px;padding:6px 4px 2px}
+.plot svg{display:block;width:100%;height:auto;touch-action:pan-y}
+.leg{display:flex;gap:16px;margin:6px 0 0;color:var(--mu);font-size:13px}
+.leg i{display:inline-block;width:14px;height:3px;border-radius:2px;margin-right:6px;vertical-align:middle}
+dl{display:grid;grid-template-columns:repeat(3,1fr);margin:24px 0 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+dl div{padding:12px 0 12px 12px;border-left:1px solid var(--rule)}
+dl div:first-child{border-left:0;padding-left:0}
+dt{color:var(--mu);font-size:13px}
+dd{margin:0;font-size:20px;font-weight:650}
+.tw{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:14px;margin-top:8px}
+th{color:var(--mu);font-weight:500;font-size:13px;text-align:right;padding:6px 8px;border-bottom:1px solid var(--rule)}
+td{text-align:right;padding:8px;border-bottom:1px solid var(--rule);white-space:nowrap}
+th:first-child,td:first-child{text-align:left;padding-left:0}
+td:first-child{white-space:normal;min-width:150px}
+.empty{padding:28px 0;color:var(--mu)}
+.note{color:var(--mu);font-size:13px;margin-top:16px}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Closing line value</h1>
+    <p class="sub">La tua quota contro la chiusura equa di Pinnacle</p>
+  </div>
+  <select id="sport" aria-label="Filtra per sport"></select>
+</header>
+<main id="app"><p class="empty">Carico i dati...</p></main>
+
+<script>
+const LOG_URL = 'data/clv_log.json';   // scritto da clv_tracker.py
+const TARGET = 2, SAMPLE = 200;
+const SPORTS = {soccer_italy_serie_a:'Serie A',soccer_uefa_champs_league:'Champions League',basketball_nba:'NBA',americanfootball_nfl:'NFL',baseball_mlb:'MLB',mma_mixed_martial_arts:'UFC'};
+const DEMO = new URLSearchParams(location.search).has('demo');
+
+const sgn = v => (v > 0 ? '+' : '') + v.toFixed(1) + '%';
+const avg = a => a.reduce((s, x) => s + x, 0) / a.length;
+const cls = v => v >= 0 ? 'up' : 'dn';
+
+function rng(s){return()=>(s=(s*1664525+1013904223)>>>0)/4294967296}
+function gauss(r){return Math.sqrt(-2*Math.log(r()||1e-9))*Math.cos(2*Math.PI*r())}
+function makeDemo(){
+  const r = rng(7), keys = Object.keys(SPORTS).slice(0, 4), t0 = Date.now() - 60*864e5, out = [];
+  for (let i = 0; i < 120; i++) {
+    const odds = +(1.6 + r()*2.4).toFixed(2), clv = +(1.8 + gauss(r)*5).toFixed(2);
+    out.push({id:'d'+i,label:'Partita demo '+(i+1),sport_key:keys[i%4],market:i%3?'h2h':'totals',
+      selection:'Demo',odds_taken:odds,close_odds:+(odds/(1+clv/100)).toFixed(2),clv,status:'closed',
+      commence_time:new Date(t0+i*432e5).toISOString()});
+  }
+  out.push({id:'o1',label:'Giocata aperta',sport_key:keys[0],status:'open',commence_time:new Date().toISOString()});
+  return out;
+}
+async function load(){
+  if (DEMO) return makeDemo();
+  try { const r = await fetch(LOG_URL, {cache:'no-store'}); if (!r.ok) throw 0; return await r.json(); }
+  catch (e) { return null; }
+}
+
+function chart(box, series, refs, fmt){
+  const W=640,H=220,L=44,R=10,T=10,B=14,n=series[0].d.length;
+  const vals=series.flatMap(s=>s.d).concat(refs.map(r=>r.y),[0]);
+  let lo=Math.min(...vals),hi=Math.max(...vals);const pad=(hi-lo)*.12||1;lo-=pad;hi+=pad;
+  const X=i=>L+(n<2?(W-L-R)/2:i*(W-L-R)/(n-1)),Y=v=>T+(hi-v)*(H-T-B)/(hi-lo);
+  const raw=(hi-lo)/4,mag=Math.pow(10,Math.floor(Math.log10(raw))),step=[1,2,5,10].find(k=>k*mag>=raw)*mag;
+  let g='';
+  for(let v=Math.ceil(lo/step)*step;v<=hi;v+=step){
+    const z=Math.abs(v)<1e-9;
+    g+=`<line x1="${L}" x2="${W-R}" y1="${Y(v)}" y2="${Y(v)}" style="stroke:var(--rule)" stroke-width="${z?1.5:.6}"/><text x="${L-6}" y="${Y(v)+4}" text-anchor="end" style="fill:var(--mu)" font-size="11">${+v.toFixed(2)}%</text>`;
+  }
+  refs.forEach(r=>{g+=`<line x1="${L}" x2="${W-R}" y1="${Y(r.y)}" y2="${Y(r.y)}" style="stroke:${r.c}" stroke-width="1.2" stroke-dasharray="5 4"/>`});
+  series.forEach(s=>{
+    const d=s.d.map((v,i)=>(i?'L':'M')+X(i).toFixed(1)+' '+Y(v).toFixed(1)).join('');
+    g+=`<path d="${d}" fill="none" style="stroke:${s.c}" stroke-width="${s.w}" stroke-linejoin="round" stroke-linecap="round" opacity="${s.o||1}"/>`;
+  });
+  box.innerHTML=`<p class="ro">Tocca il grafico per leggere i valori</p><div class="plot"><svg viewBox="0 0 ${W} ${H}" role="img"><line class="gd" y1="${T}" y2="${H-B}" style="stroke:var(--mu)" opacity="0"/>${g}</svg></div>`;
+  const svg=box.querySelector('svg'),gd=box.querySelector('.gd'),ro=box.querySelector('.ro');
+  const mv=e=>{
+    const b=svg.getBoundingClientRect(),px=(e.clientX-b.left)/b.width*W;
+    const i=Math.max(0,Math.min(n-1,Math.round((px-L)/((W-L-R)/Math.max(n-1,1)))));
+    gd.setAttribute('x1',X(i));gd.setAttribute('x2',X(i));gd.setAttribute('opacity',1);
+    ro.textContent='Giocata '+(i+1)+': '+series.map(s=>s.name+' '+fmt(s.d[i])).join(', ');
+  };
+  svg.addEventListener('pointermove',mv);svg.addEventListener('pointerdown',mv);
+}
+
+function render(all){
+  const app=document.getElementById('app');
+  const sel=document.getElementById('sport').value;
+  const rows=all.filter(p=>sel==='all'||p.sport_key===sel);
+  const done=rows.filter(p=>p.status==='closed'&&typeof p.clv==='number').sort((a,b)=>a.commence_time<b.commence_time?-1:1);
+  const open=rows.filter(p=>p.status==='open').length;
+  if(!done.length){
+    app.innerHTML=`<p class="empty">Nessuna giocata chiusa${open?`: ${open} in attesa del fischio d'inizio`:''}. Le giocate registrate con log_pick compaiono qui dopo l'inizio della partita. <a href="?demo">Guarda un esempio</a>.</p>`;
+    return;
+  }
+  const clvs=done.map(p=>p.clv),n=clvs.length,mean=avg(clvs);
+  const cum=clvs.map((_,i)=>avg(clvs.slice(0,i+1)));
+  const ma=clvs.map((_,i)=>avg(clvs.slice(Math.max(0,i-19),i+1)));
+  const pos=Math.round(clvs.filter(v=>v>0).length/n*100),last=avg(clvs.slice(-50));
+  let verdict;
+  if(n<30) verdict='Pochi dati: per ora il numero dice poco.';
+  else if(mean>=TARGET) verdict=n>=SAMPLE?'Sopra l\'obiettivo di +2%: il modello batte la chiusura.':'Sopra +2%, ma il campione è ancora piccolo.';
+  else if(mean>0) verdict='Positivo, ma sotto l\'obiettivo di +2%.';
+  else verdict='Negativo: prendi quote peggiori della chiusura Pinnacle.';
+
+  app.innerHTML=`
+    <div class="big ${cls(mean)}">${sgn(mean)}</div>
+    <p class="verdict">${verdict}</p>
+    <div class="bar"><i style="width:${Math.min(100,n/SAMPLE*100)}%"></i></div>
+    <p>${n} di ${SAMPLE} giocate per un campione affidabile</p>
+    <h2>CLV medio cumulativo</h2><div id="c1"></div>
+    <dl>
+      <div><dt>Giocate chiuse</dt><dd>${n}</dd></div>
+      <div><dt>Con CLV positivo</dt><dd>${pos}%</dd></div>
+      <div><dt>Ultime 50</dt><dd class="${cls(last)}">${sgn(last)}</dd></div>
+    </dl>
+    <h2>CLV per giocata</h2><div id="c2"></div>
+    <div class="leg"><span><i style="background:#6b7a90"></i>Singola giocata</span><span><i style="background:var(--tx)"></i>Media mobile (20)</span></div>
+    <h2>Ultime giocate</h2>
+    <div class="tw"><table><thead><tr><th>Partita</th><th>Presa</th><th>Chiusura</th><th>CLV</th></tr></thead><tbody id="tb"></tbody></table></div>
+    ${open?`<p class="note">${open} giocate in attesa del fischio d'inizio.</p>`:''}
+    <p class="note">CLV = quota presa divisa per la quota di chiusura equa di Pinnacle (senza margine), meno 1.</p>`;
+
+  chart(document.getElementById('c1'),[{name:'Medio',d:cum,c:mean>=0?'var(--up)':'var(--dn)',w:2.4}],[{y:TARGET,c:'var(--am)'}],sgn);
+  chart(document.getElementById('c2'),[{name:'Giocata',d:clvs,c:'#6b7a90',w:1.2,o:.9},{name:'Media 20',d:ma,c:'#dfe6ee',w:2.4}],[{y:0,c:'transparent'}],sgn);
+
+  const tb=document.getElementById('tb');
+  done.slice(-15).reverse().forEach(p=>{
+    const tr=document.createElement('tr');
+    const cells=[
+      (p.label||p.id)+(p.selection&&p.market?' - '+p.selection+(p.point!=null?' '+p.point:''):''),
+      p.odds_taken!=null?Number(p.odds_taken).toFixed(2):'-',
+      p.close_odds!=null?Number(p.close_odds).toFixed(2):'-',
+      sgn(p.clv)];
+    cells.forEach((t,i)=>{const td=document.createElement('td');td.textContent=t;if(i===3)td.className=cls(p.clv);tr.appendChild(td)});
+    tb.appendChild(tr);
+  });
+}
+
+(async()=>{
+  const data=await load();
+  if(!data){document.getElementById('app').innerHTML='<p class="empty">Non trovo data/clv_log.json. Registra almeno una giocata con log_pick, oppure <a href="?demo">guarda un esempio</a>.</p>';return}
+  const keys=[...new Set(data.map(p=>p.sport_key).filter(Boolean))];
+  const s=document.getElementById('sport');
+  s.innerHTML='<option value="all">Tutti gli sport</option>'+keys.map(k=>`<option value="${k}">${SPORTS[k]||k}</option>`).join('');
+  s.addEventListener('change',()=>render(data));
+  render(data);
+})();
+</script>
+</body>
+</html>
