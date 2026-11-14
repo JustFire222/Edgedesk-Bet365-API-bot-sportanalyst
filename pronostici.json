@@ -1,86 +1,6 @@
 {
- "updated": "2026-11-13T22:37:29.396959+00:00",
+ "updated": "2026-11-14T07:50:14.762953+00:00",
  "picks": [
-  {
-   "id": "5c45e5cb707c61ad4186f2480707cdb9",
-   "league": "UFC",
-   "match": "Stephen Thompson – Charlie Radtke",
-   "time": "2026-11-15T01:45:00Z",
-   "pick": "Charlie Radtke",
-   "odds": 2.3,
-   "book": "Nordicbet",
-   "p": 45.2,
-   "conf": 44,
-   "probs": [
-    [
-     "Stephen Thompson",
-     55
-    ],
-    [
-     "Charlie Radtke",
-     45
-    ]
-   ],
-   "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 2.30 contro probabilità stimata 45.2% (Pinnacle): EV +4.1%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "UFCStats",
-     "http://ufcstats.com/"
-    ]
-   ],
-   "home": "Stephen Thompson",
-   "away": "Charlie Radtke",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "dd9074fe98d83dd01a962ca4abe9b9d6",
-   "league": "UFC",
-   "match": "Donte Johnson – Cesar Almeida",
-   "time": "2026-11-15T00:15:00Z",
-   "pick": "Cesar Almeida",
-   "odds": 2.78,
-   "book": "Betfair Ex Eu",
-   "p": 37.5,
-   "conf": 38,
-   "probs": [
-    [
-     "Donte Johnson",
-     63
-    ],
-    [
-     "Cesar Almeida",
-     37
-    ]
-   ],
-   "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 2.78 contro probabilità stimata 37.5% (Pinnacle): EV +4.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "UFCStats",
-     "http://ufcstats.com/"
-    ]
-   ],
-   "home": "Donte Johnson",
-   "away": "Cesar Almeida",
-   "logos": [
-    null,
-    null
-   ]
-  },
   {
    "id": "3b0d88061cf6613291e6ae4a608c9ca9",
    "league": "UFC",
@@ -89,8 +9,8 @@
    "pick": "Jim Miller",
    "odds": 2.95,
    "book": "Betsson",
-   "p": 35.3,
-   "conf": 37,
+   "p": 35.2,
+   "conf": 36,
    "probs": [
     [
      "Terrance Mckinney",
@@ -102,7 +22,7 @@
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 2.95 contro probabilità stimata 35.3% (Pinnacle): EV +4.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 2.95 contro probabilità stimata 35.2% (Pinnacle): EV +3.9%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -122,27 +42,31 @@
    ]
   },
   {
-   "id": "dca96b5f1b9adde7830680152cd5cbc7",
-   "league": "UFC",
-   "match": "Kayla Harrison – Amanda Nunes",
-   "time": "2026-11-15T03:45:00Z",
-   "pick": "Amanda Nunes",
-   "odds": 2.56,
-   "book": "Betfair Ex Eu",
-   "p": 40.3,
-   "conf": 39,
+   "id": "432a7eb09df939bf1e15a3e183f8494f",
+   "league": "Nations League",
+   "match": "Northern Ireland – Ukraine",
+   "time": "2026-11-14T19:45:00Z",
+   "pick": "Draw",
+   "odds": 3.15,
+   "book": "Unibet Se",
+   "p": 32.7,
+   "conf": 32,
    "probs": [
     [
-     "Kayla Harrison",
-     60
+     "Northern Ireland",
+     36
     ],
     [
-     "Amanda Nunes",
-     40
+     "Draw",
+     33
+    ],
+    [
+     "Ukraine",
+     31
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 2.56 contro probabilità stimata 40.3% (Pinnacle): EV +3.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 3.15 contro probabilità stimata 32.7% (Pinnacle): EV +3.1%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -150,56 +74,12 @@
      "https://the-odds-api.com"
     ],
     [
-     "UFCStats",
-     "http://ufcstats.com/"
+     "UEFA",
+     "https://www.uefa.com/uefanationsleague/"
     ]
    ],
-   "home": "Kayla Harrison",
-   "away": "Amanda Nunes",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "b5700b4d938fd94429f60d4622cc9c0a",
-   "league": "NFL",
-   "match": "Indianapolis Colts – Miami Dolphins",
-   "time": "2026-11-15T18:00:00Z",
-   "pick": "Miami Dolphins",
-   "odds": 2.9,
-   "book": "Matchbook",
-   "p": 35.5,
-   "conf": 34,
-   "probs": [
-    [
-     "Indianapolis Colts",
-     65
-    ],
-    [
-     "Miami Dolphins",
-     35
-    ]
-   ],
-   "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 2.90 contro probabilità stimata 35.5% (Pinnacle): EV +2.8%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "Pro Football Reference",
-     "https://www.pro-football-reference.com/"
-    ],
-    [
-     "ESPN injuries",
-     "https://www.espn.com/nfl/injuries"
-    ]
-   ],
-   "home": "Indianapolis Colts",
-   "away": "Miami Dolphins",
+   "home": "Northern Ireland",
+   "away": "Ukraine",
    "logos": [
     null,
     null
