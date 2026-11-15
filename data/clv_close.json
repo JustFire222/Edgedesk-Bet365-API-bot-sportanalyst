@@ -9,6 +9,8 @@
  "083c61d3c0c86e7d75ee8ac8f6f66461|h2h|Belarus|None": {
   "close_prob": 0.22265,
   "close_odds": 4.491,
-  "snap_at": "2026-11-15T16:52:21Z"
+  "snap_at": "2026-11-15T16:52:21Z",
+  "clv": 2.42,
+  "status": "closed"
  }
 }
