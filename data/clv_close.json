@@ -12,5 +12,20 @@
   "snap_at": "2026-11-15T16:52:21Z",
   "clv": 2.42,
   "status": "closed"
+ },
+ "28800df7e768ecec14f116454d560f9b|h2h|Tennessee Titans|None": {
+  "close_prob": 0.19293,
+  "close_odds": 5.183,
+  "snap_at": "2026-11-15T17:56:11Z"
+ },
+ "b5700b4d938fd94429f60d4622cc9c0a|h2h|Miami Dolphins|None": {
+  "close_prob": 0.33257,
+  "close_odds": 3.007,
+  "snap_at": "2026-11-15T17:56:11Z"
+ },
+ "de475830b5df0d1aae4fcd8f9bbaead9|h2h|Indiana Pacers|None": {
+  "close_prob": 0.29211,
+  "close_odds": 3.423,
+  "snap_at": "2026-11-15T17:56:11Z"
  }
 }
