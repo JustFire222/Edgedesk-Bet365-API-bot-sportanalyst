@@ -152,5 +152,71 @@
   "p": 22.2,
   "conf": 22,
   "time": "2026-11-15T17:00:00Z"
+ },
+ {
+  "id": "e71a4a4fea03d00873c285c5b55a9864",
+  "ts": "2026-11-15T15:25:56.233338+00:00",
+  "match": "Israel – Austria",
+  "league": "Nations League",
+  "pick": "Israel",
+  "odds": 5.2,
+  "p": 21.3,
+  "conf": 37,
+  "time": "2026-11-17T19:45:00Z"
+ },
+ {
+  "id": "de475830b5df0d1aae4fcd8f9bbaead9",
+  "ts": "2026-11-15T15:25:56.233338+00:00",
+  "match": "Philadelphia 76ers – Indiana Pacers",
+  "league": "NBA",
+  "pick": "Indiana Pacers",
+  "odds": 3.55,
+  "p": 29.6,
+  "conf": 33,
+  "time": "2026-11-15T18:10:00Z"
+ },
+ {
+  "id": "956532b58659658093d93e24e83f5213",
+  "ts": "2026-11-15T15:25:56.233338+00:00",
+  "match": "Boston Celtics – Dallas Mavericks",
+  "league": "NBA",
+  "pick": "Dallas Mavericks",
+  "odds": 6.8,
+  "p": 15.6,
+  "conf": 24,
+  "time": "2026-11-15T23:10:00Z"
+ },
+ {
+  "id": "5ae7a0b002778fc547ce96abf6bf8547",
+  "ts": "2026-11-15T15:25:56.233338+00:00",
+  "match": "Faroe Islands – Moldova",
+  "league": "Nations League",
+  "pick": "Moldova",
+  "odds": 5.5,
+  "p": 18.8,
+  "conf": 22,
+  "time": "2026-11-16T15:00:00Z"
+ },
+ {
+  "id": "1a07e9080f042594bdb529ab932d680c",
+  "ts": "2026-11-15T15:25:56.233338+00:00",
+  "match": "Hungary – Northern Ireland",
+  "league": "Nations League",
+  "pick": "Northern Ireland",
+  "odds": 4.6,
+  "p": 22.3,
+  "conf": 23,
+  "time": "2026-11-17T19:45:00Z"
+ },
+ {
+  "id": "6079a5cbabf99b265a17edfc92a1da60",
+  "ts": "2026-11-15T15:25:56.233338+00:00",
+  "match": "Las Vegas Raiders – Seattle Seahawks",
+  "league": "NFL",
+  "pick": "Las Vegas Raiders",
+  "odds": 3.5,
+  "p": 29.1,
+  "conf": 27,
+  "time": "2026-11-15T21:05:00Z"
  }
 ]

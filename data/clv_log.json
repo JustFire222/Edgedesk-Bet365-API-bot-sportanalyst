@@ -166,5 +166,77 @@
   "odds_taken": 4.6,
   "taken_at": "2026-11-15T08:34:02Z",
   "commence_time": "2026-11-15T17:00:00Z"
+ },
+ {
+  "id": "e71a4a4fea03d00873c285c5b55a9864|h2h|Israel|None",
+  "event_id": "e71a4a4fea03d00873c285c5b55a9864",
+  "sport_key": "soccer_uefa_nations_league",
+  "label": "Israel – Austria",
+  "market": "h2h",
+  "selection": "Israel",
+  "point": null,
+  "odds_taken": 5.2,
+  "taken_at": "2026-11-15T15:25:57Z",
+  "commence_time": "2026-11-17T19:45:00Z"
+ },
+ {
+  "id": "de475830b5df0d1aae4fcd8f9bbaead9|h2h|Indiana Pacers|None",
+  "event_id": "de475830b5df0d1aae4fcd8f9bbaead9",
+  "sport_key": "basketball_nba",
+  "label": "Philadelphia 76ers – Indiana Pacers",
+  "market": "h2h",
+  "selection": "Indiana Pacers",
+  "point": null,
+  "odds_taken": 3.55,
+  "taken_at": "2026-11-15T15:25:57Z",
+  "commence_time": "2026-11-15T18:10:00Z"
+ },
+ {
+  "id": "956532b58659658093d93e24e83f5213|h2h|Dallas Mavericks|None",
+  "event_id": "956532b58659658093d93e24e83f5213",
+  "sport_key": "basketball_nba",
+  "label": "Boston Celtics – Dallas Mavericks",
+  "market": "h2h",
+  "selection": "Dallas Mavericks",
+  "point": null,
+  "odds_taken": 6.8,
+  "taken_at": "2026-11-15T15:25:57Z",
+  "commence_time": "2026-11-15T23:10:00Z"
+ },
+ {
+  "id": "5ae7a0b002778fc547ce96abf6bf8547|h2h|Moldova|None",
+  "event_id": "5ae7a0b002778fc547ce96abf6bf8547",
+  "sport_key": "soccer_uefa_nations_league",
+  "label": "Faroe Islands – Moldova",
+  "market": "h2h",
+  "selection": "Moldova",
+  "point": null,
+  "odds_taken": 5.5,
+  "taken_at": "2026-11-15T15:25:57Z",
+  "commence_time": "2026-11-16T15:00:00Z"
+ },
+ {
+  "id": "1a07e9080f042594bdb529ab932d680c|h2h|Northern Ireland|None",
+  "event_id": "1a07e9080f042594bdb529ab932d680c",
+  "sport_key": "soccer_uefa_nations_league",
+  "label": "Hungary – Northern Ireland",
+  "market": "h2h",
+  "selection": "Northern Ireland",
+  "point": null,
+  "odds_taken": 4.6,
+  "taken_at": "2026-11-15T15:25:57Z",
+  "commence_time": "2026-11-17T19:45:00Z"
+ },
+ {
+  "id": "6079a5cbabf99b265a17edfc92a1da60|h2h|Las Vegas Raiders|None",
+  "event_id": "6079a5cbabf99b265a17edfc92a1da60",
+  "sport_key": "americanfootball_nfl",
+  "label": "Las Vegas Raiders – Seattle Seahawks",
+  "market": "h2h",
+  "selection": "Las Vegas Raiders",
+  "point": null,
+  "odds_taken": 3.5,
+  "taken_at": "2026-11-15T15:25:57Z",
+  "commence_time": "2026-11-15T21:05:00Z"
  }
 ]
