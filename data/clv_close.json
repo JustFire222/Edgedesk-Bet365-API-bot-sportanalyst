@@ -37,6 +37,8 @@
  "cc7a8f5fed10407a56df29e87f73d7e3|h2h|Czech Republic|None": {
   "close_prob": 0.12452,
   "close_odds": 8.031,
-  "snap_at": "2026-11-15T19:15:13Z"
+  "snap_at": "2026-11-15T19:15:13Z",
+  "clv": -25.29,
+  "status": "closed"
  }
 }
