@@ -58,6 +58,8 @@
  "956532b58659658093d93e24e83f5213|h2h|Dallas Mavericks|None": {
   "close_prob": 0.12803,
   "close_odds": 7.811,
-  "snap_at": "2026-11-15T22:51:42Z"
+  "snap_at": "2026-11-15T22:51:42Z",
+  "clv": -12.94,
+  "status": "closed"
  }
 }
