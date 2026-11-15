@@ -1,0 +1,156 @@
+[
+ {
+  "id": "28800df7e768ecec14f116454d560f9b",
+  "ts": "2026-11-15T08:34:00.901372+00:00",
+  "match": "Tennessee Titans – Jacksonville Jaguars",
+  "league": "NFL",
+  "pick": "Tennessee Titans",
+  "odds": 6.4,
+  "p": 18.2,
+  "conf": 35,
+  "time": "2026-11-15T18:00:00Z"
+ },
+ {
+  "id": "3eb1d15a190bb1be8c32a020365dc7c2",
+  "ts": "2026-11-15T08:34:00.901372+00:00",
+  "match": "Bosnia & Herzegovina – Romania",
+  "league": "Nations League",
+  "pick": "Romania",
+  "odds": 4.6,
+  "p": 24.0,
+  "conf": 39,
+  "time": "2026-11-17T19:45:00Z"
+ },
+ {
+  "id": "6c932a965110f3f89ec4a5f1a6ac256e",
+  "ts": "2026-11-15T08:34:00.901372+00:00",
+  "match": "Arizona Cardinals – Los Angeles Rams",
+  "league": "NFL",
+  "pick": "Arizona Cardinals",
+  "odds": 5.25,
+  "p": 20.8,
+  "conf": 35,
+  "time": "2026-11-15T21:05:00Z"
+ },
+ {
+  "id": "f8334b355cf9346d423fa9eb93b425f0",
+  "ts": "2026-11-15T08:34:00.901372+00:00",
+  "match": "Sacramento Kings – Oklahoma City Thunder",
+  "league": "NBA",
+  "pick": "Sacramento Kings",
+  "odds": 5.1,
+  "p": 21.1,
+  "conf": 32,
+  "time": "2026-11-16T02:10:00Z"
+ },
+ {
+  "id": "488c2bc1e099361f06015cf126f95fd6",
+  "ts": "2026-11-15T08:34:00.901372+00:00",
+  "match": "Washington Wizards – Houston Rockets",
+  "league": "NBA",
+  "pick": "Washington Wizards",
+  "odds": 4.4,
+  "p": 24.2,
+  "conf": 32,
+  "time": "2026-11-16T00:10:00Z"
+ },
+ {
+  "id": "b5700b4d938fd94429f60d4622cc9c0a",
+  "ts": "2026-11-15T08:34:00.901372+00:00",
+  "match": "Indianapolis Colts – Miami Dolphins",
+  "league": "NFL",
+  "pick": "Miami Dolphins",
+  "odds": 2.98,
+  "p": 35.1,
+  "conf": 37,
+  "time": "2026-11-15T18:00:00Z"
+ },
+ {
+  "id": "beaee55c19760e22fdf6291286debb08",
+  "ts": "2026-11-15T08:34:00.901372+00:00",
+  "match": "Latvia – Armenia",
+  "league": "Nations League",
+  "pick": "Draw",
+  "odds": 3.35,
+  "p": 31.0,
+  "conf": 32,
+  "time": "2026-11-15T14:00:00Z"
+ },
+ {
+  "id": "629f5b2cbc2b6986661cb280d37b0ecb",
+  "ts": "2026-11-15T08:34:00.901372+00:00",
+  "match": "North Macedonia – Slovenia",
+  "league": "Nations League",
+  "pick": "North Macedonia",
+  "odds": 7.0,
+  "p": 15.0,
+  "conf": 22,
+  "time": "2026-11-16T19:45:00Z"
+ },
+ {
+  "id": "2b656115b7829be9f778b0c011f7d722",
+  "ts": "2026-11-15T08:34:00.901372+00:00",
+  "match": "Switzerland – Scotland",
+  "league": "Nations League",
+  "pick": "Scotland",
+  "odds": 5.8,
+  "p": 18.0,
+  "conf": 23,
+  "time": "2026-11-16T19:45:00Z"
+ },
+ {
+  "id": "a6c9b424fddccea76aab09880b69dd31",
+  "ts": "2026-11-15T08:34:00.901372+00:00",
+  "match": "Republic of Ireland – Kosovo",
+  "league": "Nations League",
+  "pick": "Kosovo",
+  "odds": 4.25,
+  "p": 24.4,
+  "conf": 26,
+  "time": "2026-11-17T19:45:00Z"
+ },
+ {
+  "id": "cc7a8f5fed10407a56df29e87f73d7e3",
+  "ts": "2026-11-15T08:34:00.901372+00:00",
+  "match": "Croatia – Czech Republic",
+  "league": "Nations League",
+  "pick": "Czech Republic",
+  "odds": 6.0,
+  "p": 17.3,
+  "conf": 21,
+  "time": "2026-11-15T19:45:00Z"
+ },
+ {
+  "id": "f0a77086c85d161afcfc2f275e9e29fa",
+  "ts": "2026-11-15T08:34:00.901372+00:00",
+  "match": "Greece – Serbia",
+  "league": "Nations League",
+  "pick": "Draw",
+  "odds": 5.2,
+  "p": 19.8,
+  "conf": 22,
+  "time": "2026-11-16T19:45:00Z"
+ },
+ {
+  "id": "b931a21d34e414ee92b1a4b8e63774aa",
+  "ts": "2026-11-15T08:34:00.901372+00:00",
+  "match": "Milwaukee Bucks – Atlanta Hawks",
+  "league": "NBA",
+  "pick": "Milwaukee Bucks",
+  "odds": 3.6,
+  "p": 28.4,
+  "conf": 27,
+  "time": "2026-11-16T01:10:00Z"
+ },
+ {
+  "id": "083c61d3c0c86e7d75ee8ac8f6f66461",
+  "ts": "2026-11-15T08:34:00.901372+00:00",
+  "match": "Belarus – Albania",
+  "league": "Nations League",
+  "pick": "Belarus",
+  "odds": 4.6,
+  "p": 22.2,
+  "conf": 22,
+  "time": "2026-11-15T17:00:00Z"
+ }
+]
