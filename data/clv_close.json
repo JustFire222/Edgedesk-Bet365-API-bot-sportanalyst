@@ -40,5 +40,15 @@
   "snap_at": "2026-11-15T19:15:13Z",
   "clv": -25.29,
   "status": "closed"
+ },
+ "6c932a965110f3f89ec4a5f1a6ac256e|h2h|Arizona Cardinals|None": {
+  "close_prob": 0.203,
+  "close_odds": 4.926,
+  "snap_at": "2026-11-15T21:02:14Z"
+ },
+ "6079a5cbabf99b265a17edfc92a1da60|h2h|Las Vegas Raiders|None": {
+  "close_prob": 0.28184,
+  "close_odds": 3.548,
+  "snap_at": "2026-11-15T21:02:14Z"
  }
 }
