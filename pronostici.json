@@ -1,57 +1,13 @@
 {
- "updated": "2026-11-14T15:26:55.192578+00:00",
+ "updated": "2026-11-15T07:54:22.658923+00:00",
  "picks": [
-  {
-   "id": "2b656115b7829be9f778b0c011f7d722",
-   "league": "Nations League",
-   "match": "Switzerland – Scotland",
-   "time": "2026-11-16T19:45:00Z",
-   "pick": "Scotland",
-   "odds": 6.0,
-   "book": "Unibet Se",
-   "p": 18.9,
-   "conf": 35,
-   "probs": [
-    [
-     "Switzerland",
-     55
-    ],
-    [
-     "Draw",
-     26
-    ],
-    [
-     "Scotland",
-     19
-    ]
-   ],
-   "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 6.00 contro probabilità stimata 18.9% (Pinnacle): EV +13.5%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "UEFA",
-     "https://www.uefa.com/uefanationsleague/"
-    ]
-   ],
-   "home": "Switzerland",
-   "away": "Scotland",
-   "logos": [
-    null,
-    null
-   ]
-  },
   {
    "id": "28800df7e768ecec14f116454d560f9b",
    "league": "NFL",
    "match": "Tennessee Titans – Jacksonville Jaguars",
    "time": "2026-11-15T18:00:00Z",
    "pick": "Tennessee Titans",
-   "odds": 6.2,
+   "odds": 6.4,
    "book": "Matchbook",
    "p": 18.2,
    "conf": 35,
@@ -66,7 +22,7 @@
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 6.20 contro probabilità stimata 18.2% (Pinnacle): EV +13.1%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 6.40 contro probabilità stimata 18.2% (Pinnacle): EV +16.5%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -90,31 +46,31 @@
    ]
   },
   {
-   "id": "624805725e5cd075b0c5d77eb755bded",
+   "id": "3eb1d15a190bb1be8c32a020365dc7c2",
    "league": "Nations League",
-   "match": "Kazakhstan – Slovakia",
-   "time": "2026-11-16T15:00:00Z",
-   "pick": "Kazakhstan",
-   "odds": 4.7,
+   "match": "Bosnia & Herzegovina – Romania",
+   "time": "2026-11-17T19:45:00Z",
+   "pick": "Romania",
+   "odds": 4.6,
    "book": "Unibet Se",
-   "p": 23.7,
+   "p": 24.0,
    "conf": 39,
    "probs": [
     [
-     "Slovakia",
+     "Bosnia & Herzegovina",
      50
     ],
     [
      "Draw",
-     27
+     26
     ],
     [
-     "Kazakhstan",
+     "Romania",
      24
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 4.70 contro probabilità stimata 23.7% (Pinnacle): EV +11.5%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 4.60 contro probabilità stimata 24.0% (Pinnacle): EV +10.5%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -126,35 +82,35 @@
      "https://www.uefa.com/uefanationsleague/"
     ]
    ],
-   "home": "Kazakhstan",
-   "away": "Slovakia",
+   "home": "Bosnia & Herzegovina",
+   "away": "Romania",
    "logos": [
     null,
     null
    ]
   },
   {
-   "id": "ba2552ca4003eabe7235cfb532e3b14f",
-   "league": "UFC",
-   "match": "Patrick Habirora – Omar El Dafrawy",
-   "time": "2026-11-14T18:00:00Z",
-   "pick": "Omar El Dafrawy",
-   "odds": 5.15,
-   "book": "Betonlineag",
-   "p": 21.7,
-   "conf": 37,
+   "id": "6c932a965110f3f89ec4a5f1a6ac256e",
+   "league": "NFL",
+   "match": "Arizona Cardinals – Los Angeles Rams",
+   "time": "2026-11-15T21:05:00Z",
+   "pick": "Arizona Cardinals",
+   "odds": 5.2,
+   "book": "Marathonbet",
+   "p": 20.8,
+   "conf": 33,
    "probs": [
     [
-     "Patrick Habirora",
-     78
+     "Los Angeles Rams",
+     79
     ],
     [
-     "Omar El Dafrawy",
-     22
+     "Arizona Cardinals",
+     21
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 5.15 contro probabilità stimata 21.7% (media di 3 book): EV +11.7%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 5.20 contro probabilità stimata 20.8% (Pinnacle): EV +8.3%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -162,12 +118,192 @@
      "https://the-odds-api.com"
     ],
     [
-     "UFCStats",
-     "http://ufcstats.com/"
+     "Pro Football Reference",
+     "https://www.pro-football-reference.com/"
+    ],
+    [
+     "ESPN injuries",
+     "https://www.espn.com/nfl/injuries"
     ]
    ],
-   "home": "Patrick Habirora",
-   "away": "Omar El Dafrawy",
+   "home": "Arizona Cardinals",
+   "away": "Los Angeles Rams",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "f8334b355cf9346d423fa9eb93b425f0",
+   "league": "NBA",
+   "match": "Sacramento Kings – Oklahoma City Thunder",
+   "time": "2026-11-16T02:10:00Z",
+   "pick": "Sacramento Kings",
+   "odds": 5.1,
+   "book": "Betfair Ex Eu",
+   "p": 21.1,
+   "conf": 32,
+   "probs": [
+    [
+     "Oklahoma City Thunder",
+     79
+    ],
+    [
+     "Sacramento Kings",
+     21
+    ]
+   ],
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 5.10 contro probabilità stimata 21.1% (Pinnacle): EV +7.6%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "NBA Stats",
+     "https://www.nba.com/stats"
+    ],
+    [
+     "ESPN injuries",
+     "https://www.espn.com/nba/injuries"
+    ]
+   ],
+   "home": "Sacramento Kings",
+   "away": "Oklahoma City Thunder",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "488c2bc1e099361f06015cf126f95fd6",
+   "league": "NBA",
+   "match": "Washington Wizards – Houston Rockets",
+   "time": "2026-11-16T00:10:00Z",
+   "pick": "Washington Wizards",
+   "odds": 4.4,
+   "book": "Betonlineag",
+   "p": 24.2,
+   "conf": 32,
+   "probs": [
+    [
+     "Houston Rockets",
+     76
+    ],
+    [
+     "Washington Wizards",
+     24
+    ]
+   ],
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 4.40 contro probabilità stimata 24.2% (Pinnacle): EV +6.4%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "NBA Stats",
+     "https://www.nba.com/stats"
+    ],
+    [
+     "ESPN injuries",
+     "https://www.espn.com/nba/injuries"
+    ]
+   ],
+   "home": "Washington Wizards",
+   "away": "Houston Rockets",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "b5700b4d938fd94429f60d4622cc9c0a",
+   "league": "NFL",
+   "match": "Indianapolis Colts – Miami Dolphins",
+   "time": "2026-11-15T18:00:00Z",
+   "pick": "Miami Dolphins",
+   "odds": 2.98,
+   "book": "Matchbook",
+   "p": 35.1,
+   "conf": 37,
+   "probs": [
+    [
+     "Indianapolis Colts",
+     65
+    ],
+    [
+     "Miami Dolphins",
+     35
+    ]
+   ],
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 2.98 contro probabilità stimata 35.1% (Pinnacle): EV +4.5%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "Pro Football Reference",
+     "https://www.pro-football-reference.com/"
+    ],
+    [
+     "ESPN injuries",
+     "https://www.espn.com/nfl/injuries"
+    ]
+   ],
+   "home": "Indianapolis Colts",
+   "away": "Miami Dolphins",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "f0a77086c85d161afcfc2f275e9e29fa",
+   "league": "Nations League",
+   "match": "Greece – Serbia",
+   "time": "2026-11-16T19:45:00Z",
+   "pick": "Draw",
+   "odds": 5.2,
+   "book": "Betfair Ex Eu",
+   "p": 20.3,
+   "conf": 27,
+   "probs": [
+    [
+     "Greece",
+     66
+    ],
+    [
+     "Draw",
+     20
+    ],
+    [
+     "Serbia",
+     14
+    ]
+   ],
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 5.20 contro probabilità stimata 20.3% (Pinnacle): EV +5.3%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "UEFA",
+     "https://www.uefa.com/uefanationsleague/"
+    ]
+   ],
+   "home": "Greece",
+   "away": "Serbia",
    "logos": [
     null,
     null
@@ -179,10 +315,10 @@
    "match": "Croatia – Czech Republic",
    "time": "2026-11-15T19:45:00Z",
    "pick": "Czech Republic",
-   "odds": 6.0,
-   "book": "Matchbook",
-   "p": 18.1,
-   "conf": 32,
+   "odds": 6.25,
+   "book": "Unibet Se",
+   "p": 16.9,
+   "conf": 24,
    "probs": [
     [
      "Croatia",
@@ -190,15 +326,15 @@
     ],
     [
      "Draw",
-     22
+     23
     ],
     [
      "Czech Republic",
-     18
+     17
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 6.00 contro probabilità stimata 18.1% (Pinnacle): EV +8.7%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 6.25 contro probabilità stimata 16.9% (Pinnacle): EV +5.4%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -223,10 +359,10 @@
    "match": "North Macedonia – Slovenia",
    "time": "2026-11-16T19:45:00Z",
    "pick": "North Macedonia",
-   "odds": 7.2,
+   "odds": 7.0,
    "book": "Betfair Ex Eu",
    "p": 15.0,
-   "conf": 28,
+   "conf": 22,
    "probs": [
     [
      "Slovenia",
@@ -242,7 +378,7 @@
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 7.20 contro probabilità stimata 15.0% (Pinnacle): EV +7.8%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 7.00 contro probabilità stimata 15.0% (Pinnacle): EV +4.8%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -262,207 +398,31 @@
    ]
   },
   {
-   "id": "c745f84500717bc671c4cd864624cca8",
+   "id": "2b656115b7829be9f778b0c011f7d722",
    "league": "Nations League",
-   "match": "Austria – Republic of Ireland",
-   "time": "2026-11-14T19:45:00Z",
-   "pick": "Republic of Ireland",
-   "odds": 6.2,
-   "book": "Betfair Ex Eu",
-   "p": 17.3,
-   "conf": 28,
-   "probs": [
-    [
-     "Austria",
-     58
-    ],
-    [
-     "Draw",
-     24
-    ],
-    [
-     "Republic of Ireland",
-     17
-    ]
-   ],
-   "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 6.20 contro probabilità stimata 17.3% (media di 11 book): EV +7.0%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "UEFA",
-     "https://www.uefa.com/uefanationsleague/"
-    ]
-   ],
-   "home": "Austria",
-   "away": "Republic of Ireland",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "6cb4c8feeadd57aa6ab46ebdee60818a",
-   "league": "NBA",
-   "match": "New Orleans Pelicans – Denver Nuggets",
-   "time": "2026-11-15T00:10:00Z",
-   "pick": "New Orleans Pelicans",
-   "odds": 6.2,
-   "book": "Matchbook",
-   "p": 17.3,
-   "conf": 28,
-   "probs": [
-    [
-     "Denver Nuggets",
-     83
-    ],
-    [
-     "New Orleans Pelicans",
-     17
-    ]
-   ],
-   "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 6.20 contro probabilità stimata 17.3% (Pinnacle): EV +7.3%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "NBA Stats",
-     "https://www.nba.com/stats"
-    ],
-    [
-     "ESPN injuries",
-     "https://www.espn.com/nba/injuries"
-    ]
-   ],
-   "home": "New Orleans Pelicans",
-   "away": "Denver Nuggets",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "8d67c473dbea0c85b30eefee4bca53d9",
-   "league": "Nations League",
-   "match": "Norway – Wales",
-   "time": "2026-11-14T17:00:00Z",
-   "pick": "Draw",
-   "odds": 7.4,
-   "book": "Betfair Ex Eu",
-   "p": 14.5,
-   "conf": 26,
-   "probs": [
-    [
-     "Norway",
-     76
-    ],
-    [
-     "Draw",
-     15
-    ],
-    [
-     "Wales",
-     9
-    ]
-   ],
-   "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 7.40 contro probabilità stimata 14.5% (Pinnacle): EV +7.3%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "UEFA",
-     "https://www.uefa.com/uefanationsleague/"
-    ]
-   ],
-   "home": "Norway",
-   "away": "Wales",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "6c932a965110f3f89ec4a5f1a6ac256e",
-   "league": "NFL",
-   "match": "Arizona Cardinals – Los Angeles Rams",
-   "time": "2026-11-15T21:05:00Z",
-   "pick": "Arizona Cardinals",
-   "odds": 5.0,
-   "book": "Tipico De",
-   "p": 21.2,
-   "conf": 29,
-   "probs": [
-    [
-     "Los Angeles Rams",
-     79
-    ],
-    [
-     "Arizona Cardinals",
-     21
-    ]
-   ],
-   "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 5.00 contro probabilità stimata 21.2% (Pinnacle): EV +6.1%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "Pro Football Reference",
-     "https://www.pro-football-reference.com/"
-    ],
-    [
-     "ESPN injuries",
-     "https://www.espn.com/nfl/injuries"
-    ]
-   ],
-   "home": "Arizona Cardinals",
-   "away": "Los Angeles Rams",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "9cb05a2b01f14b556d7c79f7d060f2b9",
-   "league": "Nations League",
-   "match": "Belgium – Italy",
-   "time": "2026-11-15T19:45:00Z",
-   "pick": "Italy",
-   "odds": 3.3,
+   "match": "Switzerland – Scotland",
+   "time": "2026-11-16T19:45:00Z",
+   "pick": "Scotland",
+   "odds": 5.8,
    "book": "Unibet Se",
-   "p": 31.6,
-   "conf": 34,
+   "p": 18.0,
+   "conf": 23,
    "probs": [
     [
-     "Belgium",
-     43
-    ],
-    [
-     "Italy",
-     32
+     "Switzerland",
+     57
     ],
     [
      "Draw",
      25
+    ],
+    [
+     "Scotland",
+     18
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 3.30 contro probabilità stimata 31.6% (Pinnacle): EV +4.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 5.80 contro probabilità stimata 18.0% (Pinnacle): EV +4.4%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -474,8 +434,96 @@
      "https://www.uefa.com/uefanationsleague/"
     ]
    ],
-   "home": "Belgium",
-   "away": "Italy",
+   "home": "Switzerland",
+   "away": "Scotland",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "beaee55c19760e22fdf6291286debb08",
+   "league": "Nations League",
+   "match": "Latvia – Armenia",
+   "time": "2026-11-15T14:00:00Z",
+   "pick": "Draw",
+   "odds": 3.35,
+   "book": "Unibet Se",
+   "p": 30.8,
+   "conf": 31,
+   "probs": [
+    [
+     "Armenia",
+     40
+    ],
+    [
+     "Draw",
+     31
+    ],
+    [
+     "Latvia",
+     29
+    ]
+   ],
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 3.35 contro probabilità stimata 30.8% (Pinnacle): EV +3.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "UEFA",
+     "https://www.uefa.com/uefanationsleague/"
+    ]
+   ],
+   "home": "Latvia",
+   "away": "Armenia",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "a6c9b424fddccea76aab09880b69dd31",
+   "league": "Nations League",
+   "match": "Republic of Ireland – Kosovo",
+   "time": "2026-11-17T19:45:00Z",
+   "pick": "Kosovo",
+   "odds": 4.25,
+   "book": "Leovegas Se",
+   "p": 24.4,
+   "conf": 26,
+   "probs": [
+    [
+     "Republic of Ireland",
+     46
+    ],
+    [
+     "Draw",
+     29
+    ],
+    [
+     "Kosovo",
+     24
+    ]
+   ],
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 4.25 contro probabilità stimata 24.4% (media di 11 book): EV +3.5%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "UEFA",
+     "https://www.uefa.com/uefanationsleague/"
+    ]
+   ],
+   "home": "Republic of Ireland",
+   "away": "Kosovo",
    "logos": [
     null,
     null
@@ -487,26 +535,26 @@
    "match": "Spain – England",
    "time": "2026-11-15T19:45:00Z",
    "pick": "England",
-   "odds": 4.7,
-   "book": "Unibet Se",
-   "p": 22.3,
-   "conf": 28,
+   "odds": 3.9,
+   "book": "Betfair Ex Eu",
+   "p": 26.3,
+   "conf": 26,
    "probs": [
     [
      "Spain",
-     54
-    ],
-    [
-     "Draw",
-     24
+     49
     ],
     [
      "England",
-     22
+     26
+    ],
+    [
+     "Draw",
+     25
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 4.70 contro probabilità stimata 22.3% (Pinnacle): EV +4.8%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 3.90 contro probabilità stimata 26.3% (Pinnacle): EV +2.6%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -526,31 +574,27 @@
    ]
   },
   {
-   "id": "2b646127cc6cb400abc663c5a458f1db",
-   "league": "Nations League",
-   "match": "Sweden – Bosnia & Herzegovina",
-   "time": "2026-11-14T19:45:00Z",
-   "pick": "Draw",
-   "odds": 4.8,
-   "book": "Betfair Ex Eu",
-   "p": 21.8,
+   "id": "b931a21d34e414ee92b1a4b8e63774aa",
+   "league": "NBA",
+   "match": "Milwaukee Bucks – Atlanta Hawks",
+   "time": "2026-11-16T01:10:00Z",
+   "pick": "Milwaukee Bucks",
+   "odds": 3.6,
+   "book": "Betonlineag",
+   "p": 28.4,
    "conf": 27,
    "probs": [
     [
-     "Sweden",
-     65
+     "Atlanta Hawks",
+     72
     ],
     [
-     "Draw",
-     22
-    ],
-    [
-     "Bosnia & Herzegovina",
-     13
+     "Milwaukee Bucks",
+     28
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 4.80 contro probabilità stimata 21.8% (Pinnacle): EV +4.6%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 3.60 contro probabilità stimata 28.4% (Pinnacle): EV +2.3%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -558,96 +602,16 @@
      "https://the-odds-api.com"
     ],
     [
-     "UEFA",
-     "https://www.uefa.com/uefanationsleague/"
-    ]
-   ],
-   "home": "Sweden",
-   "away": "Bosnia & Herzegovina",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "1057d50949844ddf483da9c8c20354be",
-   "league": "NFL",
-   "match": "New York Jets – Buffalo Bills",
-   "time": "2026-11-15T18:00:00Z",
-   "pick": "New York Jets",
-   "odds": 4.7,
-   "book": "Matchbook",
-   "p": 22.1,
-   "conf": 25,
-   "probs": [
-    [
-     "Buffalo Bills",
-     78
-    ],
-    [
-     "New York Jets",
-     22
-    ]
-   ],
-   "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 4.70 contro probabilità stimata 22.1% (Pinnacle): EV +3.9%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "Pro Football Reference",
-     "https://www.pro-football-reference.com/"
+     "NBA Stats",
+     "https://www.nba.com/stats"
     ],
     [
      "ESPN injuries",
-     "https://www.espn.com/nfl/injuries"
+     "https://www.espn.com/nba/injuries"
     ]
    ],
-   "home": "New York Jets",
-   "away": "Buffalo Bills",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "dca96b5f1b9adde7830680152cd5cbc7",
-   "league": "UFC",
-   "match": "Kayla Harrison – Amanda Nunes",
-   "time": "2026-11-15T03:45:00Z",
-   "pick": "Amanda Nunes",
-   "odds": 2.5,
-   "book": "Coolbet",
-   "p": 41.0,
-   "conf": 38,
-   "probs": [
-    [
-     "Kayla Harrison",
-     59
-    ],
-    [
-     "Amanda Nunes",
-     41
-    ]
-   ],
-   "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 2.50 contro probabilità stimata 41.0% (Pinnacle): EV +2.6%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "UFCStats",
-     "http://ufcstats.com/"
-    ]
-   ],
-   "home": "Kayla Harrison",
-   "away": "Amanda Nunes",
+   "home": "Milwaukee Bucks",
+   "away": "Atlanta Hawks",
    "logos": [
     null,
     null
@@ -666,16 +630,16 @@
    "pick": "Iceland",
    "odds": 1.35,
    "book": "Unibet Se",
-   "p": 72.0,
-   "conf": 52,
+   "p": 73.5,
+   "conf": 57,
    "probs": [
     [
      "Iceland",
-     72
+     73
     ],
     [
      "Draw",
-     18
+     17
     ],
     [
      "Luxembourg",
@@ -683,7 +647,7 @@
     ]
    ],
    "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.35 contro probabilità stimata 72.0% (Pinnacle): EV -2.8%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 1.35 contro probabilità stimata 73.5% (Pinnacle): EV -0.8%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -709,21 +673,21 @@
    "time": "2026-11-15T21:05:00Z",
    "pick": "Seattle Seahawks",
    "odds": 1.38,
-   "book": "Betfair Ex Eu",
-   "p": 71.5,
-   "conf": 54,
+   "book": "Matchbook",
+   "p": 72.0,
+   "conf": 56,
    "probs": [
     [
      "Seattle Seahawks",
-     71
+     72
     ],
     [
      "Las Vegas Raiders",
-     29
+     28
     ]
    ],
    "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.38 contro probabilità stimata 71.5% (Pinnacle): EV -1.4%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 1.38 contro probabilità stimata 72.0% (Pinnacle): EV -0.7%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -747,27 +711,27 @@
    ]
   },
   {
-   "id": "aab7065b18217457721e43f992ea4905",
-   "league": "UFC",
-   "match": "Macy Chiasson – Beatriz Mesquita",
-   "time": "2026-11-14T23:15:00Z",
-   "pick": "Beatriz Mesquita",
-   "odds": 1.43,
-   "book": "Betfair Ex Eu",
-   "p": 68.5,
-   "conf": 51,
+   "id": "b931a21d34e414ee92b1a4b8e63774aa",
+   "league": "NBA",
+   "match": "Milwaukee Bucks – Atlanta Hawks",
+   "time": "2026-11-16T01:10:00Z",
+   "pick": "Atlanta Hawks",
+   "odds": 1.4,
+   "book": "Matchbook",
+   "p": 71.6,
+   "conf": 58,
    "probs": [
     [
-     "Beatriz Mesquita",
-     69
+     "Atlanta Hawks",
+     72
     ],
     [
-     "Macy Chiasson",
-     31
+     "Milwaukee Bucks",
+     28
     ]
    ],
    "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.43 contro probabilità stimata 68.5% (Pinnacle): EV -2.0%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 1.40 contro probabilità stimata 71.6% (Pinnacle): EV +0.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -775,39 +739,43 @@
      "https://the-odds-api.com"
     ],
     [
-     "UFCStats",
-     "http://ufcstats.com/"
+     "NBA Stats",
+     "https://www.nba.com/stats"
+    ],
+    [
+     "ESPN injuries",
+     "https://www.espn.com/nba/injuries"
     ]
    ],
-   "home": "Macy Chiasson",
-   "away": "Beatriz Mesquita",
+   "home": "Milwaukee Bucks",
+   "away": "Atlanta Hawks",
    "logos": [
     null,
     null
    ]
   },
   {
-   "id": "b03b3386b8b858f326edef1b59293dc6",
-   "league": "UFC",
-   "match": "Pouya Rahmani – Oleg Popov",
-   "time": "2026-11-14T18:00:00Z",
-   "pick": "Pouya Rahmani",
-   "odds": 1.4,
-   "book": "Betonlineag",
-   "p": 67.4,
-   "conf": 43,
+   "id": "de475830b5df0d1aae4fcd8f9bbaead9",
+   "league": "NBA",
+   "match": "Philadelphia 76ers – Indiana Pacers",
+   "time": "2026-11-15T18:10:00Z",
+   "pick": "Philadelphia 76ers",
+   "odds": 1.38,
+   "book": "Matchbook",
+   "p": 71.5,
+   "conf": 55,
    "probs": [
     [
-     "Pouya Rahmani",
-     67
+     "Philadelphia 76ers",
+     72
     ],
     [
-     "Oleg Popov",
-     33
+     "Indiana Pacers",
+     28
     ]
    ],
    "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.40 contro probabilità stimata 67.4% (media di 3 book): EV -5.6%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 1.38 contro probabilità stimata 71.5% (Pinnacle): EV -1.3%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -815,12 +783,16 @@
      "https://the-odds-api.com"
     ],
     [
-     "UFCStats",
-     "http://ufcstats.com/"
+     "NBA Stats",
+     "https://www.nba.com/stats"
+    ],
+    [
+     "ESPN injuries",
+     "https://www.espn.com/nba/injuries"
     ]
    ],
-   "home": "Pouya Rahmani",
-   "away": "Oleg Popov",
+   "home": "Philadelphia 76ers",
+   "away": "Indiana Pacers",
    "logos": [
     null,
     null
@@ -832,10 +804,10 @@
    "match": "Cleveland Browns – Houston Texans",
    "time": "2026-11-15T18:00:00Z",
    "pick": "Houston Texans",
-   "odds": 1.47,
-   "book": "Matchbook",
-   "p": 67.2,
-   "conf": 51,
+   "odds": 1.5,
+   "book": "Marathonbet",
+   "p": 66.9,
+   "conf": 54,
    "probs": [
     [
      "Houston Texans",
@@ -847,7 +819,7 @@
     ]
    ],
    "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.47 contro probabilità stimata 67.2% (Pinnacle): EV -1.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 1.50 contro probabilità stimata 66.9% (Pinnacle): EV +0.3%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -871,27 +843,31 @@
    ]
   },
   {
-   "id": "3b0d88061cf6613291e6ae4a608c9ca9",
-   "league": "UFC",
-   "match": "Jim Miller – Terrance Mckinney",
-   "time": "2026-11-15T00:45:00Z",
-   "pick": "Terrance Mckinney",
-   "odds": 1.51,
+   "id": "955a201ba2266b8b6b0519e0265eb354",
+   "league": "Nations League",
+   "match": "Wales – Portugal",
+   "time": "2026-11-17T19:45:00Z",
+   "pick": "Portugal",
+   "odds": 1.48,
    "book": "Betfair Ex Eu",
-   "p": 66.1,
-   "conf": 53,
+   "p": 66.4,
+   "conf": 50,
    "probs": [
     [
-     "Terrance Mckinney",
+     "Portugal",
      66
     ],
     [
-     "Jim Miller",
-     34
+     "Draw",
+     19
+    ],
+    [
+     "Wales",
+     14
     ]
    ],
    "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.51 contro probabilità stimata 66.1% (Pinnacle): EV -0.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 1.48 contro probabilità stimata 66.4% (Pinnacle): EV -1.7%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -899,12 +875,56 @@
      "https://the-odds-api.com"
     ],
     [
-     "UFCStats",
-     "http://ufcstats.com/"
+     "UEFA",
+     "https://www.uefa.com/uefanationsleague/"
     ]
    ],
-   "home": "Jim Miller",
-   "away": "Terrance Mckinney",
+   "home": "Wales",
+   "away": "Portugal",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "f0a77086c85d161afcfc2f275e9e29fa",
+   "league": "Nations League",
+   "match": "Greece – Serbia",
+   "time": "2026-11-16T19:45:00Z",
+   "pick": "Greece",
+   "odds": 1.49,
+   "book": "Onexbet",
+   "p": 65.9,
+   "conf": 49,
+   "probs": [
+    [
+     "Greece",
+     66
+    ],
+    [
+     "Draw",
+     20
+    ],
+    [
+     "Serbia",
+     14
+    ]
+   ],
+   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
+   "insight": "Quota migliore 1.49 contro probabilità stimata 65.9% (Pinnacle): EV -1.9%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "UEFA",
+     "https://www.uefa.com/uefanationsleague/"
+    ]
+   ],
+   "home": "Greece",
+   "away": "Serbia",
    "logos": [
     null,
     null
@@ -916,10 +936,10 @@
    "match": "Baltimore Ravens – Los Angeles Chargers",
    "time": "2026-11-17T01:15:00Z",
    "pick": "Baltimore Ravens",
-   "odds": 1.49,
+   "odds": 1.5,
    "book": "Betfair Ex Eu",
    "p": 65.8,
-   "conf": 49,
+   "conf": 50,
    "probs": [
     [
      "Baltimore Ravens",
@@ -931,7 +951,7 @@
     ]
    ],
    "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.49 contro probabilità stimata 65.8% (Pinnacle): EV -1.9%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 1.50 contro probabilità stimata 65.8% (Pinnacle): EV -1.3%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -955,27 +975,27 @@
    ]
   },
   {
-   "id": "dd9074fe98d83dd01a962ca4abe9b9d6",
-   "league": "UFC",
-   "match": "Donte Johnson – Cesar Almeida",
-   "time": "2026-11-15T00:15:00Z",
-   "pick": "Donte Johnson",
-   "odds": 1.52,
-   "book": "Betsson",
-   "p": 65.8,
+   "id": "7627192fd89b05120ab6c712aa23fd81",
+   "league": "NFL",
+   "match": "Dallas Cowboys – San Francisco 49ers",
+   "time": "2026-11-15T21:25:00Z",
+   "pick": "San Francisco 49ers",
+   "odds": 1.53,
+   "book": "Matchbook",
+   "p": 65.5,
    "conf": 53,
    "probs": [
     [
-     "Donte Johnson",
+     "San Francisco 49ers",
      66
     ],
     [
-     "Cesar Almeida",
+     "Dallas Cowboys",
      34
     ]
    ],
    "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.52 contro probabilità stimata 65.8% (Pinnacle): EV +0.0%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 1.53 contro probabilità stimata 65.5% (Pinnacle): EV +0.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -983,96 +1003,16 @@
      "https://the-odds-api.com"
     ],
     [
-     "UFCStats",
-     "http://ufcstats.com/"
-    ]
-   ],
-   "home": "Donte Johnson",
-   "away": "Cesar Almeida",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "5298300e656df1b89af9e3524867ccbe",
-   "league": "UFC",
-   "match": "Ciryl Gane – Josh Hokit",
-   "time": "2026-11-15T04:30:00Z",
-   "pick": "Ciryl Gane",
-   "odds": 1.52,
-   "book": "Betonlineag",
-   "p": 65.7,
-   "conf": 52,
-   "probs": [
-    [
-     "Ciryl Gane",
-     66
+     "Pro Football Reference",
+     "https://www.pro-football-reference.com/"
     ],
     [
-     "Josh Hokit",
-     34
+     "ESPN injuries",
+     "https://www.espn.com/nfl/injuries"
     ]
    ],
-   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.52 contro probabilità stimata 65.7% (Pinnacle): EV -0.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "UFCStats",
-     "http://ufcstats.com/"
-    ]
-   ],
-   "home": "Ciryl Gane",
-   "away": "Josh Hokit",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "f0a77086c85d161afcfc2f275e9e29fa",
-   "league": "Nations League",
-   "match": "Greece – Serbia",
-   "time": "2026-11-16T19:45:00Z",
-   "pick": "Greece",
-   "odds": 1.49,
-   "book": "Onexbet",
-   "p": 65.4,
-   "conf": 47,
-   "probs": [
-    [
-     "Greece",
-     65
-    ],
-    [
-     "Draw",
-     20
-    ],
-    [
-     "Serbia",
-     14
-    ]
-   ],
-   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.49 contro probabilità stimata 65.4% (Pinnacle): EV -2.6%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "UEFA",
-     "https://www.uefa.com/uefanationsleague/"
-    ]
-   ],
-   "home": "Greece",
-   "away": "Serbia",
+   "home": "Dallas Cowboys",
+   "away": "San Francisco 49ers",
    "logos": [
     null,
     null
@@ -1084,10 +1024,10 @@
    "match": "Indianapolis Colts – Miami Dolphins",
    "time": "2026-11-15T18:00:00Z",
    "pick": "Indianapolis Colts",
-   "odds": 1.51,
-   "book": "Matchbook",
-   "p": 65.1,
-   "conf": 49,
+   "odds": 1.49,
+   "book": "Betonlineag",
+   "p": 64.9,
+   "conf": 45,
    "probs": [
     [
      "Indianapolis Colts",
@@ -1099,7 +1039,7 @@
     ]
    ],
    "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.51 contro probabilità stimata 65.1% (Pinnacle): EV -1.7%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 1.49 contro probabilità stimata 64.9% (Pinnacle): EV -3.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -1123,31 +1063,31 @@
    ]
   },
   {
-   "id": "2b646127cc6cb400abc663c5a458f1db",
+   "id": "f0a93cd3f73adad3a27da716b533a3e3",
    "league": "Nations League",
-   "match": "Sweden – Bosnia & Herzegovina",
-   "time": "2026-11-14T19:45:00Z",
-   "pick": "Sweden",
+   "match": "Gibraltar – Malta",
+   "time": "2026-11-16T19:45:00Z",
+   "pick": "Malta",
    "odds": 1.49,
-   "book": "Betfair Ex Eu",
-   "p": 64.9,
-   "conf": 45,
+   "book": "Onexbet",
+   "p": 63.4,
+   "conf": 40,
    "probs": [
     [
-     "Sweden",
-     65
+     "Malta",
+     63
     ],
     [
      "Draw",
-     22
+     24
     ],
     [
-     "Bosnia & Herzegovina",
+     "Gibraltar",
      13
     ]
    ],
    "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.49 contro probabilità stimata 64.9% (Pinnacle): EV -3.3%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 1.49 contro probabilità stimata 63.4% (Pinnacle): EV -5.6%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -1159,8 +1099,52 @@
      "https://www.uefa.com/uefanationsleague/"
     ]
    ],
-   "home": "Sweden",
-   "away": "Bosnia & Herzegovina",
+   "home": "Gibraltar",
+   "away": "Malta",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "48e497c230e6c9afcb3b600091d28e17",
+   "league": "NFL",
+   "match": "Cincinnati Bengals – Pittsburgh Steelers",
+   "time": "2026-11-16T01:20:00Z",
+   "pick": "Cincinnati Bengals",
+   "odds": 1.57,
+   "book": "Matchbook",
+   "p": 62.9,
+   "conf": 48,
+   "probs": [
+    [
+     "Cincinnati Bengals",
+     63
+    ],
+    [
+     "Pittsburgh Steelers",
+     37
+    ]
+   ],
+   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
+   "insight": "Quota migliore 1.57 contro probabilità stimata 62.9% (Pinnacle): EV -1.3%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "Pro Football Reference",
+     "https://www.pro-football-reference.com/"
+    ],
+    [
+     "ESPN injuries",
+     "https://www.espn.com/nfl/injuries"
+    ]
+   ],
+   "home": "Cincinnati Bengals",
+   "away": "Pittsburgh Steelers",
    "logos": [
     null,
     null
