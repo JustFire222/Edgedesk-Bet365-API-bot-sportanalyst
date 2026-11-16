@@ -310,5 +310,29 @@
   "odds_taken": 3.0,
   "taken_at": "2026-11-16T09:28:55Z",
   "commence_time": "2026-11-17T01:15:00Z"
+ },
+ {
+  "id": "916289ed44f8362ac93035147b7c7fce|h2h|Bulgaria|None",
+  "event_id": "916289ed44f8362ac93035147b7c7fce",
+  "sport_key": "soccer_uefa_nations_league",
+  "label": "Estonia – Bulgaria",
+  "market": "h2h",
+  "selection": "Bulgaria",
+  "point": null,
+  "odds_taken": 4.0,
+  "taken_at": "2026-11-16T16:28:44Z",
+  "commence_time": "2026-11-16T17:00:00Z"
+ },
+ {
+  "id": "aab74efad72e8096e774c7104189ff09|h2h|Sweden|None",
+  "event_id": "aab74efad72e8096e774c7104189ff09",
+  "sport_key": "soccer_uefa_nations_league",
+  "label": "Poland – Sweden",
+  "market": "h2h",
+  "selection": "Sweden",
+  "point": null,
+  "odds_taken": 3.12,
+  "taken_at": "2026-11-16T16:28:44Z",
+  "commence_time": "2026-11-17T19:45:00Z"
  }
 ]

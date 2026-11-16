@@ -284,5 +284,27 @@
   "p": 34.0,
   "conf": 31,
   "time": "2026-11-17T01:15:00Z"
+ },
+ {
+  "id": "916289ed44f8362ac93035147b7c7fce",
+  "ts": "2026-11-16T16:28:43.879728+00:00",
+  "match": "Estonia – Bulgaria",
+  "league": "Nations League",
+  "pick": "Bulgaria",
+  "odds": 4.0,
+  "p": 26.1,
+  "conf": 30,
+  "time": "2026-11-16T17:00:00Z"
+ },
+ {
+  "id": "aab74efad72e8096e774c7104189ff09",
+  "ts": "2026-11-16T16:28:43.879728+00:00",
+  "match": "Poland – Sweden",
+  "league": "Nations League",
+  "pick": "Sweden",
+  "odds": 3.12,
+  "p": 32.9,
+  "conf": 32,
+  "time": "2026-11-17T19:45:00Z"
  }
 ]
