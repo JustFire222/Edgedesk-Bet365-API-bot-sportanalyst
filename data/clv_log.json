@@ -238,5 +238,77 @@
   "odds_taken": 3.5,
   "taken_at": "2026-11-15T15:25:57Z",
   "commence_time": "2026-11-15T21:05:00Z"
+ },
+ {
+  "id": "7c2ac54a119f461bf8fc1a23da536f29|h2h|Orlando Magic|None",
+  "event_id": "7c2ac54a119f461bf8fc1a23da536f29",
+  "sport_key": "basketball_nba",
+  "label": "Boston Celtics – Orlando Magic",
+  "market": "h2h",
+  "selection": "Orlando Magic",
+  "point": null,
+  "odds_taken": 4.2,
+  "taken_at": "2026-11-16T09:28:55Z",
+  "commence_time": "2026-11-17T00:10:00Z"
+ },
+ {
+  "id": "efd4d1a289cc2aca91d30116e3629d1f|h2h|Brooklyn Nets|None",
+  "event_id": "efd4d1a289cc2aca91d30116e3629d1f",
+  "sport_key": "basketball_nba",
+  "label": "Brooklyn Nets – Philadelphia 76ers",
+  "market": "h2h",
+  "selection": "Brooklyn Nets",
+  "point": null,
+  "odds_taken": 3.2,
+  "taken_at": "2026-11-16T09:28:55Z",
+  "commence_time": "2026-11-17T00:40:00Z"
+ },
+ {
+  "id": "c2c9d9729305c19d4a453f92c83feae8|h2h|Phoenix Suns|None",
+  "event_id": "c2c9d9729305c19d4a453f92c83feae8",
+  "sport_key": "basketball_nba",
+  "label": "Denver Nuggets – Phoenix Suns",
+  "market": "h2h",
+  "selection": "Phoenix Suns",
+  "point": null,
+  "odds_taken": 4.8,
+  "taken_at": "2026-11-16T09:28:55Z",
+  "commence_time": "2026-11-17T02:10:00Z"
+ },
+ {
+  "id": "ac7d106a75439c4ad8a33b2668bd68df|h2h|Draw|None",
+  "event_id": "ac7d106a75439c4ad8a33b2668bd68df",
+  "sport_key": "soccer_uefa_nations_league",
+  "label": "Iceland – Luxembourg",
+  "market": "h2h",
+  "selection": "Draw",
+  "point": null,
+  "odds_taken": 7.0,
+  "taken_at": "2026-11-16T09:28:55Z",
+  "commence_time": "2026-11-16T17:00:00Z"
+ },
+ {
+  "id": "39dbdb7fdc78bd01ceac2fc7048bc1fd|h2h|Chicago Bulls|None",
+  "event_id": "39dbdb7fdc78bd01ceac2fc7048bc1fd",
+  "sport_key": "basketball_nba",
+  "label": "Cleveland Cavaliers – Chicago Bulls",
+  "market": "h2h",
+  "selection": "Chicago Bulls",
+  "point": null,
+  "odds_taken": 4.2,
+  "taken_at": "2026-11-16T09:28:55Z",
+  "commence_time": "2026-11-17T00:10:00Z"
+ },
+ {
+  "id": "35e3bdff558b5d1506251e814986f164|h2h|Los Angeles Chargers|None",
+  "event_id": "35e3bdff558b5d1506251e814986f164",
+  "sport_key": "americanfootball_nfl",
+  "label": "Baltimore Ravens – Los Angeles Chargers",
+  "market": "h2h",
+  "selection": "Los Angeles Chargers",
+  "point": null,
+  "odds_taken": 3.0,
+  "taken_at": "2026-11-16T09:28:55Z",
+  "commence_time": "2026-11-17T01:15:00Z"
  }
 ]
