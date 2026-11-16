@@ -88,5 +88,15 @@
  },
  "f0a77086c85d161afcfc2f275e9e29fa|h2h|Draw|None": {
   "status": "no_close"
+ },
+ "7c2ac54a119f461bf8fc1a23da536f29|h2h|Orlando Magic|None": {
+  "close_prob": 0.23827,
+  "close_odds": 4.197,
+  "snap_at": "2026-11-16T23:45:31Z"
+ },
+ "39dbdb7fdc78bd01ceac2fc7048bc1fd|h2h|Chicago Bulls|None": {
+  "close_prob": 0.25292,
+  "close_odds": 3.954,
+  "snap_at": "2026-11-16T23:45:31Z"
  }
 }
