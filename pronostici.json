@@ -1,35 +1,83 @@
 {
- "updated": "2026-11-17T08:06:32.218444+00:00",
+ "updated": "2026-11-17T15:40:18.778620+00:00",
  "picks": [
   {
-   "id": "e71a4a4fea03d00873c285c5b55a9864",
+   "id": "69f0b70d1185e537c5ae4be43ebf2c9f",
    "market": "h2h",
-   "selection": "Israel",
+   "selection": "Detroit Pistons",
    "point": null,
-   "league": "Nations League",
-   "match": "Israel – Austria",
-   "time": "2026-11-17T19:45:00Z",
-   "pick": "Israel",
+   "league": "NBA",
+   "match": "San Antonio Spurs – Detroit Pistons",
+   "time": "2026-11-18T01:10:00Z",
+   "pick": "Detroit Pistons",
    "odds": 4.6,
-   "book": "Unibet Se",
-   "p": 23.6,
-   "conf": 36,
+   "book": "Matchbook",
+   "p": 22.8,
+   "conf": 28,
    "probs": [
     [
-     "Austria",
-     52
+     "San Antonio Spurs",
+     77
     ],
     [
-     "Draw",
-     24
-    ],
-    [
-     "Israel",
-     24
+     "Detroit Pistons",
+     23
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 4.60 contro probabilità stimata 23.6% (Pinnacle): EV +8.5%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 4.60 contro probabilità stimata 22.8% (Pinnacle): EV +4.8%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "NBA Stats",
+     "https://www.nba.com/stats"
+    ],
+    [
+     "ESPN injuries",
+     "https://www.espn.com/nba/injuries"
+    ]
+   ],
+   "home": "San Antonio Spurs",
+   "away": "Detroit Pistons",
+   "sport_key": "basketball_nba",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "a6c9b424fddccea76aab09880b69dd31",
+   "market": "h2h",
+   "selection": "Republic of Ireland",
+   "point": null,
+   "league": "Nations League",
+   "match": "Republic of Ireland – Kosovo",
+   "time": "2026-11-17T19:45:00Z",
+   "pick": "Republic of Ireland",
+   "odds": 2.07,
+   "book": "Onexbet",
+   "p": 49.6,
+   "conf": 45,
+   "probs": [
+    [
+     "Republic of Ireland",
+     50
+    ],
+    [
+     "Draw",
+     29
+    ],
+    [
+     "Kosovo",
+     22
+    ]
+   ],
+   "strategy": "Singola a stake ridotto o gamba di combo.",
+   "insight": "Quota migliore 2.07 contro probabilità stimata 49.6% (Pinnacle): EV +2.7%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -41,8 +89,8 @@
      "https://www.uefa.com/uefanationsleague/"
     ]
    ],
-   "home": "Israel",
-   "away": "Austria",
+   "home": "Republic of Ireland",
+   "away": "Kosovo",
    "sport_key": "soccer_uefa_nations_league",
    "logos": [
     null,
@@ -50,26 +98,26 @@
    ]
   },
   {
-   "id": "770e80269ec2ffddc826bc50330c475b",
+   "id": "aab74efad72e8096e774c7104189ff09",
    "market": "h2h",
-   "selection": "Denmark",
+   "selection": "Poland",
    "point": null,
    "league": "Nations League",
-   "match": "Denmark – Norway",
+   "match": "Poland – Sweden",
    "time": "2026-11-17T19:45:00Z",
-   "pick": "Denmark",
-   "odds": 2.5,
-   "book": "Matchbook",
-   "p": 41.6,
+   "pick": "Poland",
+   "odds": 2.28,
+   "book": "Unibet Se",
+   "p": 44.9,
    "conf": 41,
    "probs": [
     [
-     "Denmark",
-     42
+     "Poland",
+     45
     ],
     [
-     "Norway",
-     35
+     "Sweden",
+     31
     ],
     [
      "Draw",
@@ -77,7 +125,7 @@
     ]
    ],
    "strategy": "Singola a stake ridotto o gamba di combo.",
-   "insight": "Quota migliore 2.50 contro probabilità stimata 41.6% (Pinnacle): EV +4.0%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 2.28 contro probabilità stimata 44.9% (Pinnacle): EV +2.4%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -89,16 +137,74 @@
      "https://www.uefa.com/uefanationsleague/"
     ]
    ],
-   "home": "Denmark",
-   "away": "Norway",
+   "home": "Poland",
+   "away": "Sweden",
    "sport_key": "soccer_uefa_nations_league",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "66f9e83cf025d58acee12bce18661fb3",
+   "market": "h2h",
+   "selection": "Indianapolis Colts",
+   "point": null,
+   "league": "NFL",
+   "match": "Houston Texans – Indianapolis Colts",
+   "time": "2026-11-20T01:15:00Z",
+   "pick": "Indianapolis Colts",
+   "odds": 6.6,
+   "book": "Matchbook",
+   "p": 15.5,
+   "conf": 17,
+   "probs": [
+    [
+     "Houston Texans",
+     85
+    ],
+    [
+     "Indianapolis Colts",
+     15
+    ]
+   ],
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 6.60 contro probabilità stimata 15.5% (Pinnacle): EV +2.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "Pro Football Reference",
+     "https://www.pro-football-reference.com/"
+    ],
+    [
+     "ESPN injuries",
+     "https://www.espn.com/nfl/injuries"
+    ]
+   ],
+   "home": "Houston Texans",
+   "away": "Indianapolis Colts",
+   "sport_key": "americanfootball_nfl",
    "logos": [
     null,
     null
    ]
   }
  ],
- "combos": [],
+ "combos": [
+  {
+   "t": "Doppia a basso rischio",
+   "legs": [
+    "a6c9b424fddccea76aab09880b69dd31",
+    "aab74efad72e8096e774c7104189ff09"
+   ],
+   "odds": 4.72,
+   "note": "Le due giocate con confidenza più alta, eventi diversi."
+  }
+ ],
  "boosts": [],
  "partite": [],
  "favoriti": [
@@ -113,20 +219,20 @@
    "pick": "Los Angeles Lakers",
    "odds": 1.36,
    "book": "Matchbook",
-   "p": 73.5,
-   "conf": 59,
+   "p": 72.6,
+   "conf": 56,
    "probs": [
     [
      "Los Angeles Lakers",
-     74
+     73
     ],
     [
      "Charlotte Hornets",
-     26
+     27
     ]
    ],
    "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.36 contro probabilità stimata 73.5% (Pinnacle): EV +0.0%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 1.36 contro probabilità stimata 72.6% (Pinnacle): EV -1.3%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -159,22 +265,22 @@
    "match": "Los Angeles Clippers – Utah Jazz",
    "time": "2026-11-18T03:40:00Z",
    "pick": "Los Angeles Clippers",
-   "odds": 1.44,
+   "odds": 1.46,
    "book": "Matchbook",
-   "p": 68.6,
-   "conf": 52,
+   "p": 68.0,
+   "conf": 53,
    "probs": [
     [
      "Los Angeles Clippers",
-     69
+     68
     ],
     [
      "Utah Jazz",
-     31
+     32
     ]
    ],
    "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.44 contro probabilità stimata 68.6% (Pinnacle): EV -1.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 1.46 contro probabilità stimata 68.0% (Pinnacle): EV -0.7%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -207,10 +313,10 @@
    "match": "Wales – Portugal",
    "time": "2026-11-17T19:45:00Z",
    "pick": "Portugal",
-   "odds": 1.45,
-   "book": "Matchbook",
-   "p": 67.6,
-   "conf": 50,
+   "odds": 1.44,
+   "book": "Betfair Ex Eu",
+   "p": 67.7,
+   "conf": 49,
    "probs": [
     [
      "Portugal",
@@ -218,7 +324,7 @@
     ],
     [
      "Draw",
-     19
+     18
     ],
     [
      "Wales",
@@ -226,7 +332,7 @@
     ]
    ],
    "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.45 contro probabilità stimata 67.6% (Pinnacle): EV -1.9%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 1.44 contro probabilità stimata 67.7% (Pinnacle): EV -2.5%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [

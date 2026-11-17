@@ -346,5 +346,53 @@
   "odds_taken": 2.5,
   "taken_at": "2026-11-17T08:06:33Z",
   "commence_time": "2026-11-17T19:45:00Z"
+ },
+ {
+  "id": "69f0b70d1185e537c5ae4be43ebf2c9f|h2h|Detroit Pistons|None",
+  "event_id": "69f0b70d1185e537c5ae4be43ebf2c9f",
+  "sport_key": "basketball_nba",
+  "label": "San Antonio Spurs – Detroit Pistons",
+  "market": "h2h",
+  "selection": "Detroit Pistons",
+  "point": null,
+  "odds_taken": 4.6,
+  "taken_at": "2026-11-17T15:40:19Z",
+  "commence_time": "2026-11-18T01:10:00Z"
+ },
+ {
+  "id": "a6c9b424fddccea76aab09880b69dd31|h2h|Republic of Ireland|None",
+  "event_id": "a6c9b424fddccea76aab09880b69dd31",
+  "sport_key": "soccer_uefa_nations_league",
+  "label": "Republic of Ireland – Kosovo",
+  "market": "h2h",
+  "selection": "Republic of Ireland",
+  "point": null,
+  "odds_taken": 2.07,
+  "taken_at": "2026-11-17T15:40:19Z",
+  "commence_time": "2026-11-17T19:45:00Z"
+ },
+ {
+  "id": "aab74efad72e8096e774c7104189ff09|h2h|Poland|None",
+  "event_id": "aab74efad72e8096e774c7104189ff09",
+  "sport_key": "soccer_uefa_nations_league",
+  "label": "Poland – Sweden",
+  "market": "h2h",
+  "selection": "Poland",
+  "point": null,
+  "odds_taken": 2.28,
+  "taken_at": "2026-11-17T15:40:19Z",
+  "commence_time": "2026-11-17T19:45:00Z"
+ },
+ {
+  "id": "66f9e83cf025d58acee12bce18661fb3|h2h|Indianapolis Colts|None",
+  "event_id": "66f9e83cf025d58acee12bce18661fb3",
+  "sport_key": "americanfootball_nfl",
+  "label": "Houston Texans – Indianapolis Colts",
+  "market": "h2h",
+  "selection": "Indianapolis Colts",
+  "point": null,
+  "odds_taken": 6.6,
+  "taken_at": "2026-11-17T15:40:19Z",
+  "commence_time": "2026-11-20T01:15:00Z"
  }
 ]
