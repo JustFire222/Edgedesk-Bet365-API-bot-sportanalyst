@@ -123,41 +123,57 @@
  "3eb1d15a190bb1be8c32a020365dc7c2|h2h|Romania|None": {
   "close_prob": 0.28141,
   "close_odds": 3.554,
-  "snap_at": "2026-11-17T19:17:57Z"
+  "snap_at": "2026-11-17T19:17:57Z",
+  "clv": 29.45,
+  "status": "closed"
  },
  "a6c9b424fddccea76aab09880b69dd31|h2h|Kosovo|None": {
   "close_prob": 0.24188,
   "close_odds": 4.134,
-  "snap_at": "2026-11-17T19:17:57Z"
+  "snap_at": "2026-11-17T19:17:57Z",
+  "clv": 2.8,
+  "status": "closed"
  },
  "e71a4a4fea03d00873c285c5b55a9864|h2h|Israel|None": {
   "close_prob": 0.22228,
   "close_odds": 4.499,
-  "snap_at": "2026-11-17T19:17:57Z"
+  "snap_at": "2026-11-17T19:17:57Z",
+  "clv": 15.59,
+  "status": "closed"
  },
  "1a07e9080f042594bdb529ab932d680c|h2h|Northern Ireland|None": {
   "close_prob": 0.23086,
   "close_odds": 4.332,
-  "snap_at": "2026-11-17T19:17:57Z"
+  "snap_at": "2026-11-17T19:17:57Z",
+  "clv": 6.2,
+  "status": "closed"
  },
  "aab74efad72e8096e774c7104189ff09|h2h|Sweden|None": {
   "close_prob": 0.30194,
   "close_odds": 3.312,
-  "snap_at": "2026-11-17T19:17:57Z"
+  "snap_at": "2026-11-17T19:17:57Z",
+  "clv": -5.79,
+  "status": "closed"
  },
  "770e80269ec2ffddc826bc50330c475b|h2h|Denmark|None": {
   "close_prob": 0.37321,
   "close_odds": 2.679,
-  "snap_at": "2026-11-17T19:17:57Z"
+  "snap_at": "2026-11-17T19:17:57Z",
+  "clv": -6.7,
+  "status": "closed"
  },
  "a6c9b424fddccea76aab09880b69dd31|h2h|Republic of Ireland|None": {
   "close_prob": 0.45968,
   "close_odds": 2.175,
-  "snap_at": "2026-11-17T19:17:57Z"
+  "snap_at": "2026-11-17T19:17:57Z",
+  "clv": -4.85,
+  "status": "closed"
  },
  "aab74efad72e8096e774c7104189ff09|h2h|Poland|None": {
   "close_prob": 0.45081,
   "close_odds": 2.218,
-  "snap_at": "2026-11-17T19:17:57Z"
+  "snap_at": "2026-11-17T19:17:57Z",
+  "clv": 2.78,
+  "status": "closed"
  }
 }
