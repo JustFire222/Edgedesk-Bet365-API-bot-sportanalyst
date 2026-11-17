@@ -106,6 +106,13 @@
  "efd4d1a289cc2aca91d30116e3629d1f|h2h|Brooklyn Nets|None": {
   "close_prob": 0.32805,
   "close_odds": 3.048,
-  "snap_at": "2026-11-17T00:26:35Z"
+  "snap_at": "2026-11-17T00:26:35Z",
+  "clv": 4.98,
+  "status": "closed"
+ },
+ "c2c9d9729305c19d4a453f92c83feae8|h2h|Phoenix Suns|None": {
+  "close_prob": 0.2164,
+  "close_odds": 4.621,
+  "snap_at": "2026-11-17T01:43:08Z"
  }
 }
