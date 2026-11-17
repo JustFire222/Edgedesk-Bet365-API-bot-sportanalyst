@@ -334,5 +334,17 @@
   "odds_taken": 3.12,
   "taken_at": "2026-11-16T16:28:44Z",
   "commence_time": "2026-11-17T19:45:00Z"
+ },
+ {
+  "id": "770e80269ec2ffddc826bc50330c475b|h2h|Denmark|None",
+  "event_id": "770e80269ec2ffddc826bc50330c475b",
+  "sport_key": "soccer_uefa_nations_league",
+  "label": "Denmark – Norway",
+  "market": "h2h",
+  "selection": "Denmark",
+  "point": null,
+  "odds_taken": 2.5,
+  "taken_at": "2026-11-17T08:06:33Z",
+  "commence_time": "2026-11-17T19:45:00Z"
  }
 ]
