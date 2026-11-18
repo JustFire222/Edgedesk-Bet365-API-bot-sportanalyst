@@ -361,5 +361,16 @@
   "p": 28.9,
   "conf": 31,
   "time": "2026-11-19T00:10:00Z"
+ },
+ {
+  "id": "e0d8f7b450122679865f9a80b048908b",
+  "ts": "2026-11-18T15:44:47.121828+00:00",
+  "match": "Oklahoma City Thunder – Atlanta Hawks",
+  "league": "NBA",
+  "pick": "Atlanta Hawks",
+  "odds": 3.3,
+  "p": 31.1,
+  "conf": 30,
+  "time": "2026-11-19T01:10:00Z"
  }
 ]

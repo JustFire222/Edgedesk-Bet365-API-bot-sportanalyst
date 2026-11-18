@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T08:04:09.150532+00:00",
+ "updated": "2026-11-18T15:44:47.121828+00:00",
  "picks": [
   {
    "id": "b609888ea766ac28cd0e84f315d8f3d2",
@@ -10,22 +10,22 @@
    "match": "Miami Heat – Milwaukee Bucks",
    "time": "2026-11-19T00:10:00Z",
    "pick": "Milwaukee Bucks",
-   "odds": 7.2,
-   "book": "Betfair Ex Eu",
-   "p": 14.7,
-   "conf": 23,
+   "odds": 6.6,
+   "book": "Matchbook",
+   "p": 15.8,
+   "conf": 22,
    "probs": [
     [
      "Miami Heat",
-     85
+     84
     ],
     [
      "Milwaukee Bucks",
-     15
+     16
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 7.20 contro probabilità stimata 14.7% (Pinnacle): EV +5.7%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 6.60 contro probabilità stimata 15.8% (Pinnacle): EV +4.5%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -50,179 +50,30 @@
    ]
   },
   {
-   "id": "f9ae24215832bbc1703c9836d0c96751",
-   "market": "h2h",
-   "selection": "Indiana Pacers",
-   "point": null,
-   "league": "NBA",
-   "match": "Indiana Pacers – Houston Rockets",
-   "time": "2026-11-19T00:10:00Z",
-   "pick": "Indiana Pacers",
-   "odds": 3.6,
-   "book": "Matchbook",
-   "p": 28.9,
-   "conf": 31,
-   "probs": [
-    [
-     "Houston Rockets",
-     71
-    ],
-    [
-     "Indiana Pacers",
-     29
-    ]
-   ],
-   "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 3.60 contro probabilità stimata 28.9% (Pinnacle): EV +4.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "NBA Stats",
-     "https://www.nba.com/stats"
-    ],
-    [
-     "ESPN injuries",
-     "https://www.espn.com/nba/injuries"
-    ]
-   ],
-   "home": "Indiana Pacers",
-   "away": "Houston Rockets",
-   "sport_key": "basketball_nba",
-   "logos": [
-    null,
-    null
-   ]
-  }
- ],
- "combos": [],
- "boosts": [],
- "partite": [],
- "favoriti": [
-  {
-   "id": "990b541d0ada46fce07ce8b502cf425c",
-   "market": "h2h",
-   "selection": "Detroit Pistons",
-   "point": null,
-   "league": "NBA",
-   "match": "New Orleans Pelicans – Detroit Pistons",
-   "time": "2026-11-19T01:10:00Z",
-   "pick": "Detroit Pistons",
-   "odds": 1.39,
-   "book": "Matchbook",
-   "p": 71.4,
-   "conf": 56,
-   "probs": [
-    [
-     "Detroit Pistons",
-     71
-    ],
-    [
-     "New Orleans Pelicans",
-     29
-    ]
-   ],
-   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.39 contro probabilità stimata 71.4% (Pinnacle): EV -0.8%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "NBA Stats",
-     "https://www.nba.com/stats"
-    ],
-    [
-     "ESPN injuries",
-     "https://www.espn.com/nba/injuries"
-    ]
-   ],
-   "home": "New Orleans Pelicans",
-   "away": "Detroit Pistons",
-   "sport_key": "basketball_nba",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "f9ae24215832bbc1703c9836d0c96751",
-   "market": "h2h",
-   "selection": "Houston Rockets",
-   "point": null,
-   "league": "NBA",
-   "match": "Indiana Pacers – Houston Rockets",
-   "time": "2026-11-19T00:10:00Z",
-   "pick": "Houston Rockets",
-   "odds": 1.38,
-   "book": "Unibet Se",
-   "p": 71.1,
-   "conf": 53,
-   "probs": [
-    [
-     "Houston Rockets",
-     71
-    ],
-    [
-     "Indiana Pacers",
-     29
-    ]
-   ],
-   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.38 contro probabilità stimata 71.1% (Pinnacle): EV -1.9%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "NBA Stats",
-     "https://www.nba.com/stats"
-    ],
-    [
-     "ESPN injuries",
-     "https://www.espn.com/nba/injuries"
-    ]
-   ],
-   "home": "Indiana Pacers",
-   "away": "Houston Rockets",
-   "sport_key": "basketball_nba",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
    "id": "e0d8f7b450122679865f9a80b048908b",
    "market": "h2h",
-   "selection": "Oklahoma City Thunder",
+   "selection": "Atlanta Hawks",
    "point": null,
    "league": "NBA",
    "match": "Oklahoma City Thunder – Atlanta Hawks",
    "time": "2026-11-19T01:10:00Z",
-   "pick": "Oklahoma City Thunder",
-   "odds": 1.4,
-   "book": "Betonlineag",
-   "p": 70.9,
-   "conf": 55,
+   "pick": "Atlanta Hawks",
+   "odds": 3.3,
+   "book": "Matchbook",
+   "p": 31.1,
+   "conf": 30,
    "probs": [
     [
      "Oklahoma City Thunder",
-     71
+     69
     ],
     [
      "Atlanta Hawks",
-     29
+     31
     ]
    ],
-   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.40 contro probabilità stimata 70.9% (Pinnacle): EV -0.7%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 3.30 contro probabilità stimata 31.1% (Pinnacle): EV +2.5%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -245,32 +96,89 @@
     null,
     null
    ]
-  },
+  }
+ ],
+ "combos": [],
+ "boosts": [],
+ "partite": [],
+ "favoriti": [
   {
-   "id": "4bdafbab228335fd29f62006a4bc932d",
+   "id": "9e8d72c6c27c1667be7b88416a36ca80",
    "market": "h2h",
-   "selection": "Phoenix Suns",
+   "selection": "Como",
    "point": null,
-   "league": "NBA",
-   "match": "Sacramento Kings – Phoenix Suns",
-   "time": "2026-11-19T03:10:00Z",
-   "pick": "Phoenix Suns",
-   "odds": 1.42,
-   "book": "Betfair Ex Eu",
-   "p": 70.1,
-   "conf": 55,
+   "league": "Serie A",
+   "match": "Como – Cagliari",
+   "time": "2026-11-21T14:00:00Z",
+   "pick": "Como",
+   "odds": 1.34,
+   "book": "Onexbet",
+   "p": 73.8,
+   "conf": 57,
    "probs": [
     [
-     "Phoenix Suns",
-     70
+     "Como",
+     74
     ],
     [
-     "Sacramento Kings",
-     30
+     "Draw",
+     16
+    ],
+    [
+     "Cagliari",
+     10
     ]
    ],
    "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.42 contro probabilità stimata 70.1% (Pinnacle): EV -0.5%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 1.34 contro probabilità stimata 73.8% (Pinnacle): EV -1.1%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "FBref",
+     "https://fbref.com/en/comps/11/"
+    ],
+    [
+     "Understat",
+     "https://understat.com/league/Serie_A"
+    ]
+   ],
+   "home": "Como",
+   "away": "Cagliari",
+   "sport_key": "soccer_italy_serie_a",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "f9ae24215832bbc1703c9836d0c96751",
+   "market": "h2h",
+   "selection": "Houston Rockets",
+   "point": null,
+   "league": "NBA",
+   "match": "Indiana Pacers – Houston Rockets",
+   "time": "2026-11-19T00:10:00Z",
+   "pick": "Houston Rockets",
+   "odds": 1.37,
+   "book": "Betfair Ex Eu",
+   "p": 71.8,
+   "conf": 54,
+   "probs": [
+    [
+     "Houston Rockets",
+     72
+    ],
+    [
+     "Indiana Pacers",
+     28
+    ]
+   ],
+   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
+   "insight": "Quota migliore 1.37 contro probabilità stimata 71.8% (Pinnacle): EV -1.6%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -286,9 +194,105 @@
      "https://www.espn.com/nba/injuries"
     ]
    ],
-   "home": "Sacramento Kings",
-   "away": "Phoenix Suns",
+   "home": "Indiana Pacers",
+   "away": "Houston Rockets",
    "sport_key": "basketball_nba",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "6571e7bc729a887110c0869b14c3582c",
+   "market": "h2h",
+   "selection": "Aleksandre Topuria",
+   "point": null,
+   "league": "UFC",
+   "match": "Santiago Luna – Aleksandre Topuria",
+   "time": "2026-11-21T15:00:00Z",
+   "pick": "Aleksandre Topuria",
+   "odds": 1.37,
+   "book": "Betonlineag",
+   "p": 70.6,
+   "conf": 50,
+   "probs": [
+    [
+     "Aleksandre Topuria",
+     71
+    ],
+    [
+     "Santiago Luna",
+     29
+    ]
+   ],
+   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
+   "insight": "Quota migliore 1.37 contro probabilità stimata 70.6% (Pinnacle): EV -3.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "UFCStats",
+     "http://ufcstats.com/"
+    ]
+   ],
+   "home": "Santiago Luna",
+   "away": "Aleksandre Topuria",
+   "sport_key": "mma_mixed_martial_arts",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "bf921a2780e2a25201da8a3bfece84c4",
+   "market": "h2h",
+   "selection": "Lazio",
+   "point": null,
+   "league": "Serie A",
+   "match": "Lazio – Lecce",
+   "time": "2026-11-21T14:00:00Z",
+   "pick": "Lazio",
+   "odds": 1.41,
+   "book": "Betfair Ex Eu",
+   "p": 70.1,
+   "conf": 54,
+   "probs": [
+    [
+     "Lazio",
+     70
+    ],
+    [
+     "Draw",
+     18
+    ],
+    [
+     "Lecce",
+     12
+    ]
+   ],
+   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
+   "insight": "Quota migliore 1.41 contro probabilità stimata 70.1% (Pinnacle): EV -1.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "FBref",
+     "https://fbref.com/en/comps/11/"
+    ],
+    [
+     "Understat",
+     "https://understat.com/league/Serie_A"
+    ]
+   ],
+   "home": "Lazio",
+   "away": "Lecce",
+   "sport_key": "soccer_italy_serie_a",
    "logos": [
     null,
     null
@@ -303,10 +307,10 @@
    "match": "Toronto Raptors – Washington Wizards",
    "time": "2026-11-19T00:40:00Z",
    "pick": "Toronto Raptors",
-   "odds": 1.43,
+   "odds": 1.44,
    "book": "Betfair Ex Eu",
-   "p": 68.6,
-   "conf": 51,
+   "p": 69.5,
+   "conf": 56,
    "probs": [
     [
      "Toronto Raptors",
@@ -318,7 +322,7 @@
     ]
    ],
    "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.43 contro probabilità stimata 68.6% (Pinnacle): EV -1.9%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 1.44 contro probabilità stimata 69.5% (Pinnacle): EV +0.0%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -343,6 +347,194 @@
    ]
   },
   {
+   "id": "990b541d0ada46fce07ce8b502cf425c",
+   "market": "h2h",
+   "selection": "Detroit Pistons",
+   "point": null,
+   "league": "NBA",
+   "match": "New Orleans Pelicans – Detroit Pistons",
+   "time": "2026-11-19T01:10:00Z",
+   "pick": "Detroit Pistons",
+   "odds": 1.42,
+   "book": "Matchbook",
+   "p": 69.5,
+   "conf": 53,
+   "probs": [
+    [
+     "Detroit Pistons",
+     69
+    ],
+    [
+     "New Orleans Pelicans",
+     31
+    ]
+   ],
+   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
+   "insight": "Quota migliore 1.42 contro probabilità stimata 69.5% (Pinnacle): EV -1.3%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "NBA Stats",
+     "https://www.nba.com/stats"
+    ],
+    [
+     "ESPN injuries",
+     "https://www.espn.com/nba/injuries"
+    ]
+   ],
+   "home": "New Orleans Pelicans",
+   "away": "Detroit Pistons",
+   "sport_key": "basketball_nba",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "4bdafbab228335fd29f62006a4bc932d",
+   "market": "h2h",
+   "selection": "Phoenix Suns",
+   "point": null,
+   "league": "NBA",
+   "match": "Sacramento Kings – Phoenix Suns",
+   "time": "2026-11-19T03:10:00Z",
+   "pick": "Phoenix Suns",
+   "odds": 1.42,
+   "book": "Betfair Ex Eu",
+   "p": 69.4,
+   "conf": 53,
+   "probs": [
+    [
+     "Phoenix Suns",
+     69
+    ],
+    [
+     "Sacramento Kings",
+     31
+    ]
+   ],
+   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
+   "insight": "Quota migliore 1.42 contro probabilità stimata 69.4% (Pinnacle): EV -1.4%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "NBA Stats",
+     "https://www.nba.com/stats"
+    ],
+    [
+     "ESPN injuries",
+     "https://www.espn.com/nba/injuries"
+    ]
+   ],
+   "home": "Sacramento Kings",
+   "away": "Phoenix Suns",
+   "sport_key": "basketball_nba",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "e0d8f7b450122679865f9a80b048908b",
+   "market": "h2h",
+   "selection": "Oklahoma City Thunder",
+   "point": null,
+   "league": "NBA",
+   "match": "Oklahoma City Thunder – Atlanta Hawks",
+   "time": "2026-11-19T01:10:00Z",
+   "pick": "Oklahoma City Thunder",
+   "odds": 1.43,
+   "book": "Matchbook",
+   "p": 68.9,
+   "conf": 52,
+   "probs": [
+    [
+     "Oklahoma City Thunder",
+     69
+    ],
+    [
+     "Atlanta Hawks",
+     31
+    ]
+   ],
+   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
+   "insight": "Quota migliore 1.43 contro probabilità stimata 68.9% (Pinnacle): EV -1.4%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "NBA Stats",
+     "https://www.nba.com/stats"
+    ],
+    [
+     "ESPN injuries",
+     "https://www.espn.com/nba/injuries"
+    ]
+   ],
+   "home": "Oklahoma City Thunder",
+   "away": "Atlanta Hawks",
+   "sport_key": "basketball_nba",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "3252a6edf971e56a6d153f473f6b6edd",
+   "market": "h2h",
+   "selection": "Diyar Nurgozhay",
+   "point": null,
+   "league": "UFC",
+   "match": "Alik Lorenz – Diyar Nurgozhay",
+   "time": "2026-11-21T15:35:00Z",
+   "pick": "Diyar Nurgozhay",
+   "odds": 1.43,
+   "book": "Betonlineag",
+   "p": 67.9,
+   "conf": 49,
+   "probs": [
+    [
+     "Diyar Nurgozhay",
+     68
+    ],
+    [
+     "Alik Lorenz",
+     32
+    ]
+   ],
+   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
+   "insight": "Quota migliore 1.43 contro probabilità stimata 67.9% (Pinnacle): EV -2.8%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "UFCStats",
+     "http://ufcstats.com/"
+    ]
+   ],
+   "home": "Alik Lorenz",
+   "away": "Diyar Nurgozhay",
+   "sport_key": "mma_mixed_martial_arts",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
    "id": "6c0ae9cd6ba4762ef0bcf66156d3525e",
    "market": "h2h",
    "selection": "Dallas Mavericks",
@@ -351,22 +543,22 @@
    "match": "Dallas Mavericks – Golden State Warriors",
    "time": "2026-11-19T02:40:00Z",
    "pick": "Dallas Mavericks",
-   "odds": 1.47,
-   "book": "Betfair Ex Eu",
-   "p": 68.2,
-   "conf": 55,
+   "odds": 1.56,
+   "book": "Matchbook",
+   "p": 64.2,
+   "conf": 51,
    "probs": [
     [
      "Dallas Mavericks",
-     68
+     64
     ],
     [
      "Golden State Warriors",
-     32
+     36
     ]
    ],
    "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.47 contro probabilità stimata 68.2% (Pinnacle): EV +0.3%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 1.56 contro probabilità stimata 64.2% (Pinnacle): EV +0.1%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -399,10 +591,10 @@
    "match": "Cleveland Cavaliers – Memphis Grizzlies",
    "time": "2026-11-19T00:10:00Z",
    "pick": "Cleveland Cavaliers",
-   "odds": 1.57,
-   "book": "Matchbook",
-   "p": 63.8,
-   "conf": 51,
+   "odds": 1.56,
+   "book": "Betfair Ex Eu",
+   "p": 63.7,
+   "conf": 50,
    "probs": [
     [
      "Cleveland Cavaliers",
@@ -414,7 +606,7 @@
     ]
    ],
    "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.57 contro probabilità stimata 63.8% (Pinnacle): EV +0.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 1.56 contro probabilità stimata 63.7% (Pinnacle): EV -0.7%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
