@@ -339,5 +339,27 @@
   "p": 15.5,
   "conf": 17,
   "time": "2026-11-20T01:15:00Z"
+ },
+ {
+  "id": "b609888ea766ac28cd0e84f315d8f3d2",
+  "ts": "2026-11-18T08:04:09.150532+00:00",
+  "match": "Miami Heat – Milwaukee Bucks",
+  "league": "NBA",
+  "pick": "Milwaukee Bucks",
+  "odds": 7.2,
+  "p": 14.7,
+  "conf": 23,
+  "time": "2026-11-19T00:10:00Z"
+ },
+ {
+  "id": "f9ae24215832bbc1703c9836d0c96751",
+  "ts": "2026-11-18T08:04:09.150532+00:00",
+  "match": "Indiana Pacers – Houston Rockets",
+  "league": "NBA",
+  "pick": "Indiana Pacers",
+  "odds": 3.6,
+  "p": 28.9,
+  "conf": 31,
+  "time": "2026-11-19T00:10:00Z"
  }
 ]

@@ -394,5 +394,29 @@
   "odds_taken": 6.6,
   "taken_at": "2026-11-17T15:40:19Z",
   "commence_time": "2026-11-20T01:15:00Z"
+ },
+ {
+  "id": "b609888ea766ac28cd0e84f315d8f3d2|h2h|Milwaukee Bucks|None",
+  "event_id": "b609888ea766ac28cd0e84f315d8f3d2",
+  "sport_key": "basketball_nba",
+  "label": "Miami Heat – Milwaukee Bucks",
+  "market": "h2h",
+  "selection": "Milwaukee Bucks",
+  "point": null,
+  "odds_taken": 7.2,
+  "taken_at": "2026-11-18T08:04:09Z",
+  "commence_time": "2026-11-19T00:10:00Z"
+ },
+ {
+  "id": "f9ae24215832bbc1703c9836d0c96751|h2h|Indiana Pacers|None",
+  "event_id": "f9ae24215832bbc1703c9836d0c96751",
+  "sport_key": "basketball_nba",
+  "label": "Indiana Pacers – Houston Rockets",
+  "market": "h2h",
+  "selection": "Indiana Pacers",
+  "point": null,
+  "odds_taken": 3.6,
+  "taken_at": "2026-11-18T08:04:09Z",
+  "commence_time": "2026-11-19T00:10:00Z"
  }
 ]
