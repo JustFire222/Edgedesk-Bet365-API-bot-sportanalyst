@@ -372,5 +372,38 @@
   "p": 31.1,
   "conf": 30,
   "time": "2026-11-19T01:10:00Z"
+ },
+ {
+  "id": "f489c8a46fa7baeab80d1bace1b0f067",
+  "ts": "2026-11-19T08:09:29.139851+00:00",
+  "match": "Jake Matthews – Tahir Abdullayev",
+  "league": "UFC",
+  "pick": "Tahir Abdullayev",
+  "odds": 3.25,
+  "p": 32.1,
+  "conf": 35,
+  "time": "2026-11-21T16:15:00Z"
+ },
+ {
+  "id": "5ee4efd00c1daaebd8249ff44fd6ac9d",
+  "ts": "2026-11-19T08:09:29.139851+00:00",
+  "match": "Minnesota Timberwolves – New York Knicks",
+  "league": "NBA",
+  "pick": "Minnesota Timberwolves",
+  "odds": 2.08,
+  "p": 49.1,
+  "conf": 44,
+  "time": "2026-11-20T01:10:00Z"
+ },
+ {
+  "id": "e59809eb38340e3bca323cef070dfd34",
+  "ts": "2026-11-19T08:09:29.139851+00:00",
+  "match": "Napoli – Torino",
+  "league": "Serie A",
+  "pick": "Torino",
+  "odds": 7.0,
+  "p": 14.7,
+  "conf": 18,
+  "time": "2026-11-21T19:45:00Z"
  }
 ]

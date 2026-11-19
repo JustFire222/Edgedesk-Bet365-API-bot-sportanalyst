@@ -430,5 +430,41 @@
   "odds_taken": 3.3,
   "taken_at": "2026-11-18T15:44:47Z",
   "commence_time": "2026-11-19T01:10:00Z"
+ },
+ {
+  "id": "f489c8a46fa7baeab80d1bace1b0f067|h2h|Tahir Abdullayev|None",
+  "event_id": "f489c8a46fa7baeab80d1bace1b0f067",
+  "sport_key": "mma_mixed_martial_arts",
+  "label": "Jake Matthews – Tahir Abdullayev",
+  "market": "h2h",
+  "selection": "Tahir Abdullayev",
+  "point": null,
+  "odds_taken": 3.25,
+  "taken_at": "2026-11-19T08:09:31Z",
+  "commence_time": "2026-11-21T16:15:00Z"
+ },
+ {
+  "id": "5ee4efd00c1daaebd8249ff44fd6ac9d|h2h|Minnesota Timberwolves|None",
+  "event_id": "5ee4efd00c1daaebd8249ff44fd6ac9d",
+  "sport_key": "basketball_nba",
+  "label": "Minnesota Timberwolves – New York Knicks",
+  "market": "h2h",
+  "selection": "Minnesota Timberwolves",
+  "point": null,
+  "odds_taken": 2.08,
+  "taken_at": "2026-11-19T08:09:31Z",
+  "commence_time": "2026-11-20T01:10:00Z"
+ },
+ {
+  "id": "e59809eb38340e3bca323cef070dfd34|h2h|Torino|None",
+  "event_id": "e59809eb38340e3bca323cef070dfd34",
+  "sport_key": "soccer_italy_serie_a",
+  "label": "Napoli – Torino",
+  "market": "h2h",
+  "selection": "Torino",
+  "point": null,
+  "odds_taken": 7.0,
+  "taken_at": "2026-11-19T08:09:31Z",
+  "commence_time": "2026-11-21T19:45:00Z"
  }
 ]
