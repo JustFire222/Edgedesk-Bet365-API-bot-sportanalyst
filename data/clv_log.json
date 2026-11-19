@@ -466,5 +466,41 @@
   "odds_taken": 7.0,
   "taken_at": "2026-11-19T08:09:31Z",
   "commence_time": "2026-11-21T19:45:00Z"
+ },
+ {
+  "id": "0b6d5a32985b31eda832be4154e10fe5|h2h|Asu Almabaev|None",
+  "event_id": "0b6d5a32985b31eda832be4154e10fe5",
+  "sport_key": "mma_mixed_martial_arts",
+  "label": "Kyoji Horiguchi – Asu Almabaev",
+  "market": "h2h",
+  "selection": "Asu Almabaev",
+  "point": null,
+  "odds_taken": 2.82,
+  "taken_at": "2026-11-19T15:44:50Z",
+  "commence_time": "2026-11-21T18:45:00Z"
+ },
+ {
+  "id": "5bc13c44b33981f3185400163388267e|h2h|Udinese|None",
+  "event_id": "5bc13c44b33981f3185400163388267e",
+  "sport_key": "soccer_italy_serie_a",
+  "label": "Bologna – Udinese",
+  "market": "h2h",
+  "selection": "Udinese",
+  "point": null,
+  "odds_taken": 5.3,
+  "taken_at": "2026-11-19T15:44:50Z",
+  "commence_time": "2026-11-22T14:00:00Z"
+ },
+ {
+  "id": "006df00e5e48650d849d1bb4cd81565d|h2h|Milwaukee Bucks|None",
+  "event_id": "006df00e5e48650d849d1bb4cd81565d",
+  "sport_key": "basketball_nba",
+  "label": "Milwaukee Bucks – Portland Trail Blazers",
+  "market": "h2h",
+  "selection": "Milwaukee Bucks",
+  "point": null,
+  "odds_taken": 5.0,
+  "taken_at": "2026-11-19T15:44:50Z",
+  "commence_time": "2026-11-20T01:10:00Z"
  }
 ]

@@ -405,5 +405,38 @@
   "p": 14.7,
   "conf": 18,
   "time": "2026-11-21T19:45:00Z"
+ },
+ {
+  "id": "0b6d5a32985b31eda832be4154e10fe5",
+  "ts": "2026-11-19T15:44:50.350947+00:00",
+  "match": "Kyoji Horiguchi – Asu Almabaev",
+  "league": "UFC",
+  "pick": "Asu Almabaev",
+  "odds": 2.82,
+  "p": 37.7,
+  "conf": 43,
+  "time": "2026-11-21T18:45:00Z"
+ },
+ {
+  "id": "5bc13c44b33981f3185400163388267e",
+  "ts": "2026-11-19T15:44:50.350947+00:00",
+  "match": "Bologna – Udinese",
+  "league": "Serie A",
+  "pick": "Udinese",
+  "odds": 5.3,
+  "p": 19.8,
+  "conf": 25,
+  "time": "2026-11-22T14:00:00Z"
+ },
+ {
+  "id": "006df00e5e48650d849d1bb4cd81565d",
+  "ts": "2026-11-19T15:44:50.350947+00:00",
+  "match": "Milwaukee Bucks – Portland Trail Blazers",
+  "league": "NBA",
+  "pick": "Milwaukee Bucks",
+  "odds": 5.0,
+  "p": 20.5,
+  "conf": 22,
+  "time": "2026-11-20T01:10:00Z"
  }
 ]
