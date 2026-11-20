@@ -548,5 +548,27 @@
   "p": 18.8,
   "conf": 20,
   "time": "2026-11-21T14:00:00Z"
+ },
+ {
+  "id": "f8ad540db00e4a4a360d67dfcb7a53b8",
+  "ts": "2026-11-20T15:43:13.401029+00:00",
+  "match": "Atlanta Hawks – Charlotte Hornets",
+  "league": "NBA",
+  "pick": "Charlotte Hornets",
+  "odds": 3.24,
+  "p": 32.3,
+  "conf": 35,
+  "time": "2026-11-21T00:10:00Z"
+ },
+ {
+  "id": "cbe45bafcc2615fc1d96cbc12840377a",
+  "ts": "2026-11-20T15:43:13.401029+00:00",
+  "match": "Philadelphia Eagles – Pittsburgh Steelers",
+  "league": "NFL",
+  "pick": "Philadelphia Eagles",
+  "odds": 2.92,
+  "p": 35.0,
+  "conf": 32,
+  "time": "2026-11-22T18:00:00Z"
  }
 ]
