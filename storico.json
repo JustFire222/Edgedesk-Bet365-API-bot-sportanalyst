@@ -438,5 +438,115 @@
   "p": 20.5,
   "conf": 22,
   "time": "2026-11-20T01:10:00Z"
+ },
+ {
+  "id": "3ea90704fb576633bd1e2fa5aafd9ea3",
+  "ts": "2026-11-20T08:06:01.541172+00:00",
+  "match": "Chicago Bears – New Orleans Saints",
+  "league": "NFL",
+  "pick": "New Orleans Saints",
+  "odds": 6.2,
+  "p": 17.8,
+  "conf": 34,
+  "time": "2026-11-22T18:00:00Z"
+ },
+ {
+  "id": "1940706a79cbcbafacdcbf231069716b",
+  "ts": "2026-11-20T08:06:01.541172+00:00",
+  "match": "Denver Broncos – Las Vegas Raiders",
+  "league": "NFL",
+  "pick": "Las Vegas Raiders",
+  "odds": 5.8,
+  "p": 18.6,
+  "conf": 31,
+  "time": "2026-11-22T21:25:00Z"
+ },
+ {
+  "id": "9e8d72c6c27c1667be7b88416a36ca80",
+  "ts": "2026-11-20T08:06:01.541172+00:00",
+  "match": "Como – Cagliari",
+  "league": "Serie A",
+  "pick": "Draw",
+  "odds": 6.4,
+  "p": 16.5,
+  "conf": 25,
+  "time": "2026-11-21T14:00:00Z"
+ },
+ {
+  "id": "5faf836ce6c0fd72af5d1fe258c63bc6",
+  "ts": "2026-11-20T08:06:01.541172+00:00",
+  "match": "AC Milan – Frosinone",
+  "league": "Serie A",
+  "pick": "Draw",
+  "odds": 5.05,
+  "p": 20.8,
+  "conf": 27,
+  "time": "2026-11-22T17:00:00Z"
+ },
+ {
+  "id": "60e1d27b083a335b722c2c852ea85612",
+  "ts": "2026-11-20T08:06:01.541172+00:00",
+  "match": "San Francisco 49ers – Minnesota Vikings",
+  "league": "NFL",
+  "pick": "San Francisco 49ers",
+  "odds": 1.66,
+  "p": 61.7,
+  "conf": 54,
+  "time": "2026-11-23T01:20:00Z"
+ },
+ {
+  "id": "4527f57f5bc32742d8194af1ccf7da7e",
+  "ts": "2026-11-20T08:06:01.541172+00:00",
+  "match": "Carolina Panthers – Baltimore Ravens",
+  "league": "NFL",
+  "pick": "Carolina Panthers",
+  "odds": 1.74,
+  "p": 58.8,
+  "conf": 51,
+  "time": "2026-11-22T18:00:00Z"
+ },
+ {
+  "id": "41e2dd69bddd65d7e823d9ed61cc2afc",
+  "ts": "2026-11-20T08:06:01.541172+00:00",
+  "match": "Detroit Lions – Tampa Bay Buccaneers",
+  "league": "NFL",
+  "pick": "Tampa Bay Buccaneers",
+  "odds": 3.4,
+  "p": 30.4,
+  "conf": 31,
+  "time": "2026-11-22T18:00:00Z"
+ },
+ {
+  "id": "76d4698a8417f32cb059f14a469939f3",
+  "ts": "2026-11-20T08:06:01.541172+00:00",
+  "match": "Sassuolo – Genoa",
+  "league": "Serie A",
+  "pick": "Sassuolo",
+  "odds": 2.96,
+  "p": 34.5,
+  "conf": 32,
+  "time": "2026-11-22T14:00:00Z"
+ },
+ {
+  "id": "e22f82b10fe71d230248b88fef87e58f",
+  "ts": "2026-11-20T08:06:01.541172+00:00",
+  "match": "Atalanta BC – Inter Milan",
+  "league": "Serie A",
+  "pick": "Atalanta BC",
+  "odds": 5.4,
+  "p": 19.0,
+  "conf": 21,
+  "time": "2026-11-22T19:45:00Z"
+ },
+ {
+  "id": "bf921a2780e2a25201da8a3bfece84c4",
+  "ts": "2026-11-20T08:06:01.541172+00:00",
+  "match": "Lazio – Lecce",
+  "league": "Serie A",
+  "pick": "Draw",
+  "odds": 5.45,
+  "p": 18.8,
+  "conf": 20,
+  "time": "2026-11-21T14:00:00Z"
  }
 ]
