@@ -187,5 +187,20 @@
  },
  "e0d8f7b450122679865f9a80b048908b|h2h|Atlanta Hawks|None": {
   "status": "no_close"
+ },
+ "66f9e83cf025d58acee12bce18661fb3|h2h|Indianapolis Colts|None": {
+  "close_prob": 0.15478,
+  "close_odds": 6.461,
+  "snap_at": "2026-11-20T01:03:34Z"
+ },
+ "5ee4efd00c1daaebd8249ff44fd6ac9d|h2h|Minnesota Timberwolves|None": {
+  "close_prob": 0.48593,
+  "close_odds": 2.058,
+  "snap_at": "2026-11-20T01:03:34Z"
+ },
+ "006df00e5e48650d849d1bb4cd81565d|h2h|Milwaukee Bucks|None": {
+  "close_prob": 0.2342,
+  "close_odds": 4.27,
+  "snap_at": "2026-11-20T01:03:34Z"
  }
 }
