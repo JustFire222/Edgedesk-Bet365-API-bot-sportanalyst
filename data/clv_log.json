@@ -730,5 +730,53 @@
   "odds_taken": 3.7,
   "taken_at": "2026-11-21T07:58:31Z",
   "commence_time": "2026-11-21T18:15:00Z"
+ },
+ {
+  "id": "232f705eea406644ff14ad17bcf9aea6|h2h|Portland Trail Blazers|None",
+  "event_id": "232f705eea406644ff14ad17bcf9aea6",
+  "sport_key": "basketball_nba",
+  "label": "New York Knicks – Portland Trail Blazers",
+  "market": "h2h",
+  "selection": "Portland Trail Blazers",
+  "point": null,
+  "odds_taken": 2.84,
+  "taken_at": "2026-11-21T15:30:55Z",
+  "commence_time": "2026-11-22T00:40:00Z"
+ },
+ {
+  "id": "6cd4587453e4da55317b2c1e3576e75b|h2h|Milwaukee Bucks|None",
+  "event_id": "6cd4587453e4da55317b2c1e3576e75b",
+  "sport_key": "basketball_nba",
+  "label": "Philadelphia 76ers – Milwaukee Bucks",
+  "market": "h2h",
+  "selection": "Milwaukee Bucks",
+  "point": null,
+  "odds_taken": 5.5,
+  "taken_at": "2026-11-21T15:30:55Z",
+  "commence_time": "2026-11-21T18:10:00Z"
+ },
+ {
+  "id": "3a60ed1d20004aa4d4772b2c1a2272e7|h2h|Washington Commanders|None",
+  "event_id": "3a60ed1d20004aa4d4772b2c1a2272e7",
+  "sport_key": "americanfootball_nfl",
+  "label": "Washington Commanders – Cincinnati Bengals",
+  "market": "h2h",
+  "selection": "Washington Commanders",
+  "point": null,
+  "odds_taken": 3.6,
+  "taken_at": "2026-11-21T15:30:55Z",
+  "commence_time": "2026-11-24T01:15:00Z"
+ },
+ {
+  "id": "cb513fd9869c9aa6ce506bb499bcd48b|h2h|Draw|None",
+  "event_id": "cb513fd9869c9aa6ce506bb499bcd48b",
+  "sport_key": "soccer_italy_serie_a",
+  "label": "Parma – AS Roma",
+  "market": "h2h",
+  "selection": "Draw",
+  "point": null,
+  "odds_taken": 7.29,
+  "taken_at": "2026-11-21T15:30:55Z",
+  "commence_time": "2026-11-21T17:00:00Z"
  }
 ]

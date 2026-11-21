@@ -636,5 +636,49 @@
   "p": 27.6,
   "conf": 27,
   "time": "2026-11-21T18:15:00Z"
+ },
+ {
+  "id": "232f705eea406644ff14ad17bcf9aea6",
+  "ts": "2026-11-21T15:30:53.466199+00:00",
+  "match": "New York Knicks – Portland Trail Blazers",
+  "league": "NBA",
+  "pick": "Portland Trail Blazers",
+  "odds": 2.84,
+  "p": 36.6,
+  "conf": 37,
+  "time": "2026-11-22T00:40:00Z"
+ },
+ {
+  "id": "6cd4587453e4da55317b2c1e3576e75b",
+  "ts": "2026-11-21T15:30:53.466199+00:00",
+  "match": "Philadelphia 76ers – Milwaukee Bucks",
+  "league": "NBA",
+  "pick": "Milwaukee Bucks",
+  "odds": 5.5,
+  "p": 19.1,
+  "conf": 25,
+  "time": "2026-11-21T18:10:00Z"
+ },
+ {
+  "id": "3a60ed1d20004aa4d4772b2c1a2272e7",
+  "ts": "2026-11-21T15:30:53.466199+00:00",
+  "match": "Washington Commanders – Cincinnati Bengals",
+  "league": "NFL",
+  "pick": "Washington Commanders",
+  "odds": 3.6,
+  "p": 28.4,
+  "conf": 27,
+  "time": "2026-11-24T01:15:00Z"
+ },
+ {
+  "id": "cb513fd9869c9aa6ce506bb499bcd48b",
+  "ts": "2026-11-21T15:30:53.466199+00:00",
+  "match": "Parma – AS Roma",
+  "league": "Serie A",
+  "pick": "Draw",
+  "odds": 7.29,
+  "p": 14.0,
+  "conf": 15,
+  "time": "2026-11-21T17:00:00Z"
  }
 ]
