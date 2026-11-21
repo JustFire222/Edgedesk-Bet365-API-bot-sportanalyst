@@ -212,6 +212,8 @@
  "f8ad540db00e4a4a360d67dfcb7a53b8|h2h|Charlotte Hornets|None": {
   "close_prob": 0.31429,
   "close_odds": 3.182,
-  "snap_at": "2026-11-20T23:57:08Z"
+  "snap_at": "2026-11-20T23:57:08Z",
+  "clv": 1.83,
+  "status": "closed"
  }
 }
