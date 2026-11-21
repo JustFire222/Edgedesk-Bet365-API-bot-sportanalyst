@@ -275,6 +275,13 @@
  "0b6d5a32985b31eda832be4154e10fe5|h2h|Asu Almabaev|None": {
   "close_prob": 0.38107,
   "close_odds": 2.624,
-  "snap_at": "2026-11-21T18:29:58Z"
+  "snap_at": "2026-11-21T18:29:58Z",
+  "clv": 7.46,
+  "status": "closed"
+ },
+ "e59809eb38340e3bca323cef070dfd34|h2h|Torino|None": {
+  "close_prob": 0.1579,
+  "close_odds": 6.333,
+  "snap_at": "2026-11-21T19:21:36Z"
  }
 }
