@@ -261,11 +261,20 @@
  "8f01dcdee59eec582ccf12e049833989|h2h|Jared Cannonier|None": {
   "close_prob": 0.24665,
   "close_odds": 4.054,
-  "snap_at": "2026-11-21T17:57:17Z"
+  "snap_at": "2026-11-21T17:57:17Z",
+  "clv": -8.74,
+  "status": "closed"
  },
  "6cd4587453e4da55317b2c1e3576e75b|h2h|Milwaukee Bucks|None": {
   "close_prob": 0.18393,
   "close_odds": 5.437,
-  "snap_at": "2026-11-21T17:57:17Z"
+  "snap_at": "2026-11-21T17:57:17Z",
+  "clv": 1.16,
+  "status": "closed"
+ },
+ "0b6d5a32985b31eda832be4154e10fe5|h2h|Asu Almabaev|None": {
+  "close_prob": 0.38107,
+  "close_odds": 2.624,
+  "snap_at": "2026-11-21T18:29:58Z"
  }
 }
