@@ -219,11 +219,15 @@
  "9e8d72c6c27c1667be7b88416a36ca80|h2h|Draw|None": {
   "close_prob": 0.16486,
   "close_odds": 6.066,
-  "snap_at": "2026-11-21T13:35:52Z"
+  "snap_at": "2026-11-21T13:35:52Z",
+  "clv": 5.51,
+  "status": "closed"
  },
  "bf921a2780e2a25201da8a3bfece84c4|h2h|Draw|None": {
   "close_prob": 0.21607,
   "close_odds": 4.628,
-  "snap_at": "2026-11-21T13:35:52Z"
+  "snap_at": "2026-11-21T13:35:52Z",
+  "clv": 17.76,
+  "status": "closed"
  }
 }
