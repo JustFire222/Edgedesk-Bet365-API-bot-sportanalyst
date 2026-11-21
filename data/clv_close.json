@@ -282,6 +282,8 @@
  "e59809eb38340e3bca323cef070dfd34|h2h|Torino|None": {
   "close_prob": 0.1579,
   "close_odds": 6.333,
-  "snap_at": "2026-11-21T19:21:36Z"
+  "snap_at": "2026-11-21T19:21:36Z",
+  "clv": 10.53,
+  "status": "closed"
  }
 }
