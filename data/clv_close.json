@@ -254,6 +254,18 @@
  "6571e7bc729a887110c0869b14c3582c|h2h|Santiago Luna|None": {
   "close_prob": 0.29087,
   "close_odds": 3.438,
-  "snap_at": "2026-11-21T17:19:03Z"
+  "snap_at": "2026-11-21T17:19:03Z",
+  "clv": 3.26,
+  "status": "closed"
+ },
+ "8f01dcdee59eec582ccf12e049833989|h2h|Jared Cannonier|None": {
+  "close_prob": 0.24665,
+  "close_odds": 4.054,
+  "snap_at": "2026-11-21T17:57:17Z"
+ },
+ "6cd4587453e4da55317b2c1e3576e75b|h2h|Milwaukee Bucks|None": {
+  "close_prob": 0.18393,
+  "close_odds": 5.437,
+  "snap_at": "2026-11-21T17:57:17Z"
  }
 }
