@@ -247,6 +247,13 @@
  "cb513fd9869c9aa6ce506bb499bcd48b|h2h|Draw|None": {
   "close_prob": 0.13945,
   "close_odds": 7.171,
-  "snap_at": "2026-11-21T16:32:09Z"
+  "snap_at": "2026-11-21T16:32:09Z",
+  "clv": 1.66,
+  "status": "closed"
+ },
+ "6571e7bc729a887110c0869b14c3582c|h2h|Santiago Luna|None": {
+  "close_prob": 0.29087,
+  "close_odds": 3.438,
+  "snap_at": "2026-11-21T17:19:03Z"
  }
 }
