@@ -229,5 +229,10 @@
   "snap_at": "2026-11-21T13:35:52Z",
   "clv": 17.76,
   "status": "closed"
+ },
+ "3252a6edf971e56a6d153f473f6b6edd|h2h|Alik Lorenz|None": {
+  "close_prob": 0.29957,
+  "close_odds": 3.338,
+  "snap_at": "2026-11-21T15:11:40Z"
  }
 }
