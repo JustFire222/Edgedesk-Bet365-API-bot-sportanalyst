@@ -646,5 +646,89 @@
   "odds_taken": 2.92,
   "taken_at": "2026-11-20T15:43:14Z",
   "commence_time": "2026-11-22T18:00:00Z"
+ },
+ {
+  "id": "d55740629555c012eedd01b8f75d3b69|h2h|Brian Ortega|None",
+  "event_id": "d55740629555c012eedd01b8f75d3b69",
+  "sport_key": "mma_mixed_martial_arts",
+  "label": "Daniel Hooker – Brian Ortega",
+  "market": "h2h",
+  "selection": "Brian Ortega",
+  "point": null,
+  "odds_taken": 2.76,
+  "taken_at": "2026-11-21T07:58:31Z",
+  "commence_time": "2026-11-21T19:15:00Z"
+ },
+ {
+  "id": "6571e7bc729a887110c0869b14c3582c|h2h|Santiago Luna|None",
+  "event_id": "6571e7bc729a887110c0869b14c3582c",
+  "sport_key": "mma_mixed_martial_arts",
+  "label": "Santiago Luna – Aleksandre Topuria",
+  "market": "h2h",
+  "selection": "Santiago Luna",
+  "point": null,
+  "odds_taken": 3.55,
+  "taken_at": "2026-11-21T07:58:31Z",
+  "commence_time": "2026-11-21T17:40:00Z"
+ },
+ {
+  "id": "76d4698a8417f32cb059f14a469939f3|h2h|Draw|None",
+  "event_id": "76d4698a8417f32cb059f14a469939f3",
+  "sport_key": "soccer_italy_serie_a",
+  "label": "Sassuolo – Genoa",
+  "market": "h2h",
+  "selection": "Draw",
+  "point": null,
+  "odds_taken": 3.58,
+  "taken_at": "2026-11-21T07:58:31Z",
+  "commence_time": "2026-11-22T14:00:00Z"
+ },
+ {
+  "id": "3252a6edf971e56a6d153f473f6b6edd|h2h|Alik Lorenz|None",
+  "event_id": "3252a6edf971e56a6d153f473f6b6edd",
+  "sport_key": "mma_mixed_martial_arts",
+  "label": "Alik Lorenz – Diyar Nurgozhay",
+  "market": "h2h",
+  "selection": "Alik Lorenz",
+  "point": null,
+  "odds_taken": 3.35,
+  "taken_at": "2026-11-21T07:58:31Z",
+  "commence_time": "2026-11-21T15:35:00Z"
+ },
+ {
+  "id": "5e63079b678f8c13419adc169fff02d3|h2h|Tennessee Titans|None",
+  "event_id": "5e63079b678f8c13419adc169fff02d3",
+  "sport_key": "americanfootball_nfl",
+  "label": "Dallas Cowboys – Tennessee Titans",
+  "market": "h2h",
+  "selection": "Tennessee Titans",
+  "point": null,
+  "odds_taken": 4.4,
+  "taken_at": "2026-11-21T07:58:31Z",
+  "commence_time": "2026-11-22T18:00:00Z"
+ },
+ {
+  "id": "b754a1bf84af81d45d4a3a16398daa44|h2h|Sacramento Kings|None",
+  "event_id": "b754a1bf84af81d45d4a3a16398daa44",
+  "sport_key": "basketball_nba",
+  "label": "Sacramento Kings – Boston Celtics",
+  "market": "h2h",
+  "selection": "Sacramento Kings",
+  "point": null,
+  "odds_taken": 6.3,
+  "taken_at": "2026-11-21T07:58:31Z",
+  "commence_time": "2026-11-22T03:10:00Z"
+ },
+ {
+  "id": "8f01dcdee59eec582ccf12e049833989|h2h|Jared Cannonier|None",
+  "event_id": "8f01dcdee59eec582ccf12e049833989",
+  "sport_key": "mma_mixed_martial_arts",
+  "label": "Jared Cannonier – Ikram Aliskerov",
+  "market": "h2h",
+  "selection": "Jared Cannonier",
+  "point": null,
+  "odds_taken": 3.7,
+  "taken_at": "2026-11-21T07:58:31Z",
+  "commence_time": "2026-11-21T18:15:00Z"
  }
 ]

@@ -570,5 +570,71 @@
   "p": 35.0,
   "conf": 32,
   "time": "2026-11-22T18:00:00Z"
+ },
+ {
+  "id": "d55740629555c012eedd01b8f75d3b69",
+  "ts": "2026-11-21T07:58:30.624439+00:00",
+  "match": "Daniel Hooker – Brian Ortega",
+  "league": "UFC",
+  "pick": "Brian Ortega",
+  "odds": 2.76,
+  "p": 37.7,
+  "conf": 38,
+  "time": "2026-11-21T19:15:00Z"
+ },
+ {
+  "id": "6571e7bc729a887110c0869b14c3582c",
+  "ts": "2026-11-21T07:58:30.624439+00:00",
+  "match": "Santiago Luna – Aleksandre Topuria",
+  "league": "UFC",
+  "pick": "Santiago Luna",
+  "odds": 3.55,
+  "p": 29.1,
+  "conf": 30,
+  "time": "2026-11-21T17:40:00Z"
+ },
+ {
+  "id": "3252a6edf971e56a6d153f473f6b6edd",
+  "ts": "2026-11-21T07:58:30.624439+00:00",
+  "match": "Alik Lorenz – Diyar Nurgozhay",
+  "league": "UFC",
+  "pick": "Alik Lorenz",
+  "odds": 3.35,
+  "p": 30.6,
+  "conf": 30,
+  "time": "2026-11-21T15:35:00Z"
+ },
+ {
+  "id": "5e63079b678f8c13419adc169fff02d3",
+  "ts": "2026-11-21T07:58:30.624439+00:00",
+  "match": "Dallas Cowboys – Tennessee Titans",
+  "league": "NFL",
+  "pick": "Tennessee Titans",
+  "odds": 4.4,
+  "p": 23.4,
+  "conf": 25,
+  "time": "2026-11-22T18:00:00Z"
+ },
+ {
+  "id": "b754a1bf84af81d45d4a3a16398daa44",
+  "ts": "2026-11-21T07:58:30.624439+00:00",
+  "match": "Sacramento Kings – Boston Celtics",
+  "league": "NBA",
+  "pick": "Sacramento Kings",
+  "odds": 6.3,
+  "p": 16.4,
+  "conf": 19,
+  "time": "2026-11-22T03:10:00Z"
+ },
+ {
+  "id": "8f01dcdee59eec582ccf12e049833989",
+  "ts": "2026-11-21T07:58:30.624439+00:00",
+  "match": "Jared Cannonier – Ikram Aliskerov",
+  "league": "UFC",
+  "pick": "Jared Cannonier",
+  "odds": 3.7,
+  "p": 27.6,
+  "conf": 27,
+  "time": "2026-11-21T18:15:00Z"
  }
 ]
