@@ -233,6 +233,13 @@
  "3252a6edf971e56a6d153f473f6b6edd|h2h|Alik Lorenz|None": {
   "close_prob": 0.29957,
   "close_odds": 3.338,
-  "snap_at": "2026-11-21T15:11:40Z"
+  "snap_at": "2026-11-21T15:11:40Z",
+  "clv": 0.36,
+  "status": "closed"
+ },
+ "f489c8a46fa7baeab80d1bace1b0f067|h2h|Tahir Abdullayev|None": {
+  "close_prob": 0.31057,
+  "close_odds": 3.22,
+  "snap_at": "2026-11-21T15:55:53Z"
  }
 }
