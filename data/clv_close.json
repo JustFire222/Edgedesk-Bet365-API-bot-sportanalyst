@@ -240,6 +240,13 @@
  "f489c8a46fa7baeab80d1bace1b0f067|h2h|Tahir Abdullayev|None": {
   "close_prob": 0.31057,
   "close_odds": 3.22,
-  "snap_at": "2026-11-21T15:55:53Z"
+  "snap_at": "2026-11-21T15:55:53Z",
+  "clv": 0.94,
+  "status": "closed"
+ },
+ "cb513fd9869c9aa6ce506bb499bcd48b|h2h|Draw|None": {
+  "close_prob": 0.13945,
+  "close_odds": 7.171,
+  "snap_at": "2026-11-21T16:32:09Z"
  }
 }
