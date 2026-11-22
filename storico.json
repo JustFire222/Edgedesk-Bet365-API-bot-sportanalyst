@@ -680,5 +680,49 @@
   "p": 14.0,
   "conf": 15,
   "time": "2026-11-21T17:00:00Z"
+ },
+ {
+  "id": "aea973c122c91837c15e066c757c747f",
+  "ts": "2026-11-22T07:58:12.218254+00:00",
+  "match": "RB Leipzig – RC Lens",
+  "league": "Champions League",
+  "pick": "RC Lens",
+  "odds": 7.4,
+  "p": 16.0,
+  "conf": 33,
+  "time": "2026-11-24T20:00:00Z"
+ },
+ {
+  "id": "50b80f3ebd38bf63663b11ae0afc575b",
+  "ts": "2026-11-22T07:58:12.218254+00:00",
+  "match": "Bodø/Glimt – LASK",
+  "league": "Champions League",
+  "pick": "LASK",
+  "odds": 5.8,
+  "p": 19.5,
+  "conf": 36,
+  "time": "2026-11-24T17:45:00Z"
+ },
+ {
+  "id": "b8c5bdb50209c7d050400c7d28c32e30",
+  "ts": "2026-11-22T07:58:12.218254+00:00",
+  "match": "Golden State Warriors – Boston Celtics",
+  "league": "NBA",
+  "pick": "Golden State Warriors",
+  "odds": 4.3,
+  "p": 24.0,
+  "conf": 25,
+  "time": "2026-11-23T01:40:00Z"
+ },
+ {
+  "id": "be2fcabc408be29ca01ce92ab266f8b7",
+  "ts": "2026-11-22T07:58:12.218254+00:00",
+  "match": "Juventus – Venezia",
+  "league": "Serie A",
+  "pick": "Draw",
+  "odds": 5.26,
+  "p": 19.5,
+  "conf": 21,
+  "time": "2026-11-22T11:30:00Z"
  }
 ]

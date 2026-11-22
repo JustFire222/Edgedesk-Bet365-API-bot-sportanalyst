@@ -1,31 +1,35 @@
 {
- "updated": "2026-11-21T15:30:53.466199+00:00",
+ "updated": "2026-11-22T07:58:12.218254+00:00",
  "picks": [
   {
-   "id": "3252a6edf971e56a6d153f473f6b6edd",
+   "id": "aea973c122c91837c15e066c757c747f",
    "market": "h2h",
-   "selection": "Alik Lorenz",
+   "selection": "RC Lens",
    "point": null,
-   "league": "UFC",
-   "match": "Alik Lorenz – Diyar Nurgozhay",
-   "time": "2026-11-21T15:35:00Z",
-   "pick": "Alik Lorenz",
-   "odds": 4.1,
+   "league": "Champions League",
+   "match": "RB Leipzig – RC Lens",
+   "time": "2026-11-24T20:00:00Z",
+   "pick": "RC Lens",
+   "odds": 7.4,
    "book": "Betfair Ex Eu",
-   "p": 29.5,
-   "conf": 44,
+   "p": 16.0,
+   "conf": 33,
    "probs": [
     [
-     "Diyar Nurgozhay",
-     71
+     "RB Leipzig",
+     68
     ],
     [
-     "Alik Lorenz",
-     29
+     "Draw",
+     16
+    ],
+    [
+     "RC Lens",
+     16
     ]
    ],
-   "strategy": "Singola a stake ridotto o gamba di combo.",
-   "insight": "Quota migliore 4.10 contro probabilità stimata 29.5% (Pinnacle): EV +20.9%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 7.40 contro probabilità stimata 16.0% (Pinnacle): EV +18.8%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -33,13 +37,61 @@
      "https://the-odds-api.com"
     ],
     [
-     "UFCStats",
-     "http://ufcstats.com/"
+     "UEFA",
+     "https://www.uefa.com/uefachampionsleague/"
     ]
    ],
-   "home": "Alik Lorenz",
-   "away": "Diyar Nurgozhay",
-   "sport_key": "mma_mixed_martial_arts",
+   "home": "RB Leipzig",
+   "away": "RC Lens",
+   "sport_key": "soccer_uefa_champs_league",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "50b80f3ebd38bf63663b11ae0afc575b",
+   "market": "h2h",
+   "selection": "LASK",
+   "point": null,
+   "league": "Champions League",
+   "match": "Bodø/Glimt – LASK",
+   "time": "2026-11-24T17:45:00Z",
+   "pick": "LASK",
+   "odds": 5.8,
+   "book": "Unibet Se",
+   "p": 19.5,
+   "conf": 36,
+   "probs": [
+    [
+     "Bodø/Glimt",
+     62
+    ],
+    [
+     "LASK",
+     20
+    ],
+    [
+     "Draw",
+     19
+    ]
+   ],
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 5.80 contro probabilità stimata 19.5% (Pinnacle): EV +13.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "UEFA",
+     "https://www.uefa.com/uefachampionsleague/"
+    ]
+   ],
+   "home": "Bodø/Glimt",
+   "away": "LASK",
+   "sport_key": "soccer_uefa_champs_league",
    "logos": [
     null,
     null
@@ -54,10 +106,10 @@
    "match": "Chicago Bears – New Orleans Saints",
    "time": "2026-11-22T18:00:00Z",
    "pick": "New Orleans Saints",
-   "odds": 6.4,
-   "book": "Betfair Ex Eu",
-   "p": 17.8,
-   "conf": 34,
+   "odds": 6.2,
+   "book": "Tipico De",
+   "p": 17.5,
+   "conf": 32,
    "probs": [
     [
      "Chicago Bears",
@@ -69,7 +121,7 @@
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 6.40 contro probabilità stimata 17.8% (Pinnacle): EV +13.8%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 6.20 contro probabilità stimata 17.5% (Pinnacle): EV +8.8%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -94,398 +146,6 @@
    ]
   },
   {
-   "id": "1940706a79cbcbafacdcbf231069716b",
-   "market": "h2h",
-   "selection": "Las Vegas Raiders",
-   "point": null,
-   "league": "NFL",
-   "match": "Denver Broncos – Las Vegas Raiders",
-   "time": "2026-11-22T21:25:00Z",
-   "pick": "Las Vegas Raiders",
-   "odds": 5.9,
-   "book": "Matchbook",
-   "p": 18.3,
-   "conf": 31,
-   "probs": [
-    [
-     "Denver Broncos",
-     82
-    ],
-    [
-     "Las Vegas Raiders",
-     18
-    ]
-   ],
-   "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 5.90 contro probabilità stimata 18.3% (Pinnacle): EV +8.1%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "Pro Football Reference",
-     "https://www.pro-football-reference.com/"
-    ],
-    [
-     "ESPN injuries",
-     "https://www.espn.com/nfl/injuries"
-    ]
-   ],
-   "home": "Denver Broncos",
-   "away": "Las Vegas Raiders",
-   "sport_key": "americanfootball_nfl",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "5faf836ce6c0fd72af5d1fe258c63bc6",
-   "market": "h2h",
-   "selection": "Draw",
-   "point": null,
-   "league": "Serie A",
-   "match": "AC Milan – Frosinone",
-   "time": "2026-11-22T17:00:00Z",
-   "pick": "Draw",
-   "odds": 5.08,
-   "book": "Onexbet",
-   "p": 20.9,
-   "conf": 29,
-   "probs": [
-    [
-     "AC Milan",
-     61
-    ],
-    [
-     "Draw",
-     21
-    ],
-    [
-     "Frosinone",
-     18
-    ]
-   ],
-   "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 5.08 contro probabilità stimata 20.9% (Pinnacle): EV +6.1%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "FBref",
-     "https://fbref.com/en/comps/11/"
-    ],
-    [
-     "Understat",
-     "https://understat.com/league/Serie_A"
-    ]
-   ],
-   "home": "AC Milan",
-   "away": "Frosinone",
-   "sport_key": "soccer_italy_serie_a",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "6571e7bc729a887110c0869b14c3582c",
-   "market": "h2h",
-   "selection": "Santiago Luna",
-   "point": null,
-   "league": "UFC",
-   "match": "Santiago Luna – Aleksandre Topuria",
-   "time": "2026-11-21T17:40:00Z",
-   "pick": "Santiago Luna",
-   "odds": 3.55,
-   "book": "Betfair Ex Eu",
-   "p": 29.6,
-   "conf": 33,
-   "probs": [
-    [
-     "Aleksandre Topuria",
-     70
-    ],
-    [
-     "Santiago Luna",
-     30
-    ]
-   ],
-   "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 3.55 contro probabilità stimata 29.6% (Pinnacle): EV +4.9%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "UFCStats",
-     "http://ufcstats.com/"
-    ]
-   ],
-   "home": "Santiago Luna",
-   "away": "Aleksandre Topuria",
-   "sport_key": "mma_mixed_martial_arts",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "232f705eea406644ff14ad17bcf9aea6",
-   "market": "h2h",
-   "selection": "Portland Trail Blazers",
-   "point": null,
-   "league": "NBA",
-   "match": "New York Knicks – Portland Trail Blazers",
-   "time": "2026-11-22T00:40:00Z",
-   "pick": "Portland Trail Blazers",
-   "odds": 2.84,
-   "book": "Matchbook",
-   "p": 36.6,
-   "conf": 37,
-   "probs": [
-    [
-     "New York Knicks",
-     63
-    ],
-    [
-     "Portland Trail Blazers",
-     37
-    ]
-   ],
-   "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 2.84 contro probabilità stimata 36.6% (Pinnacle): EV +4.0%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "NBA Stats",
-     "https://www.nba.com/stats"
-    ],
-    [
-     "ESPN injuries",
-     "https://www.espn.com/nba/injuries"
-    ]
-   ],
-   "home": "New York Knicks",
-   "away": "Portland Trail Blazers",
-   "sport_key": "basketball_nba",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "6cd4587453e4da55317b2c1e3576e75b",
-   "market": "h2h",
-   "selection": "Milwaukee Bucks",
-   "point": null,
-   "league": "NBA",
-   "match": "Philadelphia 76ers – Milwaukee Bucks",
-   "time": "2026-11-21T18:10:00Z",
-   "pick": "Milwaukee Bucks",
-   "odds": 5.5,
-   "book": "Matchbook",
-   "p": 19.1,
-   "conf": 25,
-   "probs": [
-    [
-     "Philadelphia 76ers",
-     81
-    ],
-    [
-     "Milwaukee Bucks",
-     19
-    ]
-   ],
-   "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 5.50 contro probabilità stimata 19.1% (Pinnacle): EV +5.1%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "NBA Stats",
-     "https://www.nba.com/stats"
-    ],
-    [
-     "ESPN injuries",
-     "https://www.espn.com/nba/injuries"
-    ]
-   ],
-   "home": "Philadelphia 76ers",
-   "away": "Milwaukee Bucks",
-   "sport_key": "basketball_nba",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "b754a1bf84af81d45d4a3a16398daa44",
-   "market": "h2h",
-   "selection": "Sacramento Kings",
-   "point": null,
-   "league": "NBA",
-   "match": "Sacramento Kings – Boston Celtics",
-   "time": "2026-11-22T03:10:00Z",
-   "pick": "Sacramento Kings",
-   "odds": 7.2,
-   "book": "Matchbook",
-   "p": 14.6,
-   "conf": 22,
-   "probs": [
-    [
-     "Boston Celtics",
-     85
-    ],
-    [
-     "Sacramento Kings",
-     15
-    ]
-   ],
-   "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 7.20 contro probabilità stimata 14.6% (Pinnacle): EV +5.0%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "NBA Stats",
-     "https://www.nba.com/stats"
-    ],
-    [
-     "ESPN injuries",
-     "https://www.espn.com/nba/injuries"
-    ]
-   ],
-   "home": "Sacramento Kings",
-   "away": "Boston Celtics",
-   "sport_key": "basketball_nba",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "e22f82b10fe71d230248b88fef87e58f",
-   "market": "h2h",
-   "selection": "Atalanta BC",
-   "point": null,
-   "league": "Serie A",
-   "match": "Atalanta BC – Inter Milan",
-   "time": "2026-11-22T19:45:00Z",
-   "pick": "Atalanta BC",
-   "odds": 5.7,
-   "book": "Betfair Ex Eu",
-   "p": 18.3,
-   "conf": 23,
-   "probs": [
-    [
-     "Inter Milan",
-     62
-    ],
-    [
-     "Draw",
-     20
-    ],
-    [
-     "Atalanta BC",
-     18
-    ]
-   ],
-   "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 5.70 contro probabilità stimata 18.3% (Pinnacle): EV +4.3%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "FBref",
-     "https://fbref.com/en/comps/11/"
-    ],
-    [
-     "Understat",
-     "https://understat.com/league/Serie_A"
-    ]
-   ],
-   "home": "Atalanta BC",
-   "away": "Inter Milan",
-   "sport_key": "soccer_italy_serie_a",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "e59809eb38340e3bca323cef070dfd34",
-   "market": "h2h",
-   "selection": "Torino",
-   "point": null,
-   "league": "Serie A",
-   "match": "Napoli – Torino",
-   "time": "2026-11-21T19:45:00Z",
-   "pick": "Torino",
-   "odds": 7.0,
-   "book": "Unibet Se",
-   "p": 14.9,
-   "conf": 21,
-   "probs": [
-    [
-     "Napoli",
-     63
-    ],
-    [
-     "Draw",
-     22
-    ],
-    [
-     "Torino",
-     15
-    ]
-   ],
-   "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 7.00 contro probabilità stimata 14.9% (Pinnacle): EV +4.4%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "FBref",
-     "https://fbref.com/en/comps/11/"
-    ],
-    [
-     "Understat",
-     "https://understat.com/league/Serie_A"
-    ]
-   ],
-   "home": "Napoli",
-   "away": "Torino",
-   "sport_key": "soccer_italy_serie_a",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
    "id": "76d4698a8417f32cb059f14a469939f3",
    "market": "h2h",
    "selection": "Draw",
@@ -496,24 +156,24 @@
    "pick": "Draw",
    "odds": 3.58,
    "book": "Onexbet",
-   "p": 28.6,
-   "conf": 28,
+   "p": 29.9,
+   "conf": 38,
    "probs": [
-    [
-     "Sassuolo",
-     36
-    ],
     [
      "Genoa",
      36
     ],
     [
+     "Sassuolo",
+     34
+    ],
+    [
      "Draw",
-     29
+     30
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 3.58 contro probabilità stimata 28.6% (Pinnacle): EV +2.5%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 3.58 contro probabilità stimata 29.9% (Pinnacle): EV +7.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -538,30 +198,30 @@
    ]
   },
   {
-   "id": "3a60ed1d20004aa4d4772b2c1a2272e7",
+   "id": "1940706a79cbcbafacdcbf231069716b",
    "market": "h2h",
-   "selection": "Washington Commanders",
+   "selection": "Las Vegas Raiders",
    "point": null,
    "league": "NFL",
-   "match": "Washington Commanders – Cincinnati Bengals",
-   "time": "2026-11-24T01:15:00Z",
-   "pick": "Washington Commanders",
-   "odds": 3.6,
-   "book": "Betfair Ex Eu",
-   "p": 28.4,
-   "conf": 27,
+   "match": "Denver Broncos – Las Vegas Raiders",
+   "time": "2026-11-22T21:25:00Z",
+   "pick": "Las Vegas Raiders",
+   "odds": 6.0,
+   "book": "Sport888",
+   "p": 17.9,
+   "conf": 30,
    "probs": [
     [
-     "Cincinnati Bengals",
-     72
+     "Denver Broncos",
+     82
     ],
     [
-     "Washington Commanders",
-     28
+     "Las Vegas Raiders",
+     18
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 3.60 contro probabilità stimata 28.4% (Pinnacle): EV +2.3%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 6.00 contro probabilità stimata 17.9% (Pinnacle): EV +7.7%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -577,8 +237,8 @@
      "https://www.espn.com/nfl/injuries"
     ]
    ],
-   "home": "Washington Commanders",
-   "away": "Cincinnati Bengals",
+   "home": "Denver Broncos",
+   "away": "Las Vegas Raiders",
    "sport_key": "americanfootball_nfl",
    "logos": [
     null,
@@ -586,175 +246,30 @@
    ]
   },
   {
-   "id": "8f01dcdee59eec582ccf12e049833989",
-   "market": "h2h",
-   "selection": "Jared Cannonier",
-   "point": null,
-   "league": "UFC",
-   "match": "Jared Cannonier – Ikram Aliskerov",
-   "time": "2026-11-21T18:15:00Z",
-   "pick": "Jared Cannonier",
-   "odds": 3.95,
-   "book": "Matchbook",
-   "p": 25.9,
-   "conf": 26,
-   "probs": [
-    [
-     "Ikram Aliskerov",
-     74
-    ],
-    [
-     "Jared Cannonier",
-     26
-    ]
-   ],
-   "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 3.95 contro probabilità stimata 25.9% (Pinnacle): EV +2.5%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "UFCStats",
-     "http://ufcstats.com/"
-    ]
-   ],
-   "home": "Jared Cannonier",
-   "away": "Ikram Aliskerov",
-   "sport_key": "mma_mixed_martial_arts",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "f489c8a46fa7baeab80d1bace1b0f067",
-   "market": "h2h",
-   "selection": "Tahir Abdullayev",
-   "point": null,
-   "league": "UFC",
-   "match": "Jake Matthews – Tahir Abdullayev",
-   "time": "2026-11-21T16:45:00Z",
-   "pick": "Tahir Abdullayev",
-   "odds": 3.3,
-   "book": "Betfair Ex Eu",
-   "p": 30.9,
-   "conf": 29,
-   "probs": [
-    [
-     "Jake Matthews",
-     69
-    ],
-    [
-     "Tahir Abdullayev",
-     31
-    ]
-   ],
-   "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 3.30 contro probabilità stimata 30.9% (Pinnacle): EV +2.0%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "UFCStats",
-     "http://ufcstats.com/"
-    ]
-   ],
-   "home": "Jake Matthews",
-   "away": "Tahir Abdullayev",
-   "sport_key": "mma_mixed_martial_arts",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "cb513fd9869c9aa6ce506bb499bcd48b",
-   "market": "h2h",
-   "selection": "Draw",
-   "point": null,
-   "league": "Serie A",
-   "match": "Parma – AS Roma",
-   "time": "2026-11-21T17:00:00Z",
-   "pick": "Draw",
-   "odds": 7.29,
-   "book": "Onexbet",
-   "p": 14.0,
-   "conf": 15,
-   "probs": [
-    [
-     "AS Roma",
-     78
-    ],
-    [
-     "Draw",
-     14
-    ],
-    [
-     "Parma",
-     8
-    ]
-   ],
-   "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 7.29 contro probabilità stimata 14.0% (Pinnacle): EV +2.0%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "FBref",
-     "https://fbref.com/en/comps/11/"
-    ],
-    [
-     "Understat",
-     "https://understat.com/league/Serie_A"
-    ]
-   ],
-   "home": "Parma",
-   "away": "AS Roma",
-   "sport_key": "soccer_italy_serie_a",
-   "logos": [
-    null,
-    null
-   ]
-  }
- ],
- "combos": [],
- "boosts": [],
- "partite": [],
- "favoriti": [
-  {
    "id": "5e63079b678f8c13419adc169fff02d3",
    "market": "h2h",
-   "selection": "Dallas Cowboys",
+   "selection": "Tennessee Titans",
    "point": null,
    "league": "NFL",
    "match": "Dallas Cowboys – Tennessee Titans",
    "time": "2026-11-22T18:00:00Z",
-   "pick": "Dallas Cowboys",
-   "odds": 1.3,
-   "book": "Betfair Ex Eu",
-   "p": 76.6,
-   "conf": 60,
+   "pick": "Tennessee Titans",
+   "odds": 4.3,
+   "book": "Matchbook",
+   "p": 24.7,
+   "conf": 32,
    "probs": [
     [
      "Dallas Cowboys",
-     77
+     75
     ],
     [
      "Tennessee Titans",
-     23
+     25
     ]
    ],
-   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.30 contro probabilità stimata 76.6% (Pinnacle): EV -0.4%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 4.30 contro probabilità stimata 24.7% (Pinnacle): EV +6.1%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -779,354 +294,30 @@
    ]
   },
   {
-   "id": "8f01dcdee59eec582ccf12e049833989",
-   "market": "h2h",
-   "selection": "Ikram Aliskerov",
-   "point": null,
-   "league": "UFC",
-   "match": "Jared Cannonier – Ikram Aliskerov",
-   "time": "2026-11-21T18:15:00Z",
-   "pick": "Ikram Aliskerov",
-   "odds": 1.34,
-   "book": "Coolbet",
-   "p": 74.1,
-   "conf": 58,
-   "probs": [
-    [
-     "Ikram Aliskerov",
-     74
-    ],
-    [
-     "Jared Cannonier",
-     26
-    ]
-   ],
-   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.34 contro probabilità stimata 74.1% (Pinnacle): EV -0.8%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "UFCStats",
-     "http://ufcstats.com/"
-    ]
-   ],
-   "home": "Jared Cannonier",
-   "away": "Ikram Aliskerov",
-   "sport_key": "mma_mixed_martial_arts",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "3a60ed1d20004aa4d4772b2c1a2272e7",
-   "market": "h2h",
-   "selection": "Cincinnati Bengals",
-   "point": null,
-   "league": "NFL",
-   "match": "Washington Commanders – Cincinnati Bengals",
-   "time": "2026-11-24T01:15:00Z",
-   "pick": "Cincinnati Bengals",
-   "odds": 1.39,
-   "book": "Codere It",
-   "p": 71.6,
-   "conf": 56,
-   "probs": [
-    [
-     "Cincinnati Bengals",
-     72
-    ],
-    [
-     "Washington Commanders",
-     28
-    ]
-   ],
-   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.39 contro probabilità stimata 71.6% (Pinnacle): EV -0.5%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "Pro Football Reference",
-     "https://www.pro-football-reference.com/"
-    ],
-    [
-     "ESPN injuries",
-     "https://www.espn.com/nfl/injuries"
-    ]
-   ],
-   "home": "Washington Commanders",
-   "away": "Cincinnati Bengals",
-   "sport_key": "americanfootball_nfl",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "be2fcabc408be29ca01ce92ab266f8b7",
-   "market": "h2h",
-   "selection": "Juventus",
-   "point": null,
-   "league": "Serie A",
-   "match": "Juventus – Venezia",
-   "time": "2026-11-22T11:30:00Z",
-   "pick": "Juventus",
-   "odds": 1.4,
-   "book": "Onexbet",
-   "p": 70.6,
-   "conf": 54,
-   "probs": [
-    [
-     "Juventus",
-     71
-    ],
-    [
-     "Draw",
-     18
-    ],
-    [
-     "Venezia",
-     12
-    ]
-   ],
-   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.40 contro probabilità stimata 70.6% (Pinnacle): EV -1.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "FBref",
-     "https://fbref.com/en/comps/11/"
-    ],
-    [
-     "Understat",
-     "https://understat.com/league/Serie_A"
-    ]
-   ],
-   "home": "Juventus",
-   "away": "Venezia",
-   "sport_key": "soccer_italy_serie_a",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "3252a6edf971e56a6d153f473f6b6edd",
-   "market": "h2h",
-   "selection": "Diyar Nurgozhay",
-   "point": null,
-   "league": "UFC",
-   "match": "Alik Lorenz – Diyar Nurgozhay",
-   "time": "2026-11-21T15:35:00Z",
-   "pick": "Diyar Nurgozhay",
-   "odds": 1.63,
-   "book": "Matchbook",
-   "p": 70.5,
-   "conf": 76,
-   "probs": [
-    [
-     "Diyar Nurgozhay",
-     71
-    ],
-    [
-     "Alik Lorenz",
-     29
-    ]
-   ],
-   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.63 contro probabilità stimata 70.5% (Pinnacle): EV +14.9%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "UFCStats",
-     "http://ufcstats.com/"
-    ]
-   ],
-   "home": "Alik Lorenz",
-   "away": "Diyar Nurgozhay",
-   "sport_key": "mma_mixed_martial_arts",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "6571e7bc729a887110c0869b14c3582c",
-   "market": "h2h",
-   "selection": "Aleksandre Topuria",
-   "point": null,
-   "league": "UFC",
-   "match": "Santiago Luna – Aleksandre Topuria",
-   "time": "2026-11-21T17:40:00Z",
-   "pick": "Aleksandre Topuria",
-   "odds": 1.38,
-   "book": "Betfair Ex Eu",
-   "p": 70.4,
-   "conf": 51,
-   "probs": [
-    [
-     "Aleksandre Topuria",
-     70
-    ],
-    [
-     "Santiago Luna",
-     30
-    ]
-   ],
-   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.38 contro probabilità stimata 70.4% (Pinnacle): EV -2.8%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "UFCStats",
-     "http://ufcstats.com/"
-    ]
-   ],
-   "home": "Santiago Luna",
-   "away": "Aleksandre Topuria",
-   "sport_key": "mma_mixed_martial_arts",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "8ba112fabf4e87639338a5f437c5abfe",
-   "market": "h2h",
-   "selection": "Jacksonville Jaguars",
-   "point": null,
-   "league": "NFL",
-   "match": "New York Giants – Jacksonville Jaguars",
-   "time": "2026-11-22T21:25:00Z",
-   "pick": "Jacksonville Jaguars",
-   "odds": 1.41,
-   "book": "Betfair Ex Eu",
-   "p": 69.7,
-   "conf": 52,
-   "probs": [
-    [
-     "Jacksonville Jaguars",
-     70
-    ],
-    [
-     "New York Giants",
-     30
-    ]
-   ],
-   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.41 contro probabilità stimata 69.7% (Pinnacle): EV -1.7%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "Pro Football Reference",
-     "https://www.pro-football-reference.com/"
-    ],
-    [
-     "ESPN injuries",
-     "https://www.espn.com/nfl/injuries"
-    ]
-   ],
-   "home": "New York Giants",
-   "away": "Jacksonville Jaguars",
-   "sport_key": "americanfootball_nfl",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "f489c8a46fa7baeab80d1bace1b0f067",
-   "market": "h2h",
-   "selection": "Jake Matthews",
-   "point": null,
-   "league": "UFC",
-   "match": "Jake Matthews – Tahir Abdullayev",
-   "time": "2026-11-21T16:45:00Z",
-   "pick": "Jake Matthews",
-   "odds": 1.42,
-   "book": "Betfair Ex Eu",
-   "p": 69.1,
-   "conf": 51,
-   "probs": [
-    [
-     "Jake Matthews",
-     69
-    ],
-    [
-     "Tahir Abdullayev",
-     31
-    ]
-   ],
-   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.42 contro probabilità stimata 69.1% (Pinnacle): EV -1.9%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "UFCStats",
-     "http://ufcstats.com/"
-    ]
-   ],
-   "home": "Jake Matthews",
-   "away": "Tahir Abdullayev",
-   "sport_key": "mma_mixed_martial_arts",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
    "id": "41e2dd69bddd65d7e823d9ed61cc2afc",
    "market": "h2h",
-   "selection": "Detroit Lions",
+   "selection": "Tampa Bay Buccaneers",
    "point": null,
    "league": "NFL",
    "match": "Detroit Lions – Tampa Bay Buccaneers",
    "time": "2026-11-22T18:00:00Z",
-   "pick": "Detroit Lions",
-   "odds": 1.45,
-   "book": "Marathonbet",
-   "p": 68.2,
-   "conf": 52,
+   "pick": "Tampa Bay Buccaneers",
+   "odds": 2.98,
+   "book": "Betfair Ex Eu",
+   "p": 35.0,
+   "conf": 36,
    "probs": [
     [
      "Detroit Lions",
-     68
+     65
     ],
     [
      "Tampa Bay Buccaneers",
-     32
+     35
     ]
    ],
-   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.45 contro probabilità stimata 68.2% (Pinnacle): EV -1.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 2.98 contro probabilità stimata 35.0% (Pinnacle): EV +4.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -1151,30 +342,186 @@
    ]
   },
   {
-   "id": "37e3f99d7ee68587400e99e417db0e6a",
+   "id": "e22f82b10fe71d230248b88fef87e58f",
    "market": "h2h",
-   "selection": "Minnesota Timberwolves",
+   "selection": "Atalanta BC",
    "point": null,
-   "league": "NBA",
-   "match": "Minnesota Timberwolves – Memphis Grizzlies",
-   "time": "2026-11-22T01:10:00Z",
-   "pick": "Minnesota Timberwolves",
-   "odds": 1.47,
-   "book": "Matchbook",
-   "p": 67.5,
-   "conf": 52,
+   "league": "Serie A",
+   "match": "Atalanta BC – Inter Milan",
+   "time": "2026-11-22T19:45:00Z",
+   "pick": "Atalanta BC",
+   "odds": 6.0,
+   "book": "Betfair Ex Eu",
+   "p": 17.4,
+   "conf": 22,
    "probs": [
     [
-     "Minnesota Timberwolves",
-     67
+     "Inter Milan",
+     62
     ],
     [
-     "Memphis Grizzlies",
-     33
+     "Draw",
+     20
+    ],
+    [
+     "Atalanta BC",
+     17
     ]
    ],
-   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.47 contro probabilità stimata 67.5% (Pinnacle): EV -0.8%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 6.00 contro probabilità stimata 17.4% (Pinnacle): EV +4.1%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "FBref",
+     "https://fbref.com/en/comps/11/"
+    ],
+    [
+     "Understat",
+     "https://understat.com/league/Serie_A"
+    ]
+   ],
+   "home": "Atalanta BC",
+   "away": "Inter Milan",
+   "sport_key": "soccer_italy_serie_a",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "5faf836ce6c0fd72af5d1fe258c63bc6",
+   "market": "h2h",
+   "selection": "Draw",
+   "point": null,
+   "league": "Serie A",
+   "match": "AC Milan – Frosinone",
+   "time": "2026-11-22T17:00:00Z",
+   "pick": "Draw",
+   "odds": 4.83,
+   "book": "Onexbet",
+   "p": 21.5,
+   "conf": 24,
+   "probs": [
+    [
+     "AC Milan",
+     60
+    ],
+    [
+     "Draw",
+     21
+    ],
+    [
+     "Frosinone",
+     19
+    ]
+   ],
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 4.83 contro probabilità stimata 21.5% (Pinnacle): EV +3.7%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "FBref",
+     "https://fbref.com/en/comps/11/"
+    ],
+    [
+     "Understat",
+     "https://understat.com/league/Serie_A"
+    ]
+   ],
+   "home": "AC Milan",
+   "away": "Frosinone",
+   "sport_key": "soccer_italy_serie_a",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "5bc13c44b33981f3185400163388267e",
+   "market": "h2h",
+   "selection": "Draw",
+   "point": null,
+   "league": "Serie A",
+   "match": "Bologna – Udinese",
+   "time": "2026-11-22T14:00:00Z",
+   "pick": "Draw",
+   "odds": 3.91,
+   "book": "Onexbet",
+   "p": 26.4,
+   "conf": 27,
+   "probs": [
+    [
+     "Bologna",
+     54
+    ],
+    [
+     "Draw",
+     26
+    ],
+    [
+     "Udinese",
+     19
+    ]
+   ],
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 3.91 contro probabilità stimata 26.4% (Pinnacle): EV +3.1%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "FBref",
+     "https://fbref.com/en/comps/11/"
+    ],
+    [
+     "Understat",
+     "https://understat.com/league/Serie_A"
+    ]
+   ],
+   "home": "Bologna",
+   "away": "Udinese",
+   "sport_key": "soccer_italy_serie_a",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "b8c5bdb50209c7d050400c7d28c32e30",
+   "market": "h2h",
+   "selection": "Golden State Warriors",
+   "point": null,
+   "league": "NBA",
+   "match": "Golden State Warriors – Boston Celtics",
+   "time": "2026-11-23T01:40:00Z",
+   "pick": "Golden State Warriors",
+   "odds": 4.3,
+   "book": "Matchbook",
+   "p": 24.0,
+   "conf": 25,
+   "probs": [
+    [
+     "Boston Celtics",
+     76
+    ],
+    [
+     "Golden State Warriors",
+     24
+    ]
+   ],
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 4.30 contro probabilità stimata 24.0% (media di 22 book): EV +3.0%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -1190,8 +537,8 @@
      "https://www.espn.com/nba/injuries"
     ]
    ],
-   "home": "Minnesota Timberwolves",
-   "away": "Memphis Grizzlies",
+   "home": "Golden State Warriors",
+   "away": "Boston Celtics",
    "sport_key": "basketball_nba",
    "logos": [
     null,
@@ -1199,30 +546,87 @@
    ]
   },
   {
-   "id": "293cafe6913a9bd59328c98049266ad0",
+   "id": "be2fcabc408be29ca01ce92ab266f8b7",
    "market": "h2h",
-   "selection": "Dallas Mavericks",
+   "selection": "Draw",
    "point": null,
-   "league": "NBA",
-   "match": "Dallas Mavericks – Los Angeles Clippers",
-   "time": "2026-11-22T01:10:00Z",
-   "pick": "Dallas Mavericks",
-   "odds": 1.51,
-   "book": "Matchbook",
-   "p": 66.1,
-   "conf": 53,
+   "league": "Serie A",
+   "match": "Juventus – Venezia",
+   "time": "2026-11-22T11:30:00Z",
+   "pick": "Draw",
+   "odds": 5.26,
+   "book": "Onexbet",
+   "p": 19.5,
+   "conf": 21,
    "probs": [
     [
-     "Dallas Mavericks",
-     66
+     "Juventus",
+     69
     ],
     [
-     "Los Angeles Clippers",
-     34
+     "Draw",
+     19
+    ],
+    [
+     "Venezia",
+     12
+    ]
+   ],
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 5.26 contro probabilità stimata 19.5% (Pinnacle): EV +2.5%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "FBref",
+     "https://fbref.com/en/comps/11/"
+    ],
+    [
+     "Understat",
+     "https://understat.com/league/Serie_A"
+    ]
+   ],
+   "home": "Juventus",
+   "away": "Venezia",
+   "sport_key": "soccer_italy_serie_a",
+   "logos": [
+    null,
+    null
+   ]
+  }
+ ],
+ "combos": [],
+ "boosts": [],
+ "partite": [],
+ "favoriti": [
+  {
+   "id": "031fa761cc38e1b5afd9309b731b38b2",
+   "market": "h2h",
+   "selection": "New York Knicks",
+   "point": null,
+   "league": "NBA",
+   "match": "New York Knicks – Indiana Pacers",
+   "time": "2026-11-23T01:10:00Z",
+   "pick": "New York Knicks",
+   "odds": 1.3,
+   "book": "Matchbook",
+   "p": 77.0,
+   "conf": 62,
+   "probs": [
+    [
+     "New York Knicks",
+     77
+    ],
+    [
+     "Indiana Pacers",
+     23
     ]
    ],
    "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.51 contro probabilità stimata 66.1% (Pinnacle): EV -0.1%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 1.30 contro probabilità stimata 77.0% (Pinnacle): EV +0.1%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -1238,8 +642,8 @@
      "https://www.espn.com/nba/injuries"
     ]
    ],
-   "home": "Dallas Mavericks",
-   "away": "Los Angeles Clippers",
+   "home": "New York Knicks",
+   "away": "Indiana Pacers",
    "sport_key": "basketball_nba",
    "logos": [
     null,
@@ -1247,30 +651,174 @@
    ]
   },
   {
-   "id": "cbe45bafcc2615fc1d96cbc12840377a",
+   "id": "8e93849b4c1ccbf1c207836d5c470150",
    "market": "h2h",
-   "selection": "Pittsburgh Steelers",
+   "selection": "Real Betis",
+   "point": null,
+   "league": "Champions League",
+   "match": "ŠK Slovan Bratislava – Real Betis",
+   "time": "2026-11-24T20:00:00Z",
+   "pick": "Real Betis",
+   "odds": 1.3,
+   "book": "Gtbets",
+   "p": 76.8,
+   "conf": 61,
+   "probs": [
+    [
+     "Real Betis",
+     77
+    ],
+    [
+     "Draw",
+     14
+    ],
+    [
+     "ŠK Slovan Bratislava",
+     9
+    ]
+   ],
+   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
+   "insight": "Quota migliore 1.30 contro probabilità stimata 76.8% (Pinnacle): EV -0.1%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "UEFA",
+     "https://www.uefa.com/uefachampionsleague/"
+    ]
+   ],
+   "home": "ŠK Slovan Bratislava",
+   "away": "Real Betis",
+   "sport_key": "soccer_uefa_champs_league",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "15a079f55e23d26237844224f258c972",
+   "market": "h2h",
+   "selection": "Denver Nuggets",
+   "point": null,
+   "league": "NBA",
+   "match": "Chicago Bulls – Denver Nuggets",
+   "time": "2026-11-23T00:10:00Z",
+   "pick": "Denver Nuggets",
+   "odds": 1.3,
+   "book": "Matchbook",
+   "p": 75.9,
+   "conf": 58,
+   "probs": [
+    [
+     "Denver Nuggets",
+     76
+    ],
+    [
+     "Chicago Bulls",
+     24
+    ]
+   ],
+   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
+   "insight": "Quota migliore 1.30 contro probabilità stimata 75.9% (Pinnacle): EV -1.4%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "NBA Stats",
+     "https://www.nba.com/stats"
+    ],
+    [
+     "ESPN injuries",
+     "https://www.espn.com/nba/injuries"
+    ]
+   ],
+   "home": "Chicago Bulls",
+   "away": "Denver Nuggets",
+   "sport_key": "basketball_nba",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "b9f00a4d399ec661e733857c9d5fb2dc",
+   "market": "h2h",
+   "selection": "Manchester City",
+   "point": null,
+   "league": "Champions League",
+   "match": "Manchester City – Napoli",
+   "time": "2026-11-24T20:00:00Z",
+   "pick": "Manchester City",
+   "odds": 1.31,
+   "book": "Betfair Ex Eu",
+   "p": 75.7,
+   "conf": 59,
+   "probs": [
+    [
+     "Manchester City",
+     76
+    ],
+    [
+     "Draw",
+     15
+    ],
+    [
+     "Napoli",
+     10
+    ]
+   ],
+   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
+   "insight": "Quota migliore 1.31 contro probabilità stimata 75.7% (Pinnacle): EV -0.8%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "UEFA",
+     "https://www.uefa.com/uefachampionsleague/"
+    ]
+   ],
+   "home": "Manchester City",
+   "away": "Napoli",
+   "sport_key": "soccer_uefa_champs_league",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "5e63079b678f8c13419adc169fff02d3",
+   "market": "h2h",
+   "selection": "Dallas Cowboys",
    "point": null,
    "league": "NFL",
-   "match": "Philadelphia Eagles – Pittsburgh Steelers",
+   "match": "Dallas Cowboys – Tennessee Titans",
    "time": "2026-11-22T18:00:00Z",
-   "pick": "Pittsburgh Steelers",
-   "odds": 1.54,
+   "pick": "Dallas Cowboys",
+   "odds": 1.3,
    "book": "Matchbook",
-   "p": 64.3,
-   "conf": 49,
+   "p": 75.3,
+   "conf": 56,
    "probs": [
     [
-     "Pittsburgh Steelers",
-     64
+     "Dallas Cowboys",
+     75
     ],
     [
-     "Philadelphia Eagles",
-     36
+     "Tennessee Titans",
+     25
     ]
    ],
    "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.54 contro probabilità stimata 64.3% (Pinnacle): EV -1.0%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 1.30 contro probabilità stimata 75.3% (Pinnacle): EV -2.1%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -1286,9 +834,349 @@
      "https://www.espn.com/nfl/injuries"
     ]
    ],
-   "home": "Philadelphia Eagles",
-   "away": "Pittsburgh Steelers",
+   "home": "Dallas Cowboys",
+   "away": "Tennessee Titans",
    "sport_key": "americanfootball_nfl",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "ba719e378ac366262013bdb51a06aa6f",
+   "market": "h2h",
+   "selection": "Como",
+   "point": null,
+   "league": "Champions League",
+   "match": "Como – AEK Athens",
+   "time": "2026-11-24T20:00:00Z",
+   "pick": "Como",
+   "odds": 1.37,
+   "book": "Onexbet",
+   "p": 72.6,
+   "conf": 57,
+   "probs": [
+    [
+     "Como",
+     73
+    ],
+    [
+     "Draw",
+     17
+    ],
+    [
+     "AEK Athens",
+     11
+    ]
+   ],
+   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
+   "insight": "Quota migliore 1.37 contro probabilità stimata 72.6% (Pinnacle): EV -0.6%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "UEFA",
+     "https://www.uefa.com/uefachampionsleague/"
+    ]
+   ],
+   "home": "Como",
+   "away": "AEK Athens",
+   "sport_key": "soccer_uefa_champs_league",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "8ba112fabf4e87639338a5f437c5abfe",
+   "market": "h2h",
+   "selection": "Jacksonville Jaguars",
+   "point": null,
+   "league": "NFL",
+   "match": "New York Giants – Jacksonville Jaguars",
+   "time": "2026-11-22T21:25:00Z",
+   "pick": "Jacksonville Jaguars",
+   "odds": 1.41,
+   "book": "Betfair Ex Eu",
+   "p": 71.6,
+   "conf": 59,
+   "probs": [
+    [
+     "Jacksonville Jaguars",
+     72
+    ],
+    [
+     "New York Giants",
+     28
+    ]
+   ],
+   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
+   "insight": "Quota migliore 1.41 contro probabilità stimata 71.6% (Pinnacle): EV +1.0%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "Pro Football Reference",
+     "https://www.pro-football-reference.com/"
+    ],
+    [
+     "ESPN injuries",
+     "https://www.espn.com/nfl/injuries"
+    ]
+   ],
+   "home": "New York Giants",
+   "away": "Jacksonville Jaguars",
+   "sport_key": "americanfootball_nfl",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "3a60ed1d20004aa4d4772b2c1a2272e7",
+   "market": "h2h",
+   "selection": "Cincinnati Bengals",
+   "point": null,
+   "league": "NFL",
+   "match": "Washington Commanders – Cincinnati Bengals",
+   "time": "2026-11-24T01:15:00Z",
+   "pick": "Cincinnati Bengals",
+   "odds": 1.38,
+   "book": "Betfair Ex Eu",
+   "p": 71.6,
+   "conf": 55,
+   "probs": [
+    [
+     "Cincinnati Bengals",
+     72
+    ],
+    [
+     "Washington Commanders",
+     28
+    ]
+   ],
+   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
+   "insight": "Quota migliore 1.38 contro probabilità stimata 71.6% (Pinnacle): EV -1.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "Pro Football Reference",
+     "https://www.pro-football-reference.com/"
+    ],
+    [
+     "ESPN injuries",
+     "https://www.espn.com/nfl/injuries"
+    ]
+   ],
+   "home": "Washington Commanders",
+   "away": "Cincinnati Bengals",
+   "sport_key": "americanfootball_nfl",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "aee4e3c225603397ab52de3d066b566b",
+   "market": "h2h",
+   "selection": "Arsenal",
+   "point": null,
+   "league": "Champions League",
+   "match": "Arsenal – Borussia Dortmund",
+   "time": "2026-11-24T20:00:00Z",
+   "pick": "Arsenal",
+   "odds": 1.46,
+   "book": "Onexbet",
+   "p": 68.7,
+   "conf": 56,
+   "probs": [
+    [
+     "Arsenal",
+     69
+    ],
+    [
+     "Draw",
+     19
+    ],
+    [
+     "Borussia Dortmund",
+     12
+    ]
+   ],
+   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
+   "insight": "Quota migliore 1.46 contro probabilità stimata 68.7% (Pinnacle): EV +0.4%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "UEFA",
+     "https://www.uefa.com/uefachampionsleague/"
+    ]
+   ],
+   "home": "Arsenal",
+   "away": "Borussia Dortmund",
+   "sport_key": "soccer_uefa_champs_league",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "be2fcabc408be29ca01ce92ab266f8b7",
+   "market": "h2h",
+   "selection": "Juventus",
+   "point": null,
+   "league": "Serie A",
+   "match": "Juventus – Venezia",
+   "time": "2026-11-22T11:30:00Z",
+   "pick": "Juventus",
+   "odds": 1.42,
+   "book": "Onexbet",
+   "p": 68.5,
+   "conf": 49,
+   "probs": [
+    [
+     "Juventus",
+     69
+    ],
+    [
+     "Draw",
+     19
+    ],
+    [
+     "Venezia",
+     12
+    ]
+   ],
+   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
+   "insight": "Quota migliore 1.42 contro probabilità stimata 68.5% (Pinnacle): EV -2.7%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "FBref",
+     "https://fbref.com/en/comps/11/"
+    ],
+    [
+     "Understat",
+     "https://understat.com/league/Serie_A"
+    ]
+   ],
+   "home": "Juventus",
+   "away": "Venezia",
+   "sport_key": "soccer_italy_serie_a",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "aea973c122c91837c15e066c757c747f",
+   "market": "h2h",
+   "selection": "RB Leipzig",
+   "point": null,
+   "league": "Champions League",
+   "match": "RB Leipzig – RC Lens",
+   "time": "2026-11-24T20:00:00Z",
+   "pick": "RB Leipzig",
+   "odds": 1.46,
+   "book": "Gtbets",
+   "p": 67.6,
+   "conf": 52,
+   "probs": [
+    [
+     "RB Leipzig",
+     68
+    ],
+    [
+     "Draw",
+     16
+    ],
+    [
+     "RC Lens",
+     16
+    ]
+   ],
+   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
+   "insight": "Quota migliore 1.46 contro probabilità stimata 67.6% (Pinnacle): EV -1.3%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "UEFA",
+     "https://www.uefa.com/uefachampionsleague/"
+    ]
+   ],
+   "home": "RB Leipzig",
+   "away": "RC Lens",
+   "sport_key": "soccer_uefa_champs_league",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "335ad5604b51b7742fd1dee92d78da35",
+   "market": "h2h",
+   "selection": "Orlando Magic",
+   "point": null,
+   "league": "NBA",
+   "match": "Washington Wizards – Orlando Magic",
+   "time": "2026-11-23T00:10:00Z",
+   "pick": "Orlando Magic",
+   "odds": 1.51,
+   "book": "Matchbook",
+   "p": 67.1,
+   "conf": 56,
+   "probs": [
+    [
+     "Orlando Magic",
+     67
+    ],
+    [
+     "Washington Wizards",
+     33
+    ]
+   ],
+   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
+   "insight": "Quota migliore 1.51 contro probabilità stimata 67.1% (Pinnacle): EV +1.4%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "NBA Stats",
+     "https://www.nba.com/stats"
+    ],
+    [
+     "ESPN injuries",
+     "https://www.espn.com/nba/injuries"
+    ]
+   ],
+   "home": "Washington Wizards",
+   "away": "Orlando Magic",
+   "sport_key": "basketball_nba",
    "logos": [
     null,
     null

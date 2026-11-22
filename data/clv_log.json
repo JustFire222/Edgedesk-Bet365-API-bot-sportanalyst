@@ -778,5 +778,65 @@
   "odds_taken": 7.29,
   "taken_at": "2026-11-21T15:30:55Z",
   "commence_time": "2026-11-21T17:00:00Z"
+ },
+ {
+  "id": "aea973c122c91837c15e066c757c747f|h2h|RC Lens|None",
+  "event_id": "aea973c122c91837c15e066c757c747f",
+  "sport_key": "soccer_uefa_champs_league",
+  "label": "RB Leipzig – RC Lens",
+  "market": "h2h",
+  "selection": "RC Lens",
+  "point": null,
+  "odds_taken": 7.4,
+  "taken_at": "2026-11-22T07:58:12Z",
+  "commence_time": "2026-11-24T20:00:00Z"
+ },
+ {
+  "id": "50b80f3ebd38bf63663b11ae0afc575b|h2h|LASK|None",
+  "event_id": "50b80f3ebd38bf63663b11ae0afc575b",
+  "sport_key": "soccer_uefa_champs_league",
+  "label": "Bodø/Glimt – LASK",
+  "market": "h2h",
+  "selection": "LASK",
+  "point": null,
+  "odds_taken": 5.8,
+  "taken_at": "2026-11-22T07:58:12Z",
+  "commence_time": "2026-11-24T17:45:00Z"
+ },
+ {
+  "id": "5bc13c44b33981f3185400163388267e|h2h|Draw|None",
+  "event_id": "5bc13c44b33981f3185400163388267e",
+  "sport_key": "soccer_italy_serie_a",
+  "label": "Bologna – Udinese",
+  "market": "h2h",
+  "selection": "Draw",
+  "point": null,
+  "odds_taken": 3.91,
+  "taken_at": "2026-11-22T07:58:12Z",
+  "commence_time": "2026-11-22T14:00:00Z"
+ },
+ {
+  "id": "b8c5bdb50209c7d050400c7d28c32e30|h2h|Golden State Warriors|None",
+  "event_id": "b8c5bdb50209c7d050400c7d28c32e30",
+  "sport_key": "basketball_nba",
+  "label": "Golden State Warriors – Boston Celtics",
+  "market": "h2h",
+  "selection": "Golden State Warriors",
+  "point": null,
+  "odds_taken": 4.3,
+  "taken_at": "2026-11-22T07:58:12Z",
+  "commence_time": "2026-11-23T01:40:00Z"
+ },
+ {
+  "id": "be2fcabc408be29ca01ce92ab266f8b7|h2h|Draw|None",
+  "event_id": "be2fcabc408be29ca01ce92ab266f8b7",
+  "sport_key": "soccer_italy_serie_a",
+  "label": "Juventus – Venezia",
+  "market": "h2h",
+  "selection": "Draw",
+  "point": null,
+  "odds_taken": 5.26,
+  "taken_at": "2026-11-22T07:58:12Z",
+  "commence_time": "2026-11-22T11:30:00Z"
  }
 ]
