@@ -309,21 +309,29 @@
  "5bc13c44b33981f3185400163388267e|h2h|Udinese|None": {
   "close_prob": 0.17782,
   "close_odds": 5.624,
-  "snap_at": "2026-11-22T13:41:53Z"
+  "snap_at": "2026-11-22T13:41:53Z",
+  "clv": -5.76,
+  "status": "closed"
  },
  "76d4698a8417f32cb059f14a469939f3|h2h|Sassuolo|None": {
   "close_prob": 0.34876,
   "close_odds": 2.867,
-  "snap_at": "2026-11-22T13:41:53Z"
+  "snap_at": "2026-11-22T13:41:53Z",
+  "clv": 3.23,
+  "status": "closed"
  },
  "76d4698a8417f32cb059f14a469939f3|h2h|Draw|None": {
   "close_prob": 0.31099,
   "close_odds": 3.216,
-  "snap_at": "2026-11-22T13:41:53Z"
+  "snap_at": "2026-11-22T13:41:53Z",
+  "clv": 11.33,
+  "status": "closed"
  },
  "5bc13c44b33981f3185400163388267e|h2h|Draw|None": {
   "close_prob": 0.26099,
   "close_odds": 3.832,
-  "snap_at": "2026-11-22T13:41:53Z"
+  "snap_at": "2026-11-22T13:41:53Z",
+  "clv": 2.05,
+  "status": "closed"
  }
 }
