@@ -298,5 +298,10 @@
  },
  "b754a1bf84af81d45d4a3a16398daa44|h2h|Sacramento Kings|None": {
   "status": "no_close"
+ },
+ "be2fcabc408be29ca01ce92ab266f8b7|h2h|Draw|None": {
+  "close_prob": 0.20009,
+  "close_odds": 4.998,
+  "snap_at": "2026-11-22T11:19:49Z"
  }
 }
