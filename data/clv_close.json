@@ -344,6 +344,8 @@
  "e22f82b10fe71d230248b88fef87e58f|h2h|Atalanta BC|None": {
   "close_prob": 0.17964,
   "close_odds": 5.567,
-  "snap_at": "2026-11-22T19:35:38Z"
+  "snap_at": "2026-11-22T19:35:38Z",
+  "clv": -2.99,
+  "status": "closed"
  }
 }
