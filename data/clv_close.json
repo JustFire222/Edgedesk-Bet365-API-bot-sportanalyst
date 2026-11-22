@@ -351,7 +351,9 @@
  "1940706a79cbcbafacdcbf231069716b|h2h|Las Vegas Raiders|None": {
   "close_prob": 0.15668,
   "close_odds": 6.383,
-  "snap_at": "2026-11-22T21:06:30Z"
+  "snap_at": "2026-11-22T21:06:30Z",
+  "clv": -9.13,
+  "status": "closed"
  },
  "3ea90704fb576633bd1e2fa5aafd9ea3|h2h|New Orleans Saints|None": {
   "status": "no_close"
