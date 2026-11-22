@@ -838,5 +838,17 @@
   "odds_taken": 5.26,
   "taken_at": "2026-11-22T07:58:12Z",
   "commence_time": "2026-11-22T11:30:00Z"
+ },
+ {
+  "id": "15a079f55e23d26237844224f258c972|h2h|Chicago Bulls|None",
+  "event_id": "15a079f55e23d26237844224f258c972",
+  "sport_key": "basketball_nba",
+  "label": "Chicago Bulls – Denver Nuggets",
+  "market": "h2h",
+  "selection": "Chicago Bulls",
+  "point": null,
+  "odds_taken": 4.6,
+  "taken_at": "2026-11-22T15:31:36Z",
+  "commence_time": "2026-11-23T00:10:00Z"
  }
 ]

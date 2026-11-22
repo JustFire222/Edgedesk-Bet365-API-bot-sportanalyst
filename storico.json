@@ -724,5 +724,16 @@
   "p": 19.5,
   "conf": 21,
   "time": "2026-11-22T11:30:00Z"
+ },
+ {
+  "id": "15a079f55e23d26237844224f258c972",
+  "ts": "2026-11-22T15:31:35.278395+00:00",
+  "match": "Chicago Bulls – Denver Nuggets",
+  "league": "NBA",
+  "pick": "Chicago Bulls",
+  "odds": 4.6,
+  "p": 22.7,
+  "conf": 27,
+  "time": "2026-11-23T00:10:00Z"
  }
 ]
