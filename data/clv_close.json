@@ -288,5 +288,10 @@
  },
  "d55740629555c012eedd01b8f75d3b69|h2h|Brian Ortega|None": {
   "status": "no_close"
+ },
+ "232f705eea406644ff14ad17bcf9aea6|h2h|Portland Trail Blazers|None": {
+  "close_prob": 0.52163,
+  "close_odds": 1.917,
+  "snap_at": "2026-11-22T00:37:41Z"
  }
 }
