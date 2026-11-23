@@ -386,6 +386,8 @@
  "99776445d5a5f4ed008f9a6d6a1495b7|h2h|Draw|None": {
   "close_prob": 0.25574,
   "close_odds": 3.91,
-  "snap_at": "2026-11-23T19:29:59Z"
+  "snap_at": "2026-11-23T19:29:59Z",
+  "clv": 4.09,
+  "status": "closed"
  }
 }
