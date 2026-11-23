@@ -1006,5 +1006,17 @@
   "odds_taken": 7.2,
   "taken_at": "2026-11-23T08:17:02Z",
   "commence_time": "2026-11-24T03:10:00Z"
+ },
+ {
+  "id": "e422af92d1fc06c0a330838c1c2f2e08|h2h|Draw|None",
+  "event_id": "e422af92d1fc06c0a330838c1c2f2e08",
+  "sport_key": "soccer_uefa_champs_league",
+  "label": "Galatasaray – Aston Villa",
+  "market": "h2h",
+  "selection": "Draw",
+  "point": null,
+  "odds_taken": 4.1,
+  "taken_at": "2026-11-23T15:50:34Z",
+  "commence_time": "2026-11-24T17:45:00Z"
  }
 ]
