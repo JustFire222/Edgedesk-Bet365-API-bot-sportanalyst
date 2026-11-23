@@ -376,5 +376,11 @@
   "snap_at": "2026-11-22T23:42:46Z",
   "clv": 4.06,
   "status": "closed"
+ },
+ "60e1d27b083a335b722c2c852ea85612|h2h|San Francisco 49ers|None": {
+  "status": "no_close"
+ },
+ "b8c5bdb50209c7d050400c7d28c32e30|h2h|Golden State Warriors|None": {
+  "status": "no_close"
  }
 }
