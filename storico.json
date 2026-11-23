@@ -735,5 +735,148 @@
   "p": 22.7,
   "conf": 27,
   "time": "2026-11-23T00:10:00Z"
+ },
+ {
+  "id": "0ee2cfddf20153779cd2cc3e1f1f879f",
+  "ts": "2026-11-23T08:17:00.811080+00:00",
+  "match": "Lille – Bayern Munich",
+  "league": "Champions League",
+  "pick": "Lille",
+  "odds": 5.6,
+  "p": 19.5,
+  "conf": 34,
+  "time": "2026-11-25T20:00:00Z"
+ },
+ {
+  "id": "db2311c331296d3328d71b842167dea4",
+  "ts": "2026-11-23T08:17:00.811080+00:00",
+  "match": "Houston Rockets – Los Angeles Clippers",
+  "league": "NBA",
+  "pick": "Los Angeles Clippers",
+  "odds": 6.4,
+  "p": 17.0,
+  "conf": 31,
+  "time": "2026-11-24T01:40:00Z"
+ },
+ {
+  "id": "a5184238c27b9c3bfca29220f9d5d14a",
+  "ts": "2026-11-23T08:17:00.811080+00:00",
+  "match": "Toronto Raptors – Milwaukee Bucks",
+  "league": "NBA",
+  "pick": "Milwaukee Bucks",
+  "odds": 5.1,
+  "p": 21.2,
+  "conf": 33,
+  "time": "2026-11-24T00:40:00Z"
+ },
+ {
+  "id": "a72a1703f7a92b80768255d1d977a761",
+  "ts": "2026-11-23T08:17:00.811080+00:00",
+  "match": "Minnesota Timberwolves – Brooklyn Nets",
+  "league": "NBA",
+  "pick": "Brooklyn Nets",
+  "odds": 6.0,
+  "p": 17.8,
+  "conf": 28,
+  "time": "2026-11-24T00:40:00Z"
+ },
+ {
+  "id": "e7e64568f6af00d395a3fdfc27de8ae3",
+  "ts": "2026-11-23T08:17:00.811080+00:00",
+  "match": "Inter Milan – VfB Stuttgart",
+  "league": "Champions League",
+  "pick": "VfB Stuttgart",
+  "odds": 6.75,
+  "p": 15.7,
+  "conf": 24,
+  "time": "2026-11-25T20:00:00Z"
+ },
+ {
+  "id": "a7c87fac9e9cbcfc02ad0e0b29ca89e2",
+  "ts": "2026-11-23T08:17:00.811080+00:00",
+  "match": "Slavia Praha – Villarreal",
+  "league": "Champions League",
+  "pick": "Slavia Praha",
+  "odds": 3.25,
+  "p": 31.6,
+  "conf": 30,
+  "time": "2026-11-25T17:45:00Z"
+ },
+ {
+  "id": "99776445d5a5f4ed008f9a6d6a1495b7",
+  "ts": "2026-11-23T08:17:00.811080+00:00",
+  "match": "Monza – Fiorentina",
+  "league": "Serie A",
+  "pick": "Draw",
+  "odds": 4.07,
+  "p": 25.3,
+  "conf": 26,
+  "time": "2026-11-23T19:45:00Z"
+ },
+ {
+  "id": "e422af92d1fc06c0a330838c1c2f2e08",
+  "ts": "2026-11-23T08:17:00.811080+00:00",
+  "match": "Galatasaray – Aston Villa",
+  "league": "Champions League",
+  "pick": "Galatasaray",
+  "odds": 2.94,
+  "p": 34.8,
+  "conf": 33,
+  "time": "2026-11-24T17:45:00Z"
+ },
+ {
+  "id": "14007bc0605bce3bd164b132254ba24c",
+  "ts": "2026-11-23T08:17:00.811080+00:00",
+  "match": "Paris Saint Germain – AS Roma",
+  "league": "Champions League",
+  "pick": "Draw",
+  "odds": 6.0,
+  "p": 17.2,
+  "conf": 21,
+  "time": "2026-11-25T20:00:00Z"
+ },
+ {
+  "id": "b9f00a4d399ec661e733857c9d5fb2dc",
+  "ts": "2026-11-23T08:17:00.811080+00:00",
+  "match": "Manchester City – Napoli",
+  "league": "Champions League",
+  "pick": "Draw",
+  "odds": 6.9,
+  "p": 15.0,
+  "conf": 19,
+  "time": "2026-11-24T20:00:00Z"
+ },
+ {
+  "id": "17f31499f145cd9d3232819395d29448",
+  "ts": "2026-11-23T08:17:00.811080+00:00",
+  "match": "Sacramento Kings – San Antonio Spurs",
+  "league": "NBA",
+  "pick": "Sacramento Kings",
+  "odds": 5.1,
+  "p": 20.2,
+  "conf": 22,
+  "time": "2026-11-24T03:10:00Z"
+ },
+ {
+  "id": "99459b90f3e732106e09585bf94b36b4",
+  "ts": "2026-11-23T08:17:00.811080+00:00",
+  "match": "Club Brugge – Liverpool",
+  "league": "Champions League",
+  "pick": "Club Brugge",
+  "odds": 4.7,
+  "p": 21.7,
+  "conf": 21,
+  "time": "2026-11-25T20:00:00Z"
+ },
+ {
+  "id": "3e9dc52cb055c0154839c4aec417955b",
+  "ts": "2026-11-23T08:17:00.811080+00:00",
+  "match": "Los Angeles Lakers – Utah Jazz",
+  "league": "NBA",
+  "pick": "Utah Jazz",
+  "odds": 7.2,
+  "p": 14.2,
+  "conf": 16,
+  "time": "2026-11-24T03:10:00Z"
  }
 ]
