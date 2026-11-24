@@ -415,5 +415,20 @@
  },
  "3e9dc52cb055c0154839c4aec417955b|h2h|Utah Jazz|None": {
   "status": "no_close"
+ },
+ "50b80f3ebd38bf63663b11ae0afc575b|h2h|LASK|None": {
+  "close_prob": 0.12586,
+  "close_odds": 7.946,
+  "snap_at": "2026-11-24T17:34:50Z"
+ },
+ "e422af92d1fc06c0a330838c1c2f2e08|h2h|Galatasaray|None": {
+  "close_prob": 0.27934,
+  "close_odds": 3.58,
+  "snap_at": "2026-11-24T17:34:50Z"
+ },
+ "e422af92d1fc06c0a330838c1c2f2e08|h2h|Draw|None": {
+  "close_prob": 0.23943,
+  "close_odds": 4.177,
+  "snap_at": "2026-11-24T17:34:50Z"
  }
 }
