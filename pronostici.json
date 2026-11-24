@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T08:15:35.461715+00:00",
+ "updated": "2026-11-24T15:52:04.179407+00:00",
  "picks": [
   {
    "id": "0ee2cfddf20153779cd2cc3e1f1f879f",
@@ -10,14 +10,14 @@
    "match": "Lille – Bayern Munich",
    "time": "2026-11-25T20:00:00Z",
    "pick": "Lille",
-   "odds": 5.6,
+   "odds": 5.5,
    "book": "Unibet Se",
-   "p": 19.4,
-   "conf": 33,
+   "p": 20.5,
+   "conf": 36,
    "probs": [
     [
      "Bayern Munich",
-     58
+     57
     ],
     [
      "Draw",
@@ -25,11 +25,11 @@
     ],
     [
      "Lille",
-     19
+     20
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 5.60 contro probabilità stimata 19.4% (Pinnacle): EV +8.7%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 5.50 contro probabilità stimata 20.5% (Pinnacle): EV +12.5%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -58,10 +58,10 @@
    "match": "Washington Wizards – Boston Celtics",
    "time": "2026-11-25T01:10:00Z",
    "pick": "Washington Wizards",
-   "odds": 5.0,
-   "book": "Betfair Ex Eu",
+   "odds": 5.1,
+   "book": "Unibet Nl",
    "p": 21.1,
-   "conf": 28,
+   "conf": 32,
    "probs": [
     [
      "Boston Celtics",
@@ -73,7 +73,7 @@
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 5.00 contro probabilità stimata 21.1% (Pinnacle): EV +5.4%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 5.10 contro probabilità stimata 21.1% (Pinnacle): EV +7.8%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -98,54 +98,6 @@
    ]
   },
   {
-   "id": "50b80f3ebd38bf63663b11ae0afc575b",
-   "market": "h2h",
-   "selection": "LASK",
-   "point": null,
-   "league": "Champions League",
-   "match": "Bodø/Glimt – LASK",
-   "time": "2026-11-24T17:45:00Z",
-   "pick": "LASK",
-   "odds": 6.4,
-   "book": "Matchbook",
-   "p": 16.5,
-   "conf": 24,
-   "probs": [
-    [
-     "Bodø/Glimt",
-     66
-    ],
-    [
-     "Draw",
-     17
-    ],
-    [
-     "LASK",
-     16
-    ]
-   ],
-   "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 6.40 contro probabilità stimata 16.5% (Pinnacle): EV +5.4%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "UEFA",
-     "https://www.uefa.com/uefachampionsleague/"
-    ]
-   ],
-   "home": "Bodø/Glimt",
-   "away": "LASK",
-   "sport_key": "soccer_uefa_champs_league",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
    "id": "14007bc0605bce3bd164b132254ba24c",
    "market": "h2h",
    "selection": "Draw",
@@ -154,14 +106,14 @@
    "match": "Paris Saint Germain – AS Roma",
    "time": "2026-11-25T20:00:00Z",
    "pick": "Draw",
-   "odds": 5.55,
+   "odds": 5.63,
    "book": "Onexbet",
-   "p": 18.8,
-   "conf": 23,
+   "p": 19.0,
+   "conf": 29,
    "probs": [
     [
      "Paris Saint Germain",
-     68
+     67
     ],
     [
      "Draw",
@@ -169,11 +121,11 @@
     ],
     [
      "AS Roma",
-     13
+     14
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 5.55 contro probabilità stimata 18.8% (Pinnacle): EV +4.1%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 5.63 contro probabilità stimata 19.0% (Pinnacle): EV +6.8%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -194,6 +146,54 @@
    ]
   },
   {
+   "id": "e7e64568f6af00d395a3fdfc27de8ae3",
+   "market": "h2h",
+   "selection": "VfB Stuttgart",
+   "point": null,
+   "league": "Champions League",
+   "match": "Inter Milan – VfB Stuttgart",
+   "time": "2026-11-25T20:00:00Z",
+   "pick": "VfB Stuttgart",
+   "odds": 7.0,
+   "book": "Unibet Se",
+   "p": 15.3,
+   "conf": 27,
+   "probs": [
+    [
+     "Inter Milan",
+     68
+    ],
+    [
+     "Draw",
+     17
+    ],
+    [
+     "VfB Stuttgart",
+     15
+    ]
+   ],
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 7.00 contro probabilità stimata 15.3% (Pinnacle): EV +7.3%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "UEFA",
+     "https://www.uefa.com/uefachampionsleague/"
+    ]
+   ],
+   "home": "Inter Milan",
+   "away": "VfB Stuttgart",
+   "sport_key": "soccer_uefa_champs_league",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
    "id": "ffaa06af56a7137d4b078c5c46c0b730",
    "market": "h2h",
    "selection": "Philadelphia Eagles",
@@ -202,10 +202,10 @@
    "match": "Dallas Cowboys – Philadelphia Eagles",
    "time": "2026-11-26T21:30:00Z",
    "pick": "Philadelphia Eagles",
-   "odds": 4.7,
+   "odds": 4.8,
    "book": "Matchbook",
    "p": 22.1,
-   "conf": 25,
+   "conf": 30,
    "probs": [
     [
      "Dallas Cowboys",
@@ -217,7 +217,7 @@
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 4.70 contro probabilità stimata 22.1% (Pinnacle): EV +3.9%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 4.80 contro probabilità stimata 22.1% (Pinnacle): EV +6.1%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -242,130 +242,34 @@
    ]
   },
   {
-   "id": "6bfadbd22ed8a054cf82ec1b12b78243",
+   "id": "50b80f3ebd38bf63663b11ae0afc575b",
    "market": "h2h",
-   "selection": "Dallas Mavericks",
-   "point": null,
-   "league": "NBA",
-   "match": "Denver Nuggets – Dallas Mavericks",
-   "time": "2026-11-25T03:10:00Z",
-   "pick": "Dallas Mavericks",
-   "odds": 3.8,
-   "book": "Betanysports",
-   "p": 27.0,
-   "conf": 27,
-   "probs": [
-    [
-     "Denver Nuggets",
-     73
-    ],
-    [
-     "Dallas Mavericks",
-     27
-    ]
-   ],
-   "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 3.80 contro probabilità stimata 27.0% (Pinnacle): EV +2.6%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "NBA Stats",
-     "https://www.nba.com/stats"
-    ],
-    [
-     "ESPN injuries",
-     "https://www.espn.com/nba/injuries"
-    ]
-   ],
-   "home": "Denver Nuggets",
-   "away": "Dallas Mavericks",
-   "sport_key": "basketball_nba",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "e7e64568f6af00d395a3fdfc27de8ae3",
-   "market": "h2h",
-   "selection": "VfB Stuttgart",
+   "selection": "LASK",
    "point": null,
    "league": "Champions League",
-   "match": "Inter Milan – VfB Stuttgart",
-   "time": "2026-11-25T20:00:00Z",
-   "pick": "VfB Stuttgart",
-   "odds": 6.75,
-   "book": "Unibet Se",
-   "p": 15.3,
-   "conf": 20,
+   "match": "Bodø/Glimt – LASK",
+   "time": "2026-11-24T17:45:00Z",
+   "pick": "LASK",
+   "odds": 7.45,
+   "book": "Coolbet",
+   "p": 14.2,
+   "conf": 23,
    "probs": [
     [
-     "Inter Milan",
-     68
+     "Bodø/Glimt",
+     69
     ],
     [
      "Draw",
      17
     ],
     [
-     "VfB Stuttgart",
-     15
-    ]
-   ],
-   "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 6.75 contro probabilità stimata 15.3% (Pinnacle): EV +3.6%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "UEFA",
-     "https://www.uefa.com/uefachampionsleague/"
-    ]
-   ],
-   "home": "Inter Milan",
-   "away": "VfB Stuttgart",
-   "sport_key": "soccer_uefa_champs_league",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "aee4e3c225603397ab52de3d066b566b",
-   "market": "h2h",
-   "selection": "Draw",
-   "point": null,
-   "league": "Champions League",
-   "match": "Arsenal – Borussia Dortmund",
-   "time": "2026-11-24T20:00:00Z",
-   "pick": "Draw",
-   "odds": 5.0,
-   "book": "Betfair Ex Eu",
-   "p": 20.5,
-   "conf": 21,
-   "probs": [
-    [
-     "Arsenal",
-     66
-    ],
-    [
-     "Draw",
-     20
-    ],
-    [
-     "Borussia Dortmund",
+     "LASK",
      14
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 5.00 contro probabilità stimata 20.5% (Pinnacle): EV +2.4%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 7.45 contro probabilità stimata 14.2% (Pinnacle): EV +5.6%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -377,8 +281,8 @@
      "https://www.uefa.com/uefachampionsleague/"
     ]
    ],
-   "home": "Arsenal",
-   "away": "Borussia Dortmund",
+   "home": "Bodø/Glimt",
+   "away": "LASK",
    "sport_key": "soccer_uefa_champs_league",
    "logos": [
     null,
@@ -394,22 +298,22 @@
    "match": "Houston Rockets – Phoenix Suns",
    "time": "2026-11-26T01:40:00Z",
    "pick": "Phoenix Suns",
-   "odds": 4.0,
-   "book": "Sport888",
-   "p": 25.5,
-   "conf": 25,
+   "odds": 4.22,
+   "book": "Onexbet",
+   "p": 24.7,
+   "conf": 29,
    "probs": [
     [
      "Houston Rockets",
-     74
+     75
     ],
     [
      "Phoenix Suns",
-     26
+     25
     ]
    ],
    "strategy": "Solo come gamba di combo.",
-   "insight": "Quota migliore 4.00 contro probabilità stimata 25.5% (media di 9 book): EV +2.1%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 4.22 contro probabilità stimata 24.7% (media di 15 book): EV +4.4%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -432,41 +336,36 @@
     null,
     null
    ]
-  }
- ],
- "combos": [],
- "boosts": [],
- "partite": [],
- "favoriti": [
+  },
   {
-   "id": "ba719e378ac366262013bdb51a06aa6f",
+   "id": "49c66d76bc4085e63a181179cc47ef4d",
    "market": "h2h",
-   "selection": "Como",
+   "selection": "Fenerbahce",
    "point": null,
    "league": "Champions League",
-   "match": "Como – AEK Athens",
-   "time": "2026-11-24T20:00:00Z",
-   "pick": "Como",
-   "odds": 1.3,
+   "match": "Shakhtar Donetsk – Fenerbahce",
+   "time": "2026-11-25T20:00:00Z",
+   "pick": "Fenerbahce",
+   "odds": 2.7,
    "book": "Onexbet",
-   "p": 76.9,
-   "conf": 62,
+   "p": 38.2,
+   "conf": 37,
    "probs": [
     [
-     "Como",
-     77
+     "Fenerbahce",
+     38
+    ],
+    [
+     "Shakhtar Donetsk",
+     35
     ],
     [
      "Draw",
-     14
-    ],
-    [
-     "AEK Athens",
-     9
+     27
     ]
    ],
-   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.30 contro probabilità stimata 76.9% (Pinnacle): EV -0.0%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 2.70 contro probabilità stimata 38.2% (Pinnacle): EV +3.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -478,8 +377,152 @@
      "https://www.uefa.com/uefachampionsleague/"
     ]
    ],
-   "home": "Como",
-   "away": "AEK Athens",
+   "home": "Shakhtar Donetsk",
+   "away": "Fenerbahce",
+   "sport_key": "soccer_uefa_champs_league",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "f08629281f1510f47d91cc408f86a2a8",
+   "market": "h2h",
+   "selection": "Cleveland Cavaliers",
+   "point": null,
+   "league": "NBA",
+   "match": "New York Knicks – Cleveland Cavaliers",
+   "time": "2026-11-26T00:40:00Z",
+   "pick": "Cleveland Cavaliers",
+   "odds": 2.88,
+   "book": "Onexbet",
+   "p": 35.7,
+   "conf": 34,
+   "probs": [
+    [
+     "New York Knicks",
+     64
+    ],
+    [
+     "Cleveland Cavaliers",
+     36
+    ]
+   ],
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 2.88 contro probabilità stimata 35.7% (media di 15 book): EV +2.9%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "NBA Stats",
+     "https://www.nba.com/stats"
+    ],
+    [
+     "ESPN injuries",
+     "https://www.espn.com/nba/injuries"
+    ]
+   ],
+   "home": "New York Knicks",
+   "away": "Cleveland Cavaliers",
+   "sport_key": "basketball_nba",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "9b825e6518156008da499be041975fdd",
+   "market": "h2h",
+   "selection": "Detroit Lions",
+   "point": null,
+   "league": "NFL",
+   "match": "Detroit Lions – Chicago Bears",
+   "time": "2026-11-26T18:00:00Z",
+   "pick": "Detroit Lions",
+   "odds": 2.3,
+   "book": "Unibet Nl",
+   "p": 44.4,
+   "conf": 40,
+   "probs": [
+    [
+     "Chicago Bears",
+     56
+    ],
+    [
+     "Detroit Lions",
+     44
+    ]
+   ],
+   "strategy": "Singola a stake ridotto o gamba di combo.",
+   "insight": "Quota migliore 2.30 contro probabilità stimata 44.4% (Pinnacle): EV +2.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "Pro Football Reference",
+     "https://www.pro-football-reference.com/"
+    ],
+    [
+     "ESPN injuries",
+     "https://www.espn.com/nfl/injuries"
+    ]
+   ],
+   "home": "Detroit Lions",
+   "away": "Chicago Bears",
+   "sport_key": "americanfootball_nfl",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "99459b90f3e732106e09585bf94b36b4",
+   "market": "h2h",
+   "selection": "Club Brugge",
+   "point": null,
+   "league": "Champions League",
+   "match": "Club Brugge – Liverpool",
+   "time": "2026-11-25T20:00:00Z",
+   "pick": "Club Brugge",
+   "odds": 4.8,
+   "book": "Unibet Se",
+   "p": 21.5,
+   "conf": 24,
+   "probs": [
+    [
+     "Liverpool",
+     59
+    ],
+    [
+     "Club Brugge",
+     21
+    ],
+    [
+     "Draw",
+     20
+    ]
+   ],
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 4.80 contro probabilità stimata 21.5% (Pinnacle): EV +3.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "UEFA",
+     "https://www.uefa.com/uefachampionsleague/"
+    ]
+   ],
+   "home": "Club Brugge",
+   "away": "Liverpool",
    "sport_key": "soccer_uefa_champs_league",
    "logos": [
     null,
@@ -489,16 +532,16 @@
   {
    "id": "b9f00a4d399ec661e733857c9d5fb2dc",
    "market": "h2h",
-   "selection": "Manchester City",
+   "selection": "Draw",
    "point": null,
    "league": "Champions League",
    "match": "Manchester City – Napoli",
    "time": "2026-11-24T20:00:00Z",
-   "pick": "Manchester City",
-   "odds": 1.33,
-   "book": "Onexbet",
-   "p": 74.9,
-   "conf": 59,
+   "pick": "Draw",
+   "odds": 7.0,
+   "book": "Betfair Ex Eu",
+   "p": 14.8,
+   "conf": 19,
    "probs": [
     [
      "Manchester City",
@@ -506,15 +549,15 @@
     ],
     [
      "Draw",
-     14
+     15
     ],
     [
      "Napoli",
-     11
+     10
     ]
    ],
-   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.33 contro probabilità stimata 74.9% (Pinnacle): EV -0.3%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 7.00 contro probabilità stimata 14.8% (Pinnacle): EV +3.6%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -535,30 +578,34 @@
    ]
   },
   {
-   "id": "60fd73164f7b0d1848f998d922155d87",
+   "id": "8e93849b4c1ccbf1c207836d5c470150",
    "market": "h2h",
-   "selection": "Houston Rockets",
+   "selection": "Draw",
    "point": null,
-   "league": "NBA",
-   "match": "Houston Rockets – Phoenix Suns",
-   "time": "2026-11-26T01:40:00Z",
-   "pick": "Houston Rockets",
-   "odds": 1.3,
+   "league": "Champions League",
+   "match": "ŠK Slovan Bratislava – Real Betis",
+   "time": "2026-11-24T20:00:00Z",
+   "pick": "Draw",
+   "odds": 6.9,
    "book": "Onexbet",
-   "p": 74.5,
-   "conf": 53,
+   "p": 15.0,
+   "conf": 18,
    "probs": [
     [
-     "Houston Rockets",
-     74
+     "Real Betis",
+     75
     ],
     [
-     "Phoenix Suns",
-     26
+     "Draw",
+     15
+    ],
+    [
+     "ŠK Slovan Bratislava",
+     10
     ]
    ],
-   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.30 contro probabilità stimata 74.5% (media di 9 book): EV -3.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "strategy": "Solo come gamba di combo.",
+   "insight": "Quota migliore 6.90 contro probabilità stimata 15.0% (Pinnacle): EV +3.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -566,17 +613,162 @@
      "https://the-odds-api.com"
     ],
     [
-     "NBA Stats",
-     "https://www.nba.com/stats"
-    ],
-    [
-     "ESPN injuries",
-     "https://www.espn.com/nba/injuries"
+     "UEFA",
+     "https://www.uefa.com/uefachampionsleague/"
     ]
    ],
-   "home": "Houston Rockets",
-   "away": "Phoenix Suns",
-   "sport_key": "basketball_nba",
+   "home": "ŠK Slovan Bratislava",
+   "away": "Real Betis",
+   "sport_key": "soccer_uefa_champs_league",
+   "logos": [
+    null,
+    null
+   ]
+  }
+ ],
+ "combos": [],
+ "boosts": [],
+ "partite": [],
+ "favoriti": [
+  {
+   "id": "8e93849b4c1ccbf1c207836d5c470150",
+   "market": "h2h",
+   "selection": "Real Betis",
+   "point": null,
+   "league": "Champions League",
+   "match": "ŠK Slovan Bratislava – Real Betis",
+   "time": "2026-11-24T20:00:00Z",
+   "pick": "Real Betis",
+   "odds": 1.3,
+   "book": "Betfair Ex Eu",
+   "p": 75.5,
+   "conf": 57,
+   "probs": [
+    [
+     "Real Betis",
+     75
+    ],
+    [
+     "Draw",
+     15
+    ],
+    [
+     "ŠK Slovan Bratislava",
+     10
+    ]
+   ],
+   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
+   "insight": "Quota migliore 1.30 contro probabilità stimata 75.5% (Pinnacle): EV -1.9%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "UEFA",
+     "https://www.uefa.com/uefachampionsleague/"
+    ]
+   ],
+   "home": "ŠK Slovan Bratislava",
+   "away": "Real Betis",
+   "sport_key": "soccer_uefa_champs_league",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "b9f00a4d399ec661e733857c9d5fb2dc",
+   "market": "h2h",
+   "selection": "Manchester City",
+   "point": null,
+   "league": "Champions League",
+   "match": "Manchester City – Napoli",
+   "time": "2026-11-24T20:00:00Z",
+   "pick": "Manchester City",
+   "odds": 1.33,
+   "book": "Onexbet",
+   "p": 75.0,
+   "conf": 60,
+   "probs": [
+    [
+     "Manchester City",
+     75
+    ],
+    [
+     "Draw",
+     15
+    ],
+    [
+     "Napoli",
+     10
+    ]
+   ],
+   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
+   "insight": "Quota migliore 1.33 contro probabilità stimata 75.0% (Pinnacle): EV -0.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "UEFA",
+     "https://www.uefa.com/uefachampionsleague/"
+    ]
+   ],
+   "home": "Manchester City",
+   "away": "Napoli",
+   "sport_key": "soccer_uefa_champs_league",
+   "logos": [
+    null,
+    null
+   ]
+  },
+  {
+   "id": "ba719e378ac366262013bdb51a06aa6f",
+   "market": "h2h",
+   "selection": "Como",
+   "point": null,
+   "league": "Champions League",
+   "match": "Como – AEK Athens",
+   "time": "2026-11-24T20:00:00Z",
+   "pick": "Como",
+   "odds": 1.31,
+   "book": "Onexbet",
+   "p": 74.6,
+   "conf": 55,
+   "probs": [
+    [
+     "Como",
+     75
+    ],
+    [
+     "Draw",
+     15
+    ],
+    [
+     "AEK Athens",
+     11
+    ]
+   ],
+   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
+   "insight": "Quota migliore 1.31 contro probabilità stimata 74.6% (Pinnacle): EV -2.3%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
+   "sources": [
+    [
+     "The Odds API",
+     "https://the-odds-api.com"
+    ],
+    [
+     "UEFA",
+     "https://www.uefa.com/uefachampionsleague/"
+    ]
+   ],
+   "home": "Como",
+   "away": "AEK Athens",
+   "sport_key": "soccer_uefa_champs_league",
    "logos": [
     null,
     null
@@ -591,22 +783,22 @@
    "match": "Denver Nuggets – Dallas Mavericks",
    "time": "2026-11-25T03:10:00Z",
    "pick": "Denver Nuggets",
-   "odds": 1.36,
+   "odds": 1.37,
    "book": "Betfair Ex Eu",
-   "p": 73.0,
-   "conf": 57,
+   "p": 72.4,
+   "conf": 56,
    "probs": [
     [
      "Denver Nuggets",
-     73
+     72
     ],
     [
      "Dallas Mavericks",
-     27
+     28
     ]
    ],
    "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.36 contro probabilità stimata 73.0% (Pinnacle): EV -0.7%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 1.37 contro probabilità stimata 72.4% (Pinnacle): EV -0.8%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -639,14 +831,14 @@
    "match": "RB Leipzig – RC Lens",
    "time": "2026-11-24T20:00:00Z",
    "pick": "RB Leipzig",
-   "odds": 1.4,
-   "book": "Onexbet",
-   "p": 70.6,
-   "conf": 54,
+   "odds": 1.38,
+   "book": "Gtbets",
+   "p": 71.6,
+   "conf": 55,
    "probs": [
     [
      "RB Leipzig",
-     71
+     72
     ],
     [
      "Draw",
@@ -654,11 +846,11 @@
     ],
     [
      "RC Lens",
-     13
+     12
     ]
    ],
    "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.40 contro probabilità stimata 70.6% (Pinnacle): EV -1.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 1.38 contro probabilità stimata 71.6% (Pinnacle): EV -1.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -679,34 +871,34 @@
    ]
   },
   {
-   "id": "14007bc0605bce3bd164b132254ba24c",
+   "id": "50b80f3ebd38bf63663b11ae0afc575b",
    "market": "h2h",
-   "selection": "Paris Saint Germain",
+   "selection": "Bodø/Glimt",
    "point": null,
    "league": "Champions League",
-   "match": "Paris Saint Germain – AS Roma",
-   "time": "2026-11-25T20:00:00Z",
-   "pick": "Paris Saint Germain",
-   "odds": 1.46,
-   "book": "Betfair Ex Eu",
-   "p": 67.9,
-   "conf": 53,
+   "match": "Bodø/Glimt – LASK",
+   "time": "2026-11-24T17:45:00Z",
+   "pick": "Bodø/Glimt",
+   "odds": 1.43,
+   "book": "Onexbet",
+   "p": 68.8,
+   "conf": 52,
    "probs": [
     [
-     "Paris Saint Germain",
-     68
+     "Bodø/Glimt",
+     69
     ],
     [
      "Draw",
-     19
+     17
     ],
     [
-     "AS Roma",
-     13
+     "LASK",
+     14
     ]
    ],
    "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.46 contro probabilità stimata 67.9% (Pinnacle): EV -0.9%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 1.43 contro probabilità stimata 68.8% (Pinnacle): EV -1.7%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -718,8 +910,8 @@
      "https://www.uefa.com/uefachampionsleague/"
     ]
    ],
-   "home": "Paris Saint Germain",
-   "away": "AS Roma",
+   "home": "Bodø/Glimt",
+   "away": "LASK",
    "sport_key": "soccer_uefa_champs_league",
    "logos": [
     null,
@@ -775,34 +967,34 @@
    ]
   },
   {
-   "id": "50b80f3ebd38bf63663b11ae0afc575b",
+   "id": "14007bc0605bce3bd164b132254ba24c",
    "market": "h2h",
-   "selection": "Bodø/Glimt",
+   "selection": "Paris Saint Germain",
    "point": null,
    "league": "Champions League",
-   "match": "Bodø/Glimt – LASK",
-   "time": "2026-11-24T17:45:00Z",
-   "pick": "Bodø/Glimt",
-   "odds": 1.5,
-   "book": "Onexbet",
-   "p": 66.1,
+   "match": "Paris Saint Germain – AS Roma",
+   "time": "2026-11-25T20:00:00Z",
+   "pick": "Paris Saint Germain",
+   "odds": 1.47,
+   "book": "Betfair Ex Eu",
+   "p": 67.2,
    "conf": 51,
    "probs": [
     [
-     "Bodø/Glimt",
-     66
+     "Paris Saint Germain",
+     67
     ],
     [
      "Draw",
-     17
+     19
     ],
     [
-     "LASK",
-     16
+     "AS Roma",
+     14
     ]
    ],
    "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.50 contro probabilità stimata 66.1% (Pinnacle): EV -0.8%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 1.47 contro probabilità stimata 67.2% (Pinnacle): EV -1.2%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -814,8 +1006,8 @@
      "https://www.uefa.com/uefachampionsleague/"
     ]
    ],
-   "home": "Bodø/Glimt",
-   "away": "LASK",
+   "home": "Paris Saint Germain",
+   "away": "AS Roma",
    "sport_key": "soccer_uefa_champs_league",
    "logos": [
     null,
@@ -833,8 +1025,8 @@
    "pick": "Arsenal",
    "odds": 1.49,
    "book": "Onexbet",
-   "p": 65.9,
-   "conf": 49,
+   "p": 66.1,
+   "conf": 50,
    "probs": [
     [
      "Arsenal",
@@ -850,7 +1042,7 @@
     ]
    ],
    "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.49 contro probabilità stimata 65.9% (Pinnacle): EV -1.9%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
+   "insight": "Quota migliore 1.49 contro probabilità stimata 66.1% (Pinnacle): EV -1.5%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
    "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
    "sources": [
     [
@@ -865,54 +1057,6 @@
    "home": "Arsenal",
    "away": "Borussia Dortmund",
    "sport_key": "soccer_uefa_champs_league",
-   "logos": [
-    null,
-    null
-   ]
-  },
-  {
-   "id": "f08629281f1510f47d91cc408f86a2a8",
-   "market": "h2h",
-   "selection": "New York Knicks",
-   "point": null,
-   "league": "NBA",
-   "match": "New York Knicks – Cleveland Cavaliers",
-   "time": "2026-11-26T00:40:00Z",
-   "pick": "New York Knicks",
-   "odds": 1.47,
-   "book": "Onexbet",
-   "p": 64.3,
-   "conf": 40,
-   "probs": [
-    [
-     "New York Knicks",
-     64
-    ],
-    [
-     "Cleveland Cavaliers",
-     36
-    ]
-   ],
-   "strategy": "Favorito probabile, non per forza di valore: usalo come gamba di combo.",
-   "insight": "Quota migliore 1.47 contro probabilità stimata 64.3% (media di 14 book): EV -5.5%. Confidenza = 80% della probabilità + bonus EV (max 20 punti).",
-   "risk": "Il modello usa solo gol e quote, non gli infortuni: controlla infortuni dell'ultima ora, meteo e riposo. Una quota isolata può essere un prezzo non aggiornato.",
-   "sources": [
-    [
-     "The Odds API",
-     "https://the-odds-api.com"
-    ],
-    [
-     "NBA Stats",
-     "https://www.nba.com/stats"
-    ],
-    [
-     "ESPN injuries",
-     "https://www.espn.com/nba/injuries"
-    ]
-   ],
-   "home": "New York Knicks",
-   "away": "Cleveland Cavaliers",
-   "sport_key": "basketball_nba",
    "logos": [
     null,
     null

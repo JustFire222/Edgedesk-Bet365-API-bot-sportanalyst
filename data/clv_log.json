@@ -1078,5 +1078,53 @@
   "odds_taken": 4.0,
   "taken_at": "2026-11-24T08:15:36Z",
   "commence_time": "2026-11-26T01:40:00Z"
+ },
+ {
+  "id": "49c66d76bc4085e63a181179cc47ef4d|h2h|Fenerbahce|None",
+  "event_id": "49c66d76bc4085e63a181179cc47ef4d",
+  "sport_key": "soccer_uefa_champs_league",
+  "label": "Shakhtar Donetsk – Fenerbahce",
+  "market": "h2h",
+  "selection": "Fenerbahce",
+  "point": null,
+  "odds_taken": 2.7,
+  "taken_at": "2026-11-24T15:52:05Z",
+  "commence_time": "2026-11-25T20:00:00Z"
+ },
+ {
+  "id": "f08629281f1510f47d91cc408f86a2a8|h2h|Cleveland Cavaliers|None",
+  "event_id": "f08629281f1510f47d91cc408f86a2a8",
+  "sport_key": "basketball_nba",
+  "label": "New York Knicks – Cleveland Cavaliers",
+  "market": "h2h",
+  "selection": "Cleveland Cavaliers",
+  "point": null,
+  "odds_taken": 2.88,
+  "taken_at": "2026-11-24T15:52:05Z",
+  "commence_time": "2026-11-26T00:40:00Z"
+ },
+ {
+  "id": "9b825e6518156008da499be041975fdd|h2h|Detroit Lions|None",
+  "event_id": "9b825e6518156008da499be041975fdd",
+  "sport_key": "americanfootball_nfl",
+  "label": "Detroit Lions – Chicago Bears",
+  "market": "h2h",
+  "selection": "Detroit Lions",
+  "point": null,
+  "odds_taken": 2.3,
+  "taken_at": "2026-11-24T15:52:05Z",
+  "commence_time": "2026-11-26T18:00:00Z"
+ },
+ {
+  "id": "8e93849b4c1ccbf1c207836d5c470150|h2h|Draw|None",
+  "event_id": "8e93849b4c1ccbf1c207836d5c470150",
+  "sport_key": "soccer_uefa_champs_league",
+  "label": "ŠK Slovan Bratislava – Real Betis",
+  "market": "h2h",
+  "selection": "Draw",
+  "point": null,
+  "odds_taken": 6.9,
+  "taken_at": "2026-11-24T15:52:05Z",
+  "commence_time": "2026-11-24T20:00:00Z"
  }
 ]

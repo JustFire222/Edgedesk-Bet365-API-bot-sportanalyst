@@ -933,5 +933,49 @@
   "p": 25.5,
   "conf": 25,
   "time": "2026-11-26T01:40:00Z"
+ },
+ {
+  "id": "49c66d76bc4085e63a181179cc47ef4d",
+  "ts": "2026-11-24T15:52:04.179407+00:00",
+  "match": "Shakhtar Donetsk – Fenerbahce",
+  "league": "Champions League",
+  "pick": "Fenerbahce",
+  "odds": 2.7,
+  "p": 38.2,
+  "conf": 37,
+  "time": "2026-11-25T20:00:00Z"
+ },
+ {
+  "id": "f08629281f1510f47d91cc408f86a2a8",
+  "ts": "2026-11-24T15:52:04.179407+00:00",
+  "match": "New York Knicks – Cleveland Cavaliers",
+  "league": "NBA",
+  "pick": "Cleveland Cavaliers",
+  "odds": 2.88,
+  "p": 35.7,
+  "conf": 34,
+  "time": "2026-11-26T00:40:00Z"
+ },
+ {
+  "id": "9b825e6518156008da499be041975fdd",
+  "ts": "2026-11-24T15:52:04.179407+00:00",
+  "match": "Detroit Lions – Chicago Bears",
+  "league": "NFL",
+  "pick": "Detroit Lions",
+  "odds": 2.3,
+  "p": 44.4,
+  "conf": 40,
+  "time": "2026-11-26T18:00:00Z"
+ },
+ {
+  "id": "8e93849b4c1ccbf1c207836d5c470150",
+  "ts": "2026-11-24T15:52:04.179407+00:00",
+  "match": "ŠK Slovan Bratislava – Real Betis",
+  "league": "Champions League",
+  "pick": "Draw",
+  "odds": 6.9,
+  "p": 15.0,
+  "conf": 18,
+  "time": "2026-11-24T20:00:00Z"
  }
 ]
