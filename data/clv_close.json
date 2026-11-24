@@ -393,11 +393,15 @@
  "a5184238c27b9c3bfca29220f9d5d14a|h2h|Milwaukee Bucks|None": {
   "close_prob": 0.21453,
   "close_odds": 4.661,
-  "snap_at": "2026-11-24T00:24:50Z"
+  "snap_at": "2026-11-24T00:24:50Z",
+  "clv": 9.41,
+  "status": "closed"
  },
  "a72a1703f7a92b80768255d1d977a761|h2h|Brooklyn Nets|None": {
   "close_prob": 0.19453,
   "close_odds": 5.14,
-  "snap_at": "2026-11-24T00:24:50Z"
+  "snap_at": "2026-11-24T00:24:50Z",
+  "clv": 16.72,
+  "status": "closed"
  }
 }
