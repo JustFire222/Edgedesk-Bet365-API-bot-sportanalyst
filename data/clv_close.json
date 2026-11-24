@@ -436,5 +436,17 @@
   "snap_at": "2026-11-24T17:34:50Z",
   "clv": -1.83,
   "status": "closed"
+ },
+ "aea973c122c91837c15e066c757c747f|h2h|RC Lens|None": {
+  "status": "no_close"
+ },
+ "b9f00a4d399ec661e733857c9d5fb2dc|h2h|Draw|None": {
+  "status": "no_close"
+ },
+ "aee4e3c225603397ab52de3d066b566b|h2h|Draw|None": {
+  "status": "no_close"
+ },
+ "8e93849b4c1ccbf1c207836d5c470150|h2h|Draw|None": {
+  "status": "no_close"
  }
 }
