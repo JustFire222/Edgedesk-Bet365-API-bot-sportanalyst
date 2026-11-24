@@ -1018,5 +1018,65 @@
   "odds_taken": 4.1,
   "taken_at": "2026-11-23T15:50:34Z",
   "commence_time": "2026-11-24T17:45:00Z"
+ },
+ {
+  "id": "3167a4072c65c9314c71d0fe49be8e28|h2h|Washington Wizards|None",
+  "event_id": "3167a4072c65c9314c71d0fe49be8e28",
+  "sport_key": "basketball_nba",
+  "label": "Washington Wizards – Boston Celtics",
+  "market": "h2h",
+  "selection": "Washington Wizards",
+  "point": null,
+  "odds_taken": 5.0,
+  "taken_at": "2026-11-24T08:15:36Z",
+  "commence_time": "2026-11-25T01:10:00Z"
+ },
+ {
+  "id": "ffaa06af56a7137d4b078c5c46c0b730|h2h|Philadelphia Eagles|None",
+  "event_id": "ffaa06af56a7137d4b078c5c46c0b730",
+  "sport_key": "americanfootball_nfl",
+  "label": "Dallas Cowboys – Philadelphia Eagles",
+  "market": "h2h",
+  "selection": "Philadelphia Eagles",
+  "point": null,
+  "odds_taken": 4.7,
+  "taken_at": "2026-11-24T08:15:36Z",
+  "commence_time": "2026-11-26T21:30:00Z"
+ },
+ {
+  "id": "6bfadbd22ed8a054cf82ec1b12b78243|h2h|Dallas Mavericks|None",
+  "event_id": "6bfadbd22ed8a054cf82ec1b12b78243",
+  "sport_key": "basketball_nba",
+  "label": "Denver Nuggets – Dallas Mavericks",
+  "market": "h2h",
+  "selection": "Dallas Mavericks",
+  "point": null,
+  "odds_taken": 3.8,
+  "taken_at": "2026-11-24T08:15:36Z",
+  "commence_time": "2026-11-25T03:10:00Z"
+ },
+ {
+  "id": "aee4e3c225603397ab52de3d066b566b|h2h|Draw|None",
+  "event_id": "aee4e3c225603397ab52de3d066b566b",
+  "sport_key": "soccer_uefa_champs_league",
+  "label": "Arsenal – Borussia Dortmund",
+  "market": "h2h",
+  "selection": "Draw",
+  "point": null,
+  "odds_taken": 5.0,
+  "taken_at": "2026-11-24T08:15:36Z",
+  "commence_time": "2026-11-24T20:00:00Z"
+ },
+ {
+  "id": "60fd73164f7b0d1848f998d922155d87|h2h|Phoenix Suns|None",
+  "event_id": "60fd73164f7b0d1848f998d922155d87",
+  "sport_key": "basketball_nba",
+  "label": "Houston Rockets – Phoenix Suns",
+  "market": "h2h",
+  "selection": "Phoenix Suns",
+  "point": null,
+  "odds_taken": 4.0,
+  "taken_at": "2026-11-24T08:15:36Z",
+  "commence_time": "2026-11-26T01:40:00Z"
  }
 ]

@@ -878,5 +878,60 @@
   "p": 14.2,
   "conf": 16,
   "time": "2026-11-24T03:10:00Z"
+ },
+ {
+  "id": "3167a4072c65c9314c71d0fe49be8e28",
+  "ts": "2026-11-24T08:15:35.461715+00:00",
+  "match": "Washington Wizards – Boston Celtics",
+  "league": "NBA",
+  "pick": "Washington Wizards",
+  "odds": 5.0,
+  "p": 21.1,
+  "conf": 28,
+  "time": "2026-11-25T01:10:00Z"
+ },
+ {
+  "id": "ffaa06af56a7137d4b078c5c46c0b730",
+  "ts": "2026-11-24T08:15:35.461715+00:00",
+  "match": "Dallas Cowboys – Philadelphia Eagles",
+  "league": "NFL",
+  "pick": "Philadelphia Eagles",
+  "odds": 4.7,
+  "p": 22.1,
+  "conf": 25,
+  "time": "2026-11-26T21:30:00Z"
+ },
+ {
+  "id": "6bfadbd22ed8a054cf82ec1b12b78243",
+  "ts": "2026-11-24T08:15:35.461715+00:00",
+  "match": "Denver Nuggets – Dallas Mavericks",
+  "league": "NBA",
+  "pick": "Dallas Mavericks",
+  "odds": 3.8,
+  "p": 27.0,
+  "conf": 27,
+  "time": "2026-11-25T03:10:00Z"
+ },
+ {
+  "id": "aee4e3c225603397ab52de3d066b566b",
+  "ts": "2026-11-24T08:15:35.461715+00:00",
+  "match": "Arsenal – Borussia Dortmund",
+  "league": "Champions League",
+  "pick": "Draw",
+  "odds": 5.0,
+  "p": 20.5,
+  "conf": 21,
+  "time": "2026-11-24T20:00:00Z"
+ },
+ {
+  "id": "60fd73164f7b0d1848f998d922155d87",
+  "ts": "2026-11-24T08:15:35.461715+00:00",
+  "match": "Houston Rockets – Phoenix Suns",
+  "league": "NBA",
+  "pick": "Phoenix Suns",
+  "odds": 4.0,
+  "p": 25.5,
+  "conf": 25,
+  "time": "2026-11-26T01:40:00Z"
  }
 ]
