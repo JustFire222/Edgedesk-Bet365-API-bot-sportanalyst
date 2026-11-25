@@ -458,5 +458,15 @@
  },
  "3167a4072c65c9314c71d0fe49be8e28|h2h|Washington Wizards|None": {
   "status": "no_close"
+ },
+ "a7c87fac9e9cbcfc02ad0e0b29ca89e2|h2h|Slavia Praha|None": {
+  "close_prob": 0.33525,
+  "close_odds": 2.983,
+  "snap_at": "2026-11-25T17:29:55Z"
+ },
+ "a7c87fac9e9cbcfc02ad0e0b29ca89e2|h2h|Draw|None": {
+  "close_prob": 0.26655,
+  "close_odds": 3.752,
+  "snap_at": "2026-11-25T17:29:55Z"
  }
 }
