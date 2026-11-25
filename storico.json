@@ -1032,5 +1032,27 @@
   "p": 32.4,
   "conf": 30,
   "time": "2026-11-26T01:10:00Z"
+ },
+ {
+  "id": "af3432ca724da03d38f0ff4e62045e4c",
+  "ts": "2026-11-25T15:47:04.580947+00:00",
+  "match": "Frosinone – Parma",
+  "league": "Serie A",
+  "pick": "Parma",
+  "odds": 6.4,
+  "p": 17.1,
+  "conf": 32,
+  "time": "2026-11-28T14:00:00Z"
+ },
+ {
+  "id": "e6df92326adb480e427bb7c10f445c60",
+  "ts": "2026-11-25T15:47:04.580947+00:00",
+  "match": "Golden State Warriors – Sacramento Kings",
+  "league": "NBA",
+  "pick": "Sacramento Kings",
+  "odds": 3.3,
+  "p": 31.3,
+  "conf": 31,
+  "time": "2026-11-26T03:10:00Z"
  }
 ]

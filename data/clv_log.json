@@ -1210,5 +1210,53 @@
   "odds_taken": 3.15,
   "taken_at": "2026-11-25T08:20:27Z",
   "commence_time": "2026-11-26T01:10:00Z"
+ },
+ {
+  "id": "af3432ca724da03d38f0ff4e62045e4c|h2h|Parma|None",
+  "event_id": "af3432ca724da03d38f0ff4e62045e4c",
+  "sport_key": "soccer_italy_serie_a",
+  "label": "Frosinone – Parma",
+  "market": "h2h",
+  "selection": "Parma",
+  "point": null,
+  "odds_taken": 6.4,
+  "taken_at": "2026-11-25T15:47:05Z",
+  "commence_time": "2026-11-28T14:00:00Z"
+ },
+ {
+  "id": "99459b90f3e732106e09585bf94b36b4|h2h|Liverpool|None",
+  "event_id": "99459b90f3e732106e09585bf94b36b4",
+  "sport_key": "soccer_uefa_champs_league",
+  "label": "Club Brugge – Liverpool",
+  "market": "h2h",
+  "selection": "Liverpool",
+  "point": null,
+  "odds_taken": 1.73,
+  "taken_at": "2026-11-25T15:47:05Z",
+  "commence_time": "2026-11-25T20:00:00Z"
+ },
+ {
+  "id": "e6df92326adb480e427bb7c10f445c60|h2h|Sacramento Kings|None",
+  "event_id": "e6df92326adb480e427bb7c10f445c60",
+  "sport_key": "basketball_nba",
+  "label": "Golden State Warriors – Sacramento Kings",
+  "market": "h2h",
+  "selection": "Sacramento Kings",
+  "point": null,
+  "odds_taken": 3.3,
+  "taken_at": "2026-11-25T15:47:05Z",
+  "commence_time": "2026-11-26T03:10:00Z"
+ },
+ {
+  "id": "49c66d76bc4085e63a181179cc47ef4d|h2h|Shakhtar Donetsk|None",
+  "event_id": "49c66d76bc4085e63a181179cc47ef4d",
+  "sport_key": "soccer_uefa_champs_league",
+  "label": "Shakhtar Donetsk – Fenerbahce",
+  "market": "h2h",
+  "selection": "Shakhtar Donetsk",
+  "point": null,
+  "odds_taken": 2.84,
+  "taken_at": "2026-11-25T15:47:05Z",
+  "commence_time": "2026-11-25T20:00:00Z"
  }
 ]
