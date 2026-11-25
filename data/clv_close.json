@@ -462,11 +462,15 @@
  "a7c87fac9e9cbcfc02ad0e0b29ca89e2|h2h|Slavia Praha|None": {
   "close_prob": 0.33525,
   "close_odds": 2.983,
-  "snap_at": "2026-11-25T17:29:55Z"
+  "snap_at": "2026-11-25T17:29:55Z",
+  "clv": 8.96,
+  "status": "closed"
  },
  "a7c87fac9e9cbcfc02ad0e0b29ca89e2|h2h|Draw|None": {
   "close_prob": 0.26655,
   "close_odds": 3.752,
-  "snap_at": "2026-11-25T17:29:55Z"
+  "snap_at": "2026-11-25T17:29:55Z",
+  "clv": 7.95,
+  "status": "closed"
  }
 }
