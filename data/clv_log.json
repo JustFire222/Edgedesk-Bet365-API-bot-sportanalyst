@@ -1126,5 +1126,89 @@
   "odds_taken": 6.9,
   "taken_at": "2026-11-24T15:52:05Z",
   "commence_time": "2026-11-24T20:00:00Z"
+ },
+ {
+  "id": "14007bc0605bce3bd164b132254ba24c|h2h|AS Roma|None",
+  "event_id": "14007bc0605bce3bd164b132254ba24c",
+  "sport_key": "soccer_uefa_champs_league",
+  "label": "Paris Saint Germain – AS Roma",
+  "market": "h2h",
+  "selection": "AS Roma",
+  "point": null,
+  "odds_taken": 6.6,
+  "taken_at": "2026-11-25T08:20:27Z",
+  "commence_time": "2026-11-25T20:00:00Z"
+ },
+ {
+  "id": "e9a663f13e7503c0ac20a54804338b60|h2h|Draw|None",
+  "event_id": "e9a663f13e7503c0ac20a54804338b60",
+  "sport_key": "soccer_italy_serie_a",
+  "label": "Venezia – Bologna",
+  "market": "h2h",
+  "selection": "Draw",
+  "point": null,
+  "odds_taken": 3.58,
+  "taken_at": "2026-11-25T08:20:27Z",
+  "commence_time": "2026-11-27T19:45:00Z"
+ },
+ {
+  "id": "01a61442fe04f8751b62eb251f234079|h2h|Sporting Lisbon|None",
+  "event_id": "01a61442fe04f8751b62eb251f234079",
+  "sport_key": "soccer_uefa_champs_league",
+  "label": "Sporting Lisbon – Manchester United",
+  "market": "h2h",
+  "selection": "Sporting Lisbon",
+  "point": null,
+  "odds_taken": 2.7,
+  "taken_at": "2026-11-25T08:20:27Z",
+  "commence_time": "2026-11-25T20:00:00Z"
+ },
+ {
+  "id": "a7c87fac9e9cbcfc02ad0e0b29ca89e2|h2h|Draw|None",
+  "event_id": "a7c87fac9e9cbcfc02ad0e0b29ca89e2",
+  "sport_key": "soccer_uefa_champs_league",
+  "label": "Slavia Praha – Villarreal",
+  "market": "h2h",
+  "selection": "Draw",
+  "point": null,
+  "odds_taken": 4.05,
+  "taken_at": "2026-11-25T08:20:27Z",
+  "commence_time": "2026-11-25T17:45:00Z"
+ },
+ {
+  "id": "44a3bcf5bd002583ddef2207a92dd977|h2h|Pittsburgh Steelers|None",
+  "event_id": "44a3bcf5bd002583ddef2207a92dd977",
+  "sport_key": "americanfootball_nfl",
+  "label": "Pittsburgh Steelers – Denver Broncos",
+  "market": "h2h",
+  "selection": "Pittsburgh Steelers",
+  "point": null,
+  "odds_taken": 2.84,
+  "taken_at": "2026-11-25T08:20:27Z",
+  "commence_time": "2026-11-27T20:00:00Z"
+ },
+ {
+  "id": "87ce247fb83685389ca8ffb21be6cd3e|h2h|Chicago Bulls|None",
+  "event_id": "87ce247fb83685389ca8ffb21be6cd3e",
+  "sport_key": "basketball_nba",
+  "label": "Charlotte Hornets – Chicago Bulls",
+  "market": "h2h",
+  "selection": "Chicago Bulls",
+  "point": null,
+  "odds_taken": 2.38,
+  "taken_at": "2026-11-25T08:20:27Z",
+  "commence_time": "2026-11-26T00:10:00Z"
+ },
+ {
+  "id": "698d6d78acf30f4ff4e4aaf6670249ee|h2h|Los Angeles Clippers|None",
+  "event_id": "698d6d78acf30f4ff4e4aaf6670249ee",
+  "sport_key": "basketball_nba",
+  "label": "Memphis Grizzlies – Los Angeles Clippers",
+  "market": "h2h",
+  "selection": "Los Angeles Clippers",
+  "point": null,
+  "odds_taken": 3.15,
+  "taken_at": "2026-11-25T08:20:27Z",
+  "commence_time": "2026-11-26T01:10:00Z"
  }
 ]

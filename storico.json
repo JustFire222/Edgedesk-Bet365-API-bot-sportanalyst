@@ -977,5 +977,60 @@
   "p": 15.0,
   "conf": 18,
   "time": "2026-11-24T20:00:00Z"
+ },
+ {
+  "id": "e9a663f13e7503c0ac20a54804338b60",
+  "ts": "2026-11-25T08:20:26.782349+00:00",
+  "match": "Venezia – Bologna",
+  "league": "Serie A",
+  "pick": "Draw",
+  "odds": 3.58,
+  "p": 29.0,
+  "conf": 31,
+  "time": "2026-11-27T19:45:00Z"
+ },
+ {
+  "id": "01a61442fe04f8751b62eb251f234079",
+  "ts": "2026-11-25T08:20:26.782349+00:00",
+  "match": "Sporting Lisbon – Manchester United",
+  "league": "Champions League",
+  "pick": "Sporting Lisbon",
+  "odds": 2.7,
+  "p": 38.1,
+  "conf": 36,
+  "time": "2026-11-25T20:00:00Z"
+ },
+ {
+  "id": "44a3bcf5bd002583ddef2207a92dd977",
+  "ts": "2026-11-25T08:20:26.782349+00:00",
+  "match": "Pittsburgh Steelers – Denver Broncos",
+  "league": "NFL",
+  "pick": "Pittsburgh Steelers",
+  "odds": 2.84,
+  "p": 36.1,
+  "conf": 34,
+  "time": "2026-11-27T20:00:00Z"
+ },
+ {
+  "id": "87ce247fb83685389ca8ffb21be6cd3e",
+  "ts": "2026-11-25T08:20:26.782349+00:00",
+  "match": "Charlotte Hornets – Chicago Bulls",
+  "league": "NBA",
+  "pick": "Chicago Bulls",
+  "odds": 2.38,
+  "p": 42.9,
+  "conf": 39,
+  "time": "2026-11-26T00:10:00Z"
+ },
+ {
+  "id": "698d6d78acf30f4ff4e4aaf6670249ee",
+  "ts": "2026-11-25T08:20:26.782349+00:00",
+  "match": "Memphis Grizzlies – Los Angeles Clippers",
+  "league": "NBA",
+  "pick": "Los Angeles Clippers",
+  "odds": 3.15,
+  "p": 32.4,
+  "conf": 30,
+  "time": "2026-11-26T01:10:00Z"
  }
 ]
