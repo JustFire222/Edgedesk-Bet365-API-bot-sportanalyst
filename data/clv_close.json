@@ -476,46 +476,64 @@
  "0ee2cfddf20153779cd2cc3e1f1f879f|h2h|Lille|None": {
   "close_prob": 0.17963,
   "close_odds": 5.567,
-  "snap_at": "2026-11-25T19:44:19Z"
+  "snap_at": "2026-11-25T19:44:19Z",
+  "clv": 0.59,
+  "status": "closed"
  },
  "e7e64568f6af00d395a3fdfc27de8ae3|h2h|VfB Stuttgart|None": {
   "close_prob": 0.13169,
   "close_odds": 7.593,
-  "snap_at": "2026-11-25T19:44:19Z"
+  "snap_at": "2026-11-25T19:44:19Z",
+  "clv": -11.11,
+  "status": "closed"
  },
  "14007bc0605bce3bd164b132254ba24c|h2h|Draw|None": {
   "close_prob": 0.19799,
   "close_odds": 5.051,
-  "snap_at": "2026-11-25T19:44:19Z"
+  "snap_at": "2026-11-25T19:44:19Z",
+  "clv": 18.79,
+  "status": "closed"
  },
  "99459b90f3e732106e09585bf94b36b4|h2h|Club Brugge|None": {
   "close_prob": 0.21351,
   "close_odds": 4.684,
-  "snap_at": "2026-11-25T19:44:19Z"
+  "snap_at": "2026-11-25T19:44:19Z",
+  "clv": 0.35,
+  "status": "closed"
  },
  "49c66d76bc4085e63a181179cc47ef4d|h2h|Fenerbahce|None": {
   "close_prob": 0.36388,
   "close_odds": 2.748,
-  "snap_at": "2026-11-25T19:44:19Z"
+  "snap_at": "2026-11-25T19:44:19Z",
+  "clv": -1.75,
+  "status": "closed"
  },
  "14007bc0605bce3bd164b132254ba24c|h2h|AS Roma|None": {
   "close_prob": 0.15523,
   "close_odds": 6.442,
-  "snap_at": "2026-11-25T19:44:19Z"
+  "snap_at": "2026-11-25T19:44:19Z",
+  "clv": 2.45,
+  "status": "closed"
  },
  "01a61442fe04f8751b62eb251f234079|h2h|Sporting Lisbon|None": {
   "close_prob": 0.35399,
   "close_odds": 2.825,
-  "snap_at": "2026-11-25T19:44:19Z"
+  "snap_at": "2026-11-25T19:44:19Z",
+  "clv": -4.42,
+  "status": "closed"
  },
  "99459b90f3e732106e09585bf94b36b4|h2h|Liverpool|None": {
   "close_prob": 0.57533,
   "close_odds": 1.738,
-  "snap_at": "2026-11-25T19:44:19Z"
+  "snap_at": "2026-11-25T19:44:19Z",
+  "clv": -0.47,
+  "status": "closed"
  },
  "49c66d76bc4085e63a181179cc47ef4d|h2h|Shakhtar Donetsk|None": {
   "close_prob": 0.35985,
   "close_odds": 2.779,
-  "snap_at": "2026-11-25T19:44:19Z"
+  "snap_at": "2026-11-25T19:44:19Z",
+  "clv": 2.2,
+  "status": "closed"
  }
 }
