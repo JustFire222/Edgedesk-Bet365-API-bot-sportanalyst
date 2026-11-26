@@ -1258,5 +1258,77 @@
   "odds_taken": 2.84,
   "taken_at": "2026-11-25T15:47:05Z",
   "commence_time": "2026-11-25T20:00:00Z"
+ },
+ {
+  "id": "c5dc35b4116988de2c1425df17456478|h2h|Atlanta Hawks|None",
+  "event_id": "c5dc35b4116988de2c1425df17456478",
+  "sport_key": "basketball_nba",
+  "label": "Boston Celtics – Atlanta Hawks",
+  "market": "h2h",
+  "selection": "Atlanta Hawks",
+  "point": null,
+  "odds_taken": 4.2,
+  "taken_at": "2026-11-26T15:46:41Z",
+  "commence_time": "2026-11-28T01:10:00Z"
+ },
+ {
+  "id": "13d9ca3bcb664829c603755d31401002|h2h|Los Angeles Lakers|None",
+  "event_id": "13d9ca3bcb664829c603755d31401002",
+  "sport_key": "basketball_nba",
+  "label": "San Antonio Spurs – Los Angeles Lakers",
+  "market": "h2h",
+  "selection": "Los Angeles Lakers",
+  "point": null,
+  "odds_taken": 2.94,
+  "taken_at": "2026-11-26T15:46:41Z",
+  "commence_time": "2026-11-28T02:40:00Z"
+ },
+ {
+  "id": "dc63586a1b1d938a461d71bf5b36d982|h2h|Sassuolo|None",
+  "event_id": "dc63586a1b1d938a461d71bf5b36d982",
+  "sport_key": "soccer_italy_serie_a",
+  "label": "Sassuolo – Napoli",
+  "market": "h2h",
+  "selection": "Sassuolo",
+  "point": null,
+  "odds_taken": 5.1,
+  "taken_at": "2026-11-26T15:46:41Z",
+  "commence_time": "2026-11-29T14:00:00Z"
+ },
+ {
+  "id": "5b64071f3e3bf67b0fdea8d1ac81d0ec|h2h|Indiana Pacers|None",
+  "event_id": "5b64071f3e3bf67b0fdea8d1ac81d0ec",
+  "sport_key": "basketball_nba",
+  "label": "Indiana Pacers – Philadelphia 76ers",
+  "market": "h2h",
+  "selection": "Indiana Pacers",
+  "point": null,
+  "odds_taken": 2.68,
+  "taken_at": "2026-11-26T15:46:41Z",
+  "commence_time": "2026-11-28T00:40:00Z"
+ },
+ {
+  "id": "3c522e32c3035d7dc3e1734903b84654|h2h|Miami Heat|None",
+  "event_id": "3c522e32c3035d7dc3e1734903b84654",
+  "sport_key": "basketball_nba",
+  "label": "New York Knicks – Miami Heat",
+  "market": "h2h",
+  "selection": "Miami Heat",
+  "point": null,
+  "odds_taken": 2.63,
+  "taken_at": "2026-11-26T15:46:41Z",
+  "commence_time": "2026-11-28T00:10:00Z"
+ },
+ {
+  "id": "aec86b479e922f437ba228b9a9d74da1|h2h|Torino|None",
+  "event_id": "aec86b479e922f437ba228b9a9d74da1",
+  "sport_key": "soccer_italy_serie_a",
+  "label": "Torino – Lazio",
+  "market": "h2h",
+  "selection": "Torino",
+  "point": null,
+  "odds_taken": 3.8,
+  "taken_at": "2026-11-26T15:46:41Z",
+  "commence_time": "2026-11-28T17:00:00Z"
  }
 ]

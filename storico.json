@@ -1054,5 +1054,71 @@
   "p": 31.3,
   "conf": 31,
   "time": "2026-11-26T03:10:00Z"
+ },
+ {
+  "id": "c5dc35b4116988de2c1425df17456478",
+  "ts": "2026-11-26T15:46:40.735877+00:00",
+  "match": "Boston Celtics – Atlanta Hawks",
+  "league": "NBA",
+  "pick": "Atlanta Hawks",
+  "odds": 4.2,
+  "p": 26.4,
+  "conf": 41,
+  "time": "2026-11-28T01:10:00Z"
+ },
+ {
+  "id": "13d9ca3bcb664829c603755d31401002",
+  "ts": "2026-11-26T15:46:40.735877+00:00",
+  "match": "San Antonio Spurs – Los Angeles Lakers",
+  "league": "NBA",
+  "pick": "Los Angeles Lakers",
+  "odds": 2.94,
+  "p": 35.6,
+  "conf": 38,
+  "time": "2026-11-28T02:40:00Z"
+ },
+ {
+  "id": "dc63586a1b1d938a461d71bf5b36d982",
+  "ts": "2026-11-26T15:46:40.735877+00:00",
+  "match": "Sassuolo – Napoli",
+  "league": "Serie A",
+  "pick": "Sassuolo",
+  "odds": 5.1,
+  "p": 20.5,
+  "conf": 25,
+  "time": "2026-11-29T14:00:00Z"
+ },
+ {
+  "id": "5b64071f3e3bf67b0fdea8d1ac81d0ec",
+  "ts": "2026-11-26T15:46:40.735877+00:00",
+  "match": "Indiana Pacers – Philadelphia 76ers",
+  "league": "NBA",
+  "pick": "Indiana Pacers",
+  "odds": 2.68,
+  "p": 38.4,
+  "conf": 37,
+  "time": "2026-11-28T00:40:00Z"
+ },
+ {
+  "id": "3c522e32c3035d7dc3e1734903b84654",
+  "ts": "2026-11-26T15:46:40.735877+00:00",
+  "match": "New York Knicks – Miami Heat",
+  "league": "NBA",
+  "pick": "Miami Heat",
+  "odds": 2.63,
+  "p": 38.9,
+  "conf": 36,
+  "time": "2026-11-28T00:10:00Z"
+ },
+ {
+  "id": "aec86b479e922f437ba228b9a9d74da1",
+  "ts": "2026-11-26T15:46:40.735877+00:00",
+  "match": "Torino – Lazio",
+  "league": "Serie A",
+  "pick": "Torino",
+  "odds": 3.8,
+  "p": 26.9,
+  "conf": 26,
+  "time": "2026-11-28T17:00:00Z"
  }
 ]
