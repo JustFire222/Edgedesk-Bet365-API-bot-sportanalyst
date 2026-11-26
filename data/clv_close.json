@@ -558,5 +558,10 @@
  },
  "e6df92326adb480e427bb7c10f445c60|h2h|Sacramento Kings|None": {
   "status": "no_close"
+ },
+ "9b825e6518156008da499be041975fdd|h2h|Detroit Lions|None": {
+  "close_prob": 0.49361,
+  "close_odds": 2.026,
+  "snap_at": "2026-11-26T17:38:34Z"
  }
 }
