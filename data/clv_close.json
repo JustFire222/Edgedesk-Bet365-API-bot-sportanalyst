@@ -565,5 +565,10 @@
   "snap_at": "2026-11-26T17:38:34Z",
   "clv": 13.53,
   "status": "closed"
+ },
+ "ffaa06af56a7137d4b078c5c46c0b730|h2h|Philadelphia Eagles|None": {
+  "close_prob": 0.2128,
+  "close_odds": 4.699,
+  "snap_at": "2026-11-26T21:16:38Z"
  }
 }
