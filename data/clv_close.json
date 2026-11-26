@@ -539,6 +539,13 @@
  "87ce247fb83685389ca8ffb21be6cd3e|h2h|Chicago Bulls|None": {
   "close_prob": 0.37232,
   "close_odds": 2.686,
-  "snap_at": "2026-11-26T00:04:25Z"
+  "snap_at": "2026-11-26T00:04:25Z",
+  "clv": -11.39,
+  "status": "closed"
+ },
+ "60fd73164f7b0d1848f998d922155d87|h2h|Phoenix Suns|None": {
+  "close_prob": 0.23792,
+  "close_odds": 4.203,
+  "snap_at": "2026-11-26T01:12:10Z"
  }
 }
