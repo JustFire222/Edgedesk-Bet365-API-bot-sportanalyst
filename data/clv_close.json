@@ -546,6 +546,8 @@
  "60fd73164f7b0d1848f998d922155d87|h2h|Phoenix Suns|None": {
   "close_prob": 0.23792,
   "close_odds": 4.203,
-  "snap_at": "2026-11-26T01:12:10Z"
+  "snap_at": "2026-11-26T01:12:10Z",
+  "clv": -4.83,
+  "status": "closed"
  }
 }
