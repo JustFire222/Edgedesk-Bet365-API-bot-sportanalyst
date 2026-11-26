@@ -562,6 +562,8 @@
  "9b825e6518156008da499be041975fdd|h2h|Detroit Lions|None": {
   "close_prob": 0.49361,
   "close_odds": 2.026,
-  "snap_at": "2026-11-26T17:38:34Z"
+  "snap_at": "2026-11-26T17:38:34Z",
+  "clv": 13.53,
+  "status": "closed"
  }
 }
