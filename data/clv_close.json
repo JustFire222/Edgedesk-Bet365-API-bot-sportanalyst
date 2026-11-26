@@ -535,5 +535,10 @@
   "snap_at": "2026-11-25T19:44:19Z",
   "clv": 2.2,
   "status": "closed"
+ },
+ "87ce247fb83685389ca8ffb21be6cd3e|h2h|Chicago Bulls|None": {
+  "close_prob": 0.37232,
+  "close_odds": 2.686,
+  "snap_at": "2026-11-26T00:04:25Z"
  }
 }
