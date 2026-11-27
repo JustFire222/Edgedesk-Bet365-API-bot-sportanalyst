@@ -1414,5 +1414,41 @@
   "odds_taken": 5.7,
   "taken_at": "2026-11-27T08:16:28Z",
   "commence_time": "2026-11-29T18:00:00Z"
+ },
+ {
+  "id": "f0bc60d1516d217dba58c1f4fa653a59|h2h|Minnesota Timberwolves|None",
+  "event_id": "f0bc60d1516d217dba58c1f4fa653a59",
+  "sport_key": "basketball_nba",
+  "label": "Minnesota Timberwolves – Memphis Grizzlies",
+  "market": "h2h",
+  "selection": "Minnesota Timberwolves",
+  "point": null,
+  "odds_taken": 1.61,
+  "taken_at": "2026-11-27T15:46:47Z",
+  "commence_time": "2026-11-28T01:40:00Z"
+ },
+ {
+  "id": "5ea0e3ea5944b0ad5169f21c0787b331|h2h|Miami Dolphins|None",
+  "event_id": "5ea0e3ea5944b0ad5169f21c0787b331",
+  "sport_key": "americanfootball_nfl",
+  "label": "Miami Dolphins – New York Jets",
+  "market": "h2h",
+  "selection": "Miami Dolphins",
+  "point": null,
+  "odds_taken": 3.25,
+  "taken_at": "2026-11-27T15:46:47Z",
+  "commence_time": "2026-11-29T18:00:00Z"
+ },
+ {
+  "id": "d3d47b94324eb7cde85bd93993437d1c|h2h|Draw|None",
+  "event_id": "d3d47b94324eb7cde85bd93993437d1c",
+  "sport_key": "soccer_italy_serie_a",
+  "label": "Udinese – Fiorentina",
+  "market": "h2h",
+  "selection": "Draw",
+  "point": null,
+  "odds_taken": 3.81,
+  "taken_at": "2026-11-27T15:46:47Z",
+  "commence_time": "2026-11-29T11:30:00Z"
  }
 ]
