@@ -1330,5 +1330,89 @@
   "odds_taken": 3.8,
   "taken_at": "2026-11-26T15:46:41Z",
   "commence_time": "2026-11-28T17:00:00Z"
+ },
+ {
+  "id": "3876ad367184af2f8fc04a544fc894aa|h2h|Draw|None",
+  "event_id": "3876ad367184af2f8fc04a544fc894aa",
+  "sport_key": "soccer_italy_serie_a",
+  "label": "Como – Juventus",
+  "market": "h2h",
+  "selection": "Draw",
+  "point": null,
+  "odds_taken": 3.85,
+  "taken_at": "2026-11-27T08:16:28Z",
+  "commence_time": "2026-11-29T19:45:00Z"
+ },
+ {
+  "id": "428050645d1dc8b16d84287e21de55fa|h2h|Utah Jazz|None",
+  "event_id": "428050645d1dc8b16d84287e21de55fa",
+  "sport_key": "basketball_nba",
+  "label": "Utah Jazz – Denver Nuggets",
+  "market": "h2h",
+  "selection": "Utah Jazz",
+  "point": null,
+  "odds_taken": 4.83,
+  "taken_at": "2026-11-27T08:16:28Z",
+  "commence_time": "2026-11-28T02:40:00Z"
+ },
+ {
+  "id": "326e8215b0369df0d4d65e5c0afe9ff5|h2h|Milwaukee Bucks|None",
+  "event_id": "326e8215b0369df0d4d65e5c0afe9ff5",
+  "sport_key": "basketball_nba",
+  "label": "Detroit Pistons – Milwaukee Bucks",
+  "market": "h2h",
+  "selection": "Milwaukee Bucks",
+  "point": null,
+  "odds_taken": 4.2,
+  "taken_at": "2026-11-27T08:16:28Z",
+  "commence_time": "2026-11-28T00:40:00Z"
+ },
+ {
+  "id": "aec86b479e922f437ba228b9a9d74da1|h2h|Draw|None",
+  "event_id": "aec86b479e922f437ba228b9a9d74da1",
+  "sport_key": "soccer_italy_serie_a",
+  "label": "Torino – Lazio",
+  "market": "h2h",
+  "selection": "Draw",
+  "point": null,
+  "odds_taken": 3.69,
+  "taken_at": "2026-11-27T08:16:28Z",
+  "commence_time": "2026-11-28T17:00:00Z"
+ },
+ {
+  "id": "69a1dbe9de3d3212c3a7a55be5d204ab|h2h|Arizona Cardinals|None",
+  "event_id": "69a1dbe9de3d3212c3a7a55be5d204ab",
+  "sport_key": "americanfootball_nfl",
+  "label": "Arizona Cardinals – Washington Commanders",
+  "market": "h2h",
+  "selection": "Arizona Cardinals",
+  "point": null,
+  "odds_taken": 3.9,
+  "taken_at": "2026-11-27T08:16:28Z",
+  "commence_time": "2026-11-29T21:25:00Z"
+ },
+ {
+  "id": "e9da808e36e1b7475698a57465ad4519|h2h|Indianapolis Colts|None",
+  "event_id": "e9da808e36e1b7475698a57465ad4519",
+  "sport_key": "americanfootball_nfl",
+  "label": "Indianapolis Colts – New York Giants",
+  "market": "h2h",
+  "selection": "Indianapolis Colts",
+  "point": null,
+  "odds_taken": 3.5,
+  "taken_at": "2026-11-27T08:16:28Z",
+  "commence_time": "2026-11-29T18:00:00Z"
+ },
+ {
+  "id": "f7d3ae7a8fe2438cef7d7d7bc67e31db|h2h|New Orleans Saints|None",
+  "event_id": "f7d3ae7a8fe2438cef7d7d7bc67e31db",
+  "sport_key": "americanfootball_nfl",
+  "label": "Cincinnati Bengals – New Orleans Saints",
+  "market": "h2h",
+  "selection": "New Orleans Saints",
+  "point": null,
+  "odds_taken": 5.7,
+  "taken_at": "2026-11-27T08:16:28Z",
+  "commence_time": "2026-11-29T18:00:00Z"
  }
 ]
