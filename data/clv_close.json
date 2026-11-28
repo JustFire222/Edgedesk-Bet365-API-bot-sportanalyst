@@ -592,5 +592,15 @@
   "snap_at": "2026-11-28T00:23:34Z",
   "clv": -7.41,
   "status": "closed"
+ },
+ "13d9ca3bcb664829c603755d31401002|h2h|Los Angeles Lakers|None": {
+  "close_prob": 0.32957,
+  "close_odds": 3.034,
+  "snap_at": "2026-11-28T02:37:36Z"
+ },
+ "428050645d1dc8b16d84287e21de55fa|h2h|Utah Jazz|None": {
+  "close_prob": 0.22744,
+  "close_odds": 4.397,
+  "snap_at": "2026-11-28T02:37:36Z"
  }
 }
