@@ -582,11 +582,15 @@
  "5b64071f3e3bf67b0fdea8d1ac81d0ec|h2h|Indiana Pacers|None": {
   "close_prob": 0.3912,
   "close_odds": 2.556,
-  "snap_at": "2026-11-28T00:23:34Z"
+  "snap_at": "2026-11-28T00:23:34Z",
+  "clv": 4.84,
+  "status": "closed"
  },
  "326e8215b0369df0d4d65e5c0afe9ff5|h2h|Milwaukee Bucks|None": {
   "close_prob": 0.22046,
   "close_odds": 4.536,
-  "snap_at": "2026-11-28T00:23:34Z"
+  "snap_at": "2026-11-28T00:23:34Z",
+  "clv": -7.41,
+  "status": "closed"
  }
 }
