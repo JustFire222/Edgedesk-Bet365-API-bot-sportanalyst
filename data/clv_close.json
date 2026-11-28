@@ -578,5 +578,15 @@
  },
  "44a3bcf5bd002583ddef2207a92dd977|h2h|Pittsburgh Steelers|None": {
   "status": "no_close"
+ },
+ "5b64071f3e3bf67b0fdea8d1ac81d0ec|h2h|Indiana Pacers|None": {
+  "close_prob": 0.3912,
+  "close_odds": 2.556,
+  "snap_at": "2026-11-28T00:23:34Z"
+ },
+ "326e8215b0369df0d4d65e5c0afe9ff5|h2h|Milwaukee Bucks|None": {
+  "close_prob": 0.22046,
+  "close_odds": 4.536,
+  "snap_at": "2026-11-28T00:23:34Z"
  }
 }
