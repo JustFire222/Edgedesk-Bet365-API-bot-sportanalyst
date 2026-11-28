@@ -619,6 +619,8 @@
  "af3432ca724da03d38f0ff4e62045e4c|h2h|Parma|None": {
   "close_prob": 0.12952,
   "close_odds": 7.721,
-  "snap_at": "2026-11-28T13:41:19Z"
+  "snap_at": "2026-11-28T13:41:19Z",
+  "clv": -17.11,
+  "status": "closed"
  }
 }
