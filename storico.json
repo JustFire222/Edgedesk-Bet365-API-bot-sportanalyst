@@ -1274,5 +1274,16 @@
   "p": 18.9,
   "conf": 24,
   "time": "2026-11-29T01:10:00Z"
+ },
+ {
+  "id": "1ef1f5b9c8c88c584772f64a0d9a9435",
+  "ts": "2026-11-28T15:31:49.400327+00:00",
+  "match": "Chicago Bulls – Indiana Pacers",
+  "league": "NBA",
+  "pick": "Indiana Pacers",
+  "odds": 2.26,
+  "p": 45.9,
+  "conf": 44,
+  "time": "2026-11-29T01:10:00Z"
  }
 ]

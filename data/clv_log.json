@@ -1510,5 +1510,17 @@
   "odds_taken": 5.5,
   "taken_at": "2026-11-28T08:02:21Z",
   "commence_time": "2026-11-29T01:10:00Z"
+ },
+ {
+  "id": "1ef1f5b9c8c88c584772f64a0d9a9435|h2h|Indiana Pacers|None",
+  "event_id": "1ef1f5b9c8c88c584772f64a0d9a9435",
+  "sport_key": "basketball_nba",
+  "label": "Chicago Bulls – Indiana Pacers",
+  "market": "h2h",
+  "selection": "Indiana Pacers",
+  "point": null,
+  "odds_taken": 2.26,
+  "taken_at": "2026-11-28T15:31:50Z",
+  "commence_time": "2026-11-29T01:10:00Z"
  }
 ]
