@@ -1219,5 +1219,60 @@
   "p": 27.2,
   "conf": 29,
   "time": "2026-11-29T11:30:00Z"
+ },
+ {
+  "id": "c4b53c6aebbd7b81fd821526ad9503e8",
+  "ts": "2026-11-28T08:02:20.181080+00:00",
+  "match": "Houston Rockets – Philadelphia 76ers",
+  "league": "NBA",
+  "pick": "Philadelphia 76ers",
+  "odds": 5.69,
+  "p": 19.5,
+  "conf": 36,
+  "time": "2026-11-29T01:40:00Z"
+ },
+ {
+  "id": "60d0c074801985c1062795362a24200e",
+  "ts": "2026-11-28T08:02:20.181080+00:00",
+  "match": "Houston Texans – Baltimore Ravens",
+  "league": "NFL",
+  "pick": "Baltimore Ravens",
+  "odds": 3.8,
+  "p": 27.5,
+  "conf": 31,
+  "time": "2026-11-29T18:00:00Z"
+ },
+ {
+  "id": "3d57da6bdb20b65145bc2479ee5f2ae7",
+  "ts": "2026-11-28T08:02:20.181080+00:00",
+  "match": "Cagliari – AC Milan",
+  "league": "Serie A",
+  "pick": "Cagliari",
+  "odds": 5.5,
+  "p": 19.0,
+  "conf": 24,
+  "time": "2026-11-30T19:45:00Z"
+ },
+ {
+  "id": "f1d2a6064d1452074570bbc656d36a20",
+  "ts": "2026-11-28T08:02:20.181080+00:00",
+  "match": "Lecce – Atalanta BC",
+  "league": "Serie A",
+  "pick": "Lecce",
+  "odds": 4.4,
+  "p": 23.6,
+  "conf": 26,
+  "time": "2026-11-30T17:30:00Z"
+ },
+ {
+  "id": "638cefeed67cdd691e1686e024981563",
+  "ts": "2026-11-28T08:02:20.181080+00:00",
+  "match": "Milwaukee Bucks – Oklahoma City Thunder",
+  "league": "NBA",
+  "pick": "Milwaukee Bucks",
+  "odds": 5.5,
+  "p": 18.9,
+  "conf": 24,
+  "time": "2026-11-29T01:10:00Z"
  }
 ]

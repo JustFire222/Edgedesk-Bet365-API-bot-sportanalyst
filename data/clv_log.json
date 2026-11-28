@@ -1450,5 +1450,65 @@
   "odds_taken": 3.81,
   "taken_at": "2026-11-27T15:46:47Z",
   "commence_time": "2026-11-29T11:30:00Z"
+ },
+ {
+  "id": "c4b53c6aebbd7b81fd821526ad9503e8|h2h|Philadelphia 76ers|None",
+  "event_id": "c4b53c6aebbd7b81fd821526ad9503e8",
+  "sport_key": "basketball_nba",
+  "label": "Houston Rockets – Philadelphia 76ers",
+  "market": "h2h",
+  "selection": "Philadelphia 76ers",
+  "point": null,
+  "odds_taken": 5.69,
+  "taken_at": "2026-11-28T08:02:21Z",
+  "commence_time": "2026-11-29T01:40:00Z"
+ },
+ {
+  "id": "60d0c074801985c1062795362a24200e|h2h|Baltimore Ravens|None",
+  "event_id": "60d0c074801985c1062795362a24200e",
+  "sport_key": "americanfootball_nfl",
+  "label": "Houston Texans – Baltimore Ravens",
+  "market": "h2h",
+  "selection": "Baltimore Ravens",
+  "point": null,
+  "odds_taken": 3.8,
+  "taken_at": "2026-11-28T08:02:21Z",
+  "commence_time": "2026-11-29T18:00:00Z"
+ },
+ {
+  "id": "3d57da6bdb20b65145bc2479ee5f2ae7|h2h|Cagliari|None",
+  "event_id": "3d57da6bdb20b65145bc2479ee5f2ae7",
+  "sport_key": "soccer_italy_serie_a",
+  "label": "Cagliari – AC Milan",
+  "market": "h2h",
+  "selection": "Cagliari",
+  "point": null,
+  "odds_taken": 5.5,
+  "taken_at": "2026-11-28T08:02:21Z",
+  "commence_time": "2026-11-30T19:45:00Z"
+ },
+ {
+  "id": "f1d2a6064d1452074570bbc656d36a20|h2h|Lecce|None",
+  "event_id": "f1d2a6064d1452074570bbc656d36a20",
+  "sport_key": "soccer_italy_serie_a",
+  "label": "Lecce – Atalanta BC",
+  "market": "h2h",
+  "selection": "Lecce",
+  "point": null,
+  "odds_taken": 4.4,
+  "taken_at": "2026-11-28T08:02:21Z",
+  "commence_time": "2026-11-30T17:30:00Z"
+ },
+ {
+  "id": "638cefeed67cdd691e1686e024981563|h2h|Milwaukee Bucks|None",
+  "event_id": "638cefeed67cdd691e1686e024981563",
+  "sport_key": "basketball_nba",
+  "label": "Milwaukee Bucks – Oklahoma City Thunder",
+  "market": "h2h",
+  "selection": "Milwaukee Bucks",
+  "point": null,
+  "odds_taken": 5.5,
+  "taken_at": "2026-11-28T08:02:21Z",
+  "commence_time": "2026-11-29T01:10:00Z"
  }
 ]
